@@ -16,7 +16,6 @@ import os
 import platform
 import subprocess
 import traceback
-import random
 from html import escape
 
 import pygame
@@ -51,20 +50,9 @@ class StartScreen(Screens):
     def __init__(self, name=None):
         super().__init__(name)
         self.warning_label = None
-<<<<<<< Updated upstream
-        self.bg = pygame.image.load(f"resources/images/menu{randrange(0,8)}.png").convert()
-=======
-        bg = self.choose_random_menu("resources/images/menu_art")
->>>>>>> Stashed changes
-        self.bg = pygame.transform.scale(self.bg, (screen_x, screen_y))
-        self.social_buttons = {}
-        self.warning_label_background = None
-
-    def choose_random_menu(self, folder_path):
-        """This will choose a random menu to display from the menus folder."""
-        files = os.listdir(folder_path)
         self.bg = pygame.image.load(f"resources/images/menu_art/menu{randrange(0,3)}.png").convert()
         self.bg = pygame.transform.scale(self.bg, (screen_x, screen_y))
+        self.social_buttons = {}
 
     def handle_event(self, event):
         """This is where events that occur on this page are handled.
@@ -134,12 +122,8 @@ class StartScreen(Screens):
                     subprocess.Popen(
                         ["xdg-open", "https://twitter.com/OfficialClangen"]
                     )
-<<<<<<< Updated upstream
             elif event.ui_element == self.social_buttons["menurandom_button"]:
-                self.bg = pygame.image.load(f"resources/images/menu{randrange(0,8)}.png").convert()
-=======
-                self.bg = pygame.image.load(f"resources/images/menu_art/menu{randrange(0,2)}.png").convert()
->>>>>>> Stashed changes
+                self.bg = pygame.image.load(f"resources/images/menu_art/menu{randrange(0,3)}.png").convert()
                 self.bg = pygame.transform.scale(self.bg, (screen_x, screen_y))
         elif event.type == pygame.KEYDOWN and game.settings["keybinds"]:
             if (
