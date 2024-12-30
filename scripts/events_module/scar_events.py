@@ -66,10 +66,11 @@ class Scar_Events():
     back_scars = [
         "TWO", "TAILBASE", "BACK", "NEUTRINO"
     ]
-    iterator_scars = [
-        "CUTOPEN", "LABRATFACE", "VIVISECTION", "LABRATCHEST", "LABRATLIMBS", "ENVOYCHEST", "BESIEGED",
-        "DANGEROUS", "EXTRACTIONONE", "MESSIAH", "EXTRACTIONTWO", "RESTITCHEDUPPER", "RESTITCHEDLOWER",
-        "STITCHEDHEAD"
+    iterator_mangle = [
+        "VIVISECTION", "LABRATCHEST", "LABRATLIMBS", "DANGEROUS", "RESTITCHEDUPPER", "RESTITCHEDLOWER", "STITCHEDHEAD", "FULLBODYBURNS"
+    ]
+    iterator_extraction = [
+         "CUTOPEN", "EXTRACTIONTWO", "EXTRACTIONONE",  "MESSIAH", "ENVOYCHEST"
     ]
     rot_scars = [
         "ROTRIDDEN"
@@ -94,8 +95,8 @@ class Scar_Events():
         "damaged eyes": eye_scars,
         "quilled by porcupine": quill_scars,
         "claw-wound": claw_scars,
-        "mangled pelt": iterator_scars,
-        "chest wound": iterator_scars,
+        "mangled pelt": iterator_mangle,
+        "chest wound": iterator_extraction,
         "beak bite": beak_scars,
         "broken jaw": head_scars,
         "broken back": back_scars,
