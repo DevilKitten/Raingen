@@ -708,24 +708,6 @@ def create_new_cat(
         else:
             _gender = gender
 
-        #genderalign = "nonbinary"
-
-        #if not genderalign:
-        #    genderalign = _gender
-
-        #if age > 12:
-        #    if not randint(0, 2):
-        #        if randint(0, 2):
-        #            if _gender == "male":
-        #                genderalign = "trans female"
-        #            else:
-        #                genderalign = "trans male"
-        #        else:
-        #            genderalign = "nonbinary"
-        #else:
-        #    genderalign = _gender
-
-
         # other Clan cats, apps, and kittens (kittens and apps get indoctrinated lmao no old names for them)
         if other_clan or kit or litter or age < 12 and not (loner or kittypet):
             new_cat = Cat(
@@ -793,17 +775,34 @@ def create_new_cat(
                 )
 
         if age > 12:
-            if not randint(0, 128):   #trans chance
+            if not randint(0, 128):   #0 = trans
                 print('TRANS!!!!')
-                if randint(0, 2):   #nonbinary chance
+                if not randint(0, 2):   #0 = nonbinary
                     if _gender == "male":
                         new_cat.genderalign = "trans female"
+                        new_cat.pronouns = [new_cat.default_pronouns[1].copy()]
                     else:
                         new_cat.genderalign = "trans male"
+                        new_cat.pronouns = [new_cat.default_pronouns[2].copy()]
                 else:
                     new_cat.genderalign = "nonbinary"
+                    new_cat.pronouns = [new_cat.default_pronouns[0].copy()]
         else:
             new_cat.genderalign = _gender
+
+        mutilation_scars = [
+            "CUTOPEN",
+            "VIVISECTION",
+            "LABRATLIMBS",
+            "BESIEGED"
+        ]
+
+        if kittypet:
+            if new_cat.genderalign == "trans male" or new_cat.genderalign == "nonbinary":
+                new_cat.pelt.scars.append("TOPSURGERY")
+
+            if not randint(0, 2): #placeholder chance 50%
+                new_cat.pelt.scars.append(choice(mutilation_scars)) #TO BE CONTINUED.............
 
         # give em a collar if they got one
         if accessory:
@@ -2541,10 +2540,7 @@ def generate_sprite(
             new_sprite.blit(sprites.sprites["lineartdf" + cat_sprite], (0, 0))
         elif dead:
             new_sprite.blit(sprites.sprites["lineartdead" + cat_sprite], (0, 0))
-            # draw lizard accessories
-        if not acc_hidden: 
-            if cat.pelt.accessory in cat.pelt.lizards:
-                new_sprite.blit(sprites.sprites['lizards' + cat.pelt.accessory + cat_sprite], (0, 0))
+            
         # draw skin and scars2
         blendmode = pygame.BLEND_RGBA_MIN
         new_sprite.blit(sprites.sprites["skin" + cat.pelt.skin + cat_sprite], (0, 0))

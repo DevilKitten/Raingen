@@ -2452,12 +2452,12 @@ class Events:
 
             involved_cats = [cat.ID]
             if cat.age == "adolescent":
-                transing_chance = random.getrandbits(8)  # 2/256
+                transing_chance = random.getrandbits(8)  #2/256
             elif cat.age == "young adult":
-                transing_chance = random.getrandbits(9)  # 2/512
+                transing_chance = random.getrandbits(9)  #2/512
             else:
                 # adult, senior adult, elder
-                transing_chance = random.getrandbits(10)  # 2/1028
+                transing_chance = random.getrandbits(10)  #2/1024
 
             if transing_chance:
                 # transing_chance != 0, no trans kitties today...    L
@@ -2474,11 +2474,7 @@ class Events:
                 cat.genderalign = "nonbinary"
                 cat.pronouns = [cat.default_pronouns[0].copy()]
 
-            if cat.gender == "male":
-                gender = "tom"
-            else:
-                gender = "she-cat"
-            text = f"{cat.name} has realized that {gender} doesn't describe how they feel anymore."
+            text = f"{cat.name} has realized that {cat.gender} doesn't describe how they feel anymore."
             game.cur_events_list.append(Single_Event(text, "misc", involved_cats))
             # game.misc_events_list.append(text)
 
