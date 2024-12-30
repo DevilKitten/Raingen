@@ -35,6 +35,12 @@
     "mangled tail": [
         "m_c died from a mangled tail."
     ],
+    "chest wound": [
+        "m_c died from {PRONOUN/m_c/poss} chest wound."
+    ],
+    "mangled pelt": [
+        "m_c died from {PRONOUN/m_c/poss} mangled pelt"
+    ],
     "frostbite": [
         "m_c died from frostbite."
     ],
