@@ -146,7 +146,7 @@ class Sprites:
             'envoycolours', 'drizzlecolours', 'solacecolours', 'leafycolours', 'scaledcolours', 
             'dragonfruitcolours', 'necklacecolours', 'dreamercolours', 'duskdawncolours', 
             'seercolours', 'rottencolours', 'firecolours', 'countershadedcolours', 'cherrycolours',
-            'oldgrowthcolours', 'sparklecatcolours', 'wolfcolours', 'sunsetcolours', 'hypnotistcolours',
+            'oldgrowthcolours', 'sparklecatcolours', 'wolfcolours', 'sunsetcolours', 'hypnotistcolours', 'ringedcolours',
             'raineyes', 'raineyes2', 'multieyes', 'multiraineyes', 'larseyes', 'multilarseyes', 'larseyes2',
             'shadersnewwhite', 'lightingnew',
             'whitepatches', 'tortiepatchesmasks',
@@ -631,6 +631,13 @@ class Sprites:
             self.make_group('hypnotistcolours', (a, 1), f'hypnotist{i}')
         for a, i in enumerate(['LIGHTBROWN', 'LILAC', 'BROWN', 'GOLDEN-BROWN', 'DARKBROWN', 'CHOCOLATE']):
             self.make_group('hypnotistcolours', (a, 2), f'hypnotist{i}')
+            # ringed
+        for a, i in enumerate(['WHITE', 'PALEGREY', 'SILVER', 'GREY', 'DARKGREY', 'GHOST', 'BLACK']):
+            self.make_group('ringedcolours', (a, 0), f'ringed{i}')
+        for a, i in enumerate(['CREAM', 'PALEGINGER', 'GOLDEN', 'GINGER', 'DARKGINGER', 'SIENNA']):
+            self.make_group('ringedcolours', (a, 1), f'ringed{i}')
+        for a, i in enumerate(['LIGHTBROWN', 'LILAC', 'BROWN', 'GOLDEN-BROWN', 'DARKBROWN', 'CHOCOLATE']):
+            self.make_group('ringedcolours', (a, 2), f'ringed{i}')
 
         # new new torties
         for a, i in enumerate(['ONE', 'TWO', 'THREE', 'FOUR', 'REDTAIL', 'DELILAH', 'HALF', 'STREAK', 'MASK', 'SMOKE']):
