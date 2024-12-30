@@ -756,7 +756,7 @@ handle_short_events = HandleShortEvents()
 # ---------------------------------------------------------------------------- #
 
 INJURY_GROUPS = {
-    "battle_injury": ["claw-wound", "mangled leg", "mangled tail", "torn pelt", "cat bite"],
+    "battle_injury": ["claw-wound", "mangled leg", "mangled tail", "torn pelt", "cat bite", "mangled pelt", "chest wound"],
     "minor_injury": ["sprain", "sore", "bruises", "scrapes"],
     "blunt_force_injury": ["broken bone", "broken back", "head damage", "broken jaw"],
     "hot_injury": ["heat exhaustion", "heat stroke", "dehydrated"],
