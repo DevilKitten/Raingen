@@ -7211,6 +7211,158 @@
                 ],
                 "adjust": "reduce_eighth"
             }
-        ]
+         {
+        "event_id": "gen_injury_iterator_expedition1",
+        "location": [
+            "any"
+        ],
+        "season": [
+            "any"
+        ],
+        "weight": 20,
+        "event_text": "m_c disappeared for the majority of the cycle, but was later found severely injured and nearly dead. {PRONOUN/m_c/subject/CAP} {VERB/m_c/were/was} rushed to the clerics den shortly after being found.",
+        "m_c": {
+            "age": [
+                "adolescent",
+                "young adult",
+                "adult",
+                "senior adult",
+                "senior"
+            ]
+        },
+        "injury": [
+            {
+                "cats": [
+                    "m_c"
+                ],
+                "injuries": [
+                    "mangled pelt"
+                ]
+            }
+        ],
+        "history": [
+            {
+                "cats": [
+                    "m_c"
+                ],
+                "scar": "m_c {VERB/m_c/were/was} mangled after dissapearing for the majority of a cycle.",
+                "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after being found severely injured.",
+                "lead_death": "{VERB/m_c/were/was} killed by {PRONOUN/m_c/poss} wounds after dissapearing"
+            }
+             {
+        "event_id": "gen_injury_iterator_expedition2",
+        "location": [
+            "any"
+        ],
+        "season": [
+            "any"
+        ],
+        "weight": 20,
+        "event_text": "m_c was seen conversing with an overseer before disapearing for a cycle, however upon returning {PRONOUN/m_c/subject} remained quiet and went straight to the cleric, hiding a bleeding wound.",
+        "m_c": {
+            "age": [
+                "adolescent",
+                "young adult",
+                "adult",
+                "senior adult",
+                "senior"
+            ]
+        },
+        "injury": [
+            {
+                "cats": [
+                    "m_c"
+                ],
+                "injuries": [
+                    "chest wound"
+                ]
+            }
+        ],
+        "history": [
+            {
+                "cats": [
+                    "m_c"
+                ],
+                "scar": "m_c {VERB/m_c/were/was} injured after disapearing, seemingly missing something.",
+                "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after disapearing for the majority of a cycle.",
+                "lead_death": "{VERB/m_c/were/was} killed by {PRONOUN/m_c/poss} wounds after dissapearing"
+            }
+       {
+             "event_id": "gen_injury_iterator_expedition3",
+        "location": [
+            "any"
+        ],
+        "season": [
+            "any"
+        ],
+        "weight": 20,
+        "event_text": "m_c disappeared for the majority of the cycle, however when they returned they were clutching {PRONOUN/m_c/poss} chest, now bloody. They hurried over to the cleric's den, unwilling to talk about what happened.",
+        "m_c": {
+            "age": [
+                "adolescent",
+                "young adult",
+                "adult",
+                "senior adult",
+                "senior"
+            ]
+        },
+        "injury": [
+            {
+                "cats": [
+                    "m_c"
+                ],
+                "injuries": [
+                    "chest wound"
+                ]
+            }
+        ],
+        "history": [
+            {
+                "cats": [
+                    "m_c"
+                ],
+                "scar": "m_c {VERB/m_c/were/was} injured after disapearing, seemingly missing something.",
+                "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after disapearing for the majority of a cycle.",
+                "lead_death": "{VERB/m_c/were/was} killed by {PRONOUN/m_c/poss} wounds after dissapearing"
+            }
+            {
+        "event_id": "gen_injury_iterator_expedition4",
+        "location": [
+            "any"
+        ],
+        "season": [
+            "any"
+        ],
+        "weight": 20,
+        "event_text": "m_c was seen conversing with an overseer before disappearing for the majority of a cycle, later {PRONOUN/m_c/suject} came back to camp, barely walking and looking half dead, they were rushed to the clerics immediately.",
+        "m_c": {
+            "age": [
+                "adolescent",
+                "young adult",
+                "adult",
+                "senior adult",
+                "senior"
+            ]
+        },
+        "injury": [
+            {
+                "cats": [
+                    "m_c"
+                ],
+                "injuries": [
+                    "mangled pelt"
+                ]
+            }
+        ],
+        "history": [
+            {
+                "cats": [
+                    "m_c"
+                ],
+                "scar": "m_c {VERB/m_c/were/was} mangled after dissapearing for the majority of a cycle.",
+                "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after being found severely injured.",
+                "lead_death": "{VERB/m_c/were/was} killed by {PRONOUN/m_c/poss} wounds after dissapearing"
+            }
+        ],
     }
 ]
