@@ -7210,7 +7210,7 @@
                     "excess"
                 ],
                 "adjust": "reduce_eighth"
-            }
+            },
          {
         "event_id": "gen_injury_iterator_expedition1",
         "location": [
@@ -7248,7 +7248,7 @@
                 "scar": "m_c {VERB/m_c/were/was} mangled after dissapearing for the majority of a cycle.",
                 "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after being found severely injured.",
                 "lead_death": "{VERB/m_c/were/was} killed by {PRONOUN/m_c/poss} wounds after dissapearing"
-            }
+            },
              {
         "event_id": "gen_injury_iterator_expedition2",
         "location": [
@@ -7286,7 +7286,7 @@
                 "scar": "m_c {VERB/m_c/were/was} injured after disapearing, seemingly missing something.",
                 "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after disapearing for the majority of a cycle.",
                 "lead_death": "{VERB/m_c/were/was} killed by {PRONOUN/m_c/poss} wounds after dissapearing"
-            }
+            },
        {
              "event_id": "gen_injury_iterator_expedition3",
         "location": [
@@ -7324,7 +7324,7 @@
                 "scar": "m_c {VERB/m_c/were/was} injured after disapearing, seemingly missing something.",
                 "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after disapearing for the majority of a cycle.",
                 "lead_death": "{VERB/m_c/were/was} killed by {PRONOUN/m_c/poss} wounds after dissapearing"
-            }
+            },
             {
         "event_id": "gen_injury_iterator_expedition4",
         "location": [
