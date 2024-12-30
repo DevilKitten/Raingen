@@ -79,11 +79,24 @@
 
         ]
     },
+    "mangled pelt": {
+        "an infected wound": [
+          "r_c wonders if {PRONOUN/r_c/subject} might need to consult with a cleric from another Clan. m_c's state has become worse, {PRONOUN/m_c/subject} wounds have become infected and swollen - and {PRONOUN/r_c/subject} {VERB/r_c/need/needs} more ideas.",
+            "As if the injuries weren't bad enough, the skin around m_c's wounds have started to swell and feel feverish."
+
+        ]
+    },
     "mangled tail": {
         "an infected wound": [
           "m_c's poor mangled tail is swollen and hot the touch: r_c searches the herb stores for those that fight infection.",
             "As if the injury wasn't bad enough, the skin of m_c's mangled tail has started to swell and feel feverish."
 
+        ]
+    },
+    "chest wound": {
+        "an infected wound": [
+         "r_c mutters an apology as {PRONOUN/r_c/subject} {VERB/r_c/put/puts} another batch of healing herbs onto m_c's wound, r_c insists its nessecary since m_c's wound is swollen and warm to the touch.",
+          "m_c keeps muttering through feverish dreams, something about iterators and pearls. r_c watches on in concern as m_c's wound becomes more infected by the day."
         ]
     },
     "cracked pads": {
