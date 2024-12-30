@@ -59,6 +59,7 @@ class Pelt():
         'Wolf': 'wolf',
         'Cherry': 'cherry',
         'Hypnotist': 'hypnotist',
+        'Ringed': 'ringed',
         'Tortie': None,
         'Calico': None,
     }
@@ -93,7 +94,7 @@ class Pelt():
                 'cyanlizard', 'vulture', 'banana', 'centipede', 'conductor', 'lizard', 'lantern', 'leviathan',
                 'fluffy', 'amoeba', 'yeek', 'rusted', 'envoy', 'drizzle', 'solace', 'leafy', 'scaled', 'dragonfruit', 
                 'necklace', 'dreamer', 'duskdawn', 'seer', 'rotten', 'fire', 'countershaded', 'sunset', 'oldgrowth', 
-                'sparklecat', 'wolf', 'cherry', 'hypnotist']
+                'sparklecat', 'wolf', 'cherry', 'hypnotist', 'ringed']
     
     pelt_length = ["short", "medium", "long"]
     eye_colours = ['YELLOW', 'AMBER', 'HAZEL', 'PALEGREEN', 'GREEN', 'BLUE', 'DARKBLUE', 'GREY', 'CYAN', 'EMERALD', 'PALEBLUE', 
