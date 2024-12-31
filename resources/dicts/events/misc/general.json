@@ -26,6 +26,45 @@
     }
   },
   {
+    "event_id": "gen_misc_any_drapery",
+    "location": ["any"],
+    "season": ["any"],
+    "sub_type": ["accessory"],
+    "weight": 15,
+    "event_text": "m_c whilst out on an adventure, returns with some kind of drapery around {PRONOUN/m_c/object}.",
+    "new_accessory": ["DRAPERY"],
+    "m_c": {
+      "age": ["any"],
+      "status": ["any"]
+    }
+  },
+  {
+    "event_id": "gen_misc_any_pridedrapery",
+    "location": ["any"],
+    "season": ["any"],
+    "sub_type": ["accessory"],
+    "weight": 15,
+    "event_text": "m_c after vanishing for a few cycles returns with a prideful drapery around {PRONOUN/m_c/object}.",
+    "new_accessory": ["PRIDEDRAPERY"],
+    "m_c": {
+      "age": ["any"],
+      "status": ["any"]
+    }
+  },
+   {
+    "event_id": "gen_misc_any_eyepatch",
+    "location": ["any"],
+    "season": ["any"],
+    "sub_type": ["accessory"],
+    "weight": 15,
+    "event_text": "m_c is seen crafting something from some loose fabric, eventually {PRONOUN/m_c/subject} walk around camp brandishing an eyepatch.",
+    "new_accessory": ["EYEPATCHES"],
+    "m_c": {
+      "age": ["any"],
+      "status": ["any"]
+    }
+  },
+  {
     "event_id": "gen_misc_any_implant",
     "location": ["any"],
     "season": ["any"],
