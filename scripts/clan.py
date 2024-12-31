@@ -951,7 +951,7 @@ class Clan:
                     else:
                         cat_sprite = str(cat.pelt.cat_sprites[age])
 
-                possible_accs = ["WILD", "PLANT", "COLLAR", "LIZARD", "HERBS2", "MUDDYPAWS", "INSECTWINGS", "BUDDIES", "NEWACCS", "NEWACCS2", "BODYPAINT", "IMPLANT", "MAGIC", "NECKLACES"]
+                possible_accs = ["WILD", "PLANT", "COLLAR", "LIZARD", "HERBS2", "MUDDYPAWS", "INSECTWINGS", "BUDDIES", "NEWACCS", "NEWACCS2", "BODYPAINT", "IMPLANT", "MAGIC", "NECKLACES", "DRAPERY", "PRIDEDRAPERY", "EYEPATCHES"]
                 acc_list = []
                 if "WILD" in possible_accs:
                     acc_list.extend(Pelt.wild_accessories)
@@ -981,6 +981,12 @@ class Clan:
                     acc_list.extend(Pelt.magic)
                 if "NECKLACES" in possible_accs:
                     acc_list.extend(Pelt.necklaces)
+                if "DRAPERY" in possible_accs:
+                    acc_list.extend(Pelt.drapery)
+                if "PRIDEDRAPERY" in possible_accs:
+                    acc_list.extend(Pelt.pridedrapery)
+                if "EYEPATCHES" in possible_accs:
+                    acc_list.extend(Pelt.eyepatches)
                 if "NOTAIL" in c.pelt.scars or "HALFTAIL" in c.pelt.scars:
                     for acc in Pelt.tail_accessories:
                         if acc in acc_list:
