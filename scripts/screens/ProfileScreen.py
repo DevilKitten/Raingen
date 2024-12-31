@@ -2628,6 +2628,12 @@ class ProfileScreen(Screens):
                             self.cat_list_buttons["cat" + str(i)] = pygame_gui.elements.UIImage(scale(pygame.Rect((200 + pos_x, 730 + pos_y), (100, 100))), sprites.sprites['magic' + accessory + cat_sprite], manager=MANAGER)
                         elif accessory in cat.pelt.necklaces:
                             self.cat_list_buttons["cat" + str(i)] = pygame_gui.elements.UIImage(scale(pygame.Rect((200 + pos_x, 730 + pos_y), (100, 100))), sprites.sprites['necklaces' + accessory + cat_sprite], manager=MANAGER)
+                        elif accessory in cat.pelt.drapery:
+                            self.cat_list_buttons["cat" + str(i)] = pygame_gui.elements.UIImage(scale(pygame.Rect((200 + pos_x, 730 + pos_y), (100, 100))), sprites.sprites['drapery' + accessory + cat_sprite], manager=MANAGER)
+                        elif accessory in cat.pelt.pridedrapery:
+                            self.cat_list_buttons["cat" + str(i)] = pygame_gui.elements.UIImage(scale(pygame.Rect((200 + pos_x, 730 + pos_y), (100, 100))), sprites.sprites['pridedrapery' + accessory + cat_sprite], manager=MANAGER)
+                        elif accessory in cat.pelt.eyepatches:
+                            self.cat_list_buttons["cat" + str(i)] = pygame_gui.elements.UIImage(scale(pygame.Rect((200 + pos_x, 730 + pos_y), (100, 100))), sprites.sprites['eyepatches' + accessory + cat_sprite], manager=MANAGER)
 
 
                         self.accessories_list.append(accessory)
