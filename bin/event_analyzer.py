@@ -1066,6 +1066,8 @@ history_scarrable = [
     "snake bite",
     "mangled tail",
     "mangled leg",
+    "mangled pelt",
+    "chest wound",
     "torn ear",
     "frostbite",
     "torn pelt",
