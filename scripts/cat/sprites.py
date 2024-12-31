@@ -136,7 +136,7 @@ class Sprites:
             'medcatherbs',
             'collars', 'bellcollars', 'bowcollars', 'nyloncollars', 'rwlizards', 'drones', 'muddypaws', 
             'herbs2', 'insectwings', 'buddies', 'newaccs', 'bodypaint', 'implant', 'magic', 'necklaces',
-            'newaccs2', 'drapery', 'eyepatches',
+            'newaccs2', 'drapery', 'eyepatches', 'pridedrapery',
             'singlecolours', 'speckledcolours', 'tabbycolours', 'bengalcolours', 'marbledcolours',
             'rosettecolours', 'smokecolours', 'tickedcolours', 'mackerelcolours', 'classiccolours',
             'sokokecolours', 'agouticolours', 'singlestripecolours', 'maskedcolours', 'bananacolours',
@@ -146,7 +146,8 @@ class Sprites:
             'envoycolours', 'drizzlecolours', 'solacecolours', 'leafycolours', 'scaledcolours', 
             'dragonfruitcolours', 'necklacecolours', 'dreamercolours', 'duskdawncolours', 
             'seercolours', 'rottencolours', 'firecolours', 'countershadedcolours', 'cherrycolours',
-            'oldgrowthcolours', 'sparklecatcolours', 'wolfcolours', 'sunsetcolours', 'hypnotistcolours', 'ringedcolours',
+            'oldgrowthcolours', 'sparklecatcolours', 'wolfcolours', 'sunsetcolours', 'hypnotistcolours',
+            'ringedcolours', 'skinnycolours', 'sparsecolours',
             'raineyes', 'raineyes2', 'multieyes', 'multiraineyes', 'larseyes', 'multilarseyes', 'larseyes2',
             'shadersnewwhite', 'lightingnew',
             'whitepatches', 'tortiepatchesmasks',
@@ -638,6 +639,21 @@ class Sprites:
             self.make_group('ringedcolours', (a, 1), f'ringed{i}')
         for a, i in enumerate(['LIGHTBROWN', 'LILAC', 'BROWN', 'GOLDEN-BROWN', 'DARKBROWN', 'CHOCOLATE']):
             self.make_group('ringedcolours', (a, 2), f'ringed{i}')
+            # skinny !NOTE THIS HAS 2 ROWS OF 7 AND ONE 5!
+        for a, i in enumerate(['WHITE', 'PALEGREY', 'SILVER', 'GREY', 'DARKGREY', 'GHOST', 'BLACK']):
+            self.make_group('skinnycolours', (a, 0), f'skinny{i}')
+        for a, i in enumerate(['CREAM', 'PALEGINGER', 'GOLDEN', 'GINGER', 'DARKGINGER', 'SIENNA', 'LIGHTBROWN']):
+            self.make_group('skinnycolours', (a, 1), f'skinny{i}')
+        for a, i in enumerate(['LILAC', 'BROWN', 'GOLDEN-BROWN', 'DARKBROWN', 'CHOCOLATE']):
+            self.make_group('skinnycolours', (a, 2), f'skinny{i}')
+             # sparse !NOTE THIS HAS 2 ROWS OF 7 AND ONE 5!
+        for a, i in enumerate(['WHITE', 'PALEGREY', 'SILVER', 'GREY', 'DARKGREY', 'GHOST', 'BLACK']):
+            self.make_group('sparsecolours', (a, 0), f'sparse{i}')
+        for a, i in enumerate(['CREAM', 'PALEGINGER', 'GOLDEN', 'GINGER', 'DARKGINGER', 'SIENNA', 'LIGHTBROWN']):
+            self.make_group('sparsecolours', (a, 1), f'sparse{i}')
+        for a, i in enumerate(['LILAC', 'BROWN', 'GOLDEN-BROWN', 'DARKBROWN', 'CHOCOLATE']):
+            self.make_group('sparsecolours', (a, 2), f'sparse{i}')
+
 
         # new new torties
         for a, i in enumerate(['ONE', 'TWO', 'THREE', 'FOUR', 'REDTAIL', 'DELILAH', 'HALF', 'STREAK', 'MASK', 'SMOKE']):
@@ -851,6 +867,11 @@ class Sprites:
             ["DRAPERYAQUA", "DRAPERYCYAN", "DRAPERYLIGHTGRAY", "DRAPERYPURPLE", "DRAPERYLIGHTINDIGO", "DRAPERYBLUE", "DRAPERYLAVENDER", "DRAPERYLIGHTPINK", "DRAPERYPINK"],
             ["DRAPERYHOTPINK", "DRAPERYGRAY", "DRAPERYDARKGRAY", "DRAPERYLIGHTRED", "DRAPERYRED", "DRAPERYPEACH", "DRAPERYLIGHTORANGE"]
         ]
+        pridedrapery_data = [
+            ["ORIGINALGAYDRAPERY", "TRANSDRAPERY", "GENDERQUEERDRAPERY", "AGENDERDRAPERY", "NONBINARYDRAPERY", "POLYAMDRAPERY", "GENDERFLUIDDRAPERY"],
+            ["GENDERFLUXDRAPERY", "GAYDRAPERY", "OMNISEXUALDRAPERY", "OBJECTUMDRAPERY", "RAINBOWDRAPERY", "PHILIDRAPERY", "BISEXUALDRAPERY"],
+            ["PANSEXUALDRAPERY", "POLYSEXUALDRAPERY", "ASEXUALDRAPERY", "INTERSEXDRAPERY"]
+        ]
         eyepatch_data = [
             ["EYEPATCHWHITE", "EYEPATCHGREEN", "EYEPATCHAQUA", "EYEPATCHTURQUOISE", "EYEPATCHCYAN", "EYEPATCHBLUE", "EYEPATCHINDIGO"],
             ["EYEPATCHPURPLE", "EYEPATCHMAGENTA", "EYEPATCHPINK", "EYEPATCHROSE", "EYEPATCHLIGHTGRAY", "EYEPATCHDARKGRAY", "EYEPATCHBLACK"],
@@ -952,6 +973,10 @@ class Sprites:
         for row, drapery in enumerate(drapery_data):
             for col, drapery in enumerate(drapery):
                 self.make_group('drapery', (col, row), f'drapery{drapery}')
+        #pridedrapery
+        for row, pridedrapery in enumerate(pridedrapery_data):
+            for col, pridedrapery in enumerate(pridedrapery):
+                self.make_group('pridedrapery', (col, row), f'pridedrapery{pridedrapery}')
         #eyepatches
         for row, eyepatches in enumerate(eyepatch_data):
             for col, eyepatches in enumerate(eyepatches):
