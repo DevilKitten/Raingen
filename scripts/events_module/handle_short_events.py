@@ -333,6 +333,13 @@ class HandleShortEvents:
             acc_list.extend(Pelt.magic)
         if "NECKLACES" in possible_accs:
             acc_list.extend(Pelt.necklaces)
+        if "DRAPERY" in possible_accs:
+            acc_list.extend(Pelt.drapery)
+        if "PRIDEDRAPERY" in possible_accs:
+            acc_list.extend(Pelt.pridedrapery)
+        if "EYEPATCHES" in possible_accs:
+            acc_list.extend(Pelt.eyepatches)
+        
 
         for acc in possible_accs:
             if acc not in ["WILD", "PLANT", "COLLAR"]:
