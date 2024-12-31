@@ -38,7 +38,22 @@
     "Solace": [" The Ecplipsed", " The Lined", " The Streaky", " The Striated", " The Striped", " The Solstace", " The Banded"],
     "Leafy": [" The Feathery", " The Feathered", " The Leafy", " The Leafed", " The Fluffy", " The Downy"],
     "Scaled": [" The Dragon", " The Lizard", " The Scaled", " The Armored", " The Reptile"],
-    "Dragonfruit": [" The Fruity", " The Fruit", " The Dragon", " The Seed", " The Seeded", " The Colorful", " The Tasty"]
+    "Dragonfruit": [" The Fruity", " The Fruit", " The Dragon", " The Seed", " The Seeded", " The Colorful", " The Tasty"],
+    "Necklace": [" The Bejeweled"],
+    "Dreamer": [" The Dreamer"],
+    "Duskdawn":[" The Dusk", " The Dawn"],
+    "Seer": [" The Seer"],
+    "Rotten": [" The Rotten", " The Decayed"],
+    "Fire": [" The Blaze", " The Spark", " The Ember"],
+    "Countershaded": [" The Shaded"],
+    "Sunset": [" The Dusk", " The Sundown"],
+    "Oldgrowth": [" The Overgrown", " The Mossy"],
+    "Sparklecat": [" The Inverted", " The Envoy"],
+    "Wolf": [" The Wolf", " The Leapzard", " The Marked"],
+    "Cherry": [" The Hunter", " The Bloodborn"],
+    "Hypnotist": [" The Hypnotic", " The Hypnotist", " The Spiraled"],
+    "Ringed": [" The Ringed", " The Banded", " The Circled"]
+    
   },
   "tortie_pelt_suffixes": {
     "single": [" The Simple", " The Basic", " The Classic", " The Clear", " The Comprehensible", " The Elementary", " The Intelligible", " The Modest", " The Noncomplex", " The Ordinary", " The Plain", " The Pure", " The Unambiguous", " The Uncluttered", " The Uncomplicated", " The Unembellished", " The Unmixed"],
