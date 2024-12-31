@@ -1413,5 +1413,310 @@
     "default": "black pearl necklace",
     "plural": "black pearl necklaces",
     "singular": "black pearl necklace"
+  },
+  "DRAPERYWHITE": {
+    "default": "white drapery",
+    "plural": "white draperies",
+    "singular": "white drapery"
+  },
+  "DRAPERYORANGE": {
+    "default": "orange drapery",
+    "plural": "orange draperies",
+    "singular": "orange drapery"
+  },
+  "DRAPERYTAN": {
+    "default": "tan drapery",
+    "plural": "tan draperies",
+    "singular": "tan drapery"
+  },
+  "DRAPERYPALEYELLOW": {
+    "default": "pale yellow drapery",
+    "plural": "pale yellow draperies",
+    "singular": "pale yellow drapery"
+  },
+ "DRAPERYYELLOW": {
+    "default": "yellow drapery",
+    "plural": "yellow draperies",
+    "singular": "yellow drapery"
+  },
+  "DRAPERYMINT": {
+    "default": "mint drapery",
+    "plural": "mint draperies",
+    "singular": "mint drapery"
+  },
+  "DRAPERYGREEN": {
+    "default": "green drapery",
+    "plural": "green draperies",
+    "singular": "green drapery"
+  },
+  "DRAPERYLIGHTAQUA": {
+    "default": "light aqua drapery",
+    "plural": "light aqua draperies",
+    "singular": "light aqua drapery"
+  },
+  "DRAPERYAQUA": {
+    "default": "aqua drapery",
+    "plural": "aqua draperies",
+    "singular": "aqua drapery"
+  },
+  "DRAPERYCYAN": {
+    "default": "cyan drapery",
+    "plural": "cyan draperies",
+    "singular": "cyan drapery"
+  },
+  "DRAPERYLIGHTGRAY": {
+    "default": "light gray drapery",
+    "plural": "light gray draperies",
+    "singular": "light gray drapery"
+  },
+  "DRAPERYPURPLE": {
+    "default": "purple drapery",
+    "plural": "purple draperies",
+    "singular": "purple drapery"
+  },
+  "DRAPERYLIGHTINDIGO": {
+    "default": "light indigo drapery",
+    "plural": "light indigo draperies",
+    "singular": "light indigo drapery"
+  },
+  "DRAPERYBLUE": {
+    "default": "blue drapery",
+    "plural": "blue draperies",
+    "singular": "blue drapery"
+  },
+  "DRAPERYLAVENDER": {
+    "default": "lavender drapery",
+    "plural": "lavender draperies",
+    "singular": "lavender drapery"
+  },
+  "DRAPERYLIGHTPINK": {
+    "default": "light pink drapery",
+    "plural": "light pink draperies",
+    "singular": "light pink drapery"
+  },
+  "DRAPERYPINK": {
+    "default": "pink drapery",
+    "plural": "pink draperies",
+    "singular": "pink drapery"
+  },
+  "DRAPERYHOTPINK": {
+    "default": "hot pink drapery",
+    "plural": "hot pink draperies",
+    "singular": "hot pink drapery"
+  },
+  "DRAPERYGRAY": {
+    "default": "gray drapery",
+    "plural": "gray draperies",
+    "singular": "gray drapery"
+  },
+  "DRAPERYDARKGRAY": {
+    "default": "dark gray drapery",
+    "plural": "dark gray draperies",
+    "singular": "dark gray drapery"
+  },
+  "DRAPERYLIGHTRED": {
+    "default": "light red drapery",
+    "plural": "light red draperies",
+    "singular": "light red drapery"
+  },
+  "DRAPERYRED": {
+    "default": "red drapery",
+    "plural": "red draperies",
+    "singular": "red drapery"
+  },
+  "DRAPERYPEACH": {
+    "default": "peach drapery",
+    "plural": "peach draperies",
+    "singular": "peach drapery"
+  },
+  "DRAPERYLIGHTORANGE": {
+    "default": "light orange drapery",
+    "plural": "light orange draperies",
+    "singular": "light orange drapery"
+  },
+   "ORIGINALGAYDRAPERY": {
+    "default": "original gay drapery",
+    "plural": "original gay draperies",
+    "singular": "original gay drapery"
+  },
+   "TRANSDRAPERY": {
+    "default": "trans drapery",
+    "plural": "trans draperies",
+    "singular": "trans drapery"
+  },
+   "GENDERQUEERDRAPERY": {
+    "default": "gender queer drapery",
+    "plural": "gender queer draperies",
+    "singular": "gender queer drapery"
+  },
+   "AGENDERDRAPERY": {
+    "default": "agender drapery",
+    "plural": "agender draperies",
+    "singular": "agender drapery"
+  },
+   "NONBINARYDRAPERY": {
+    "default": "nonbinary drapery",
+    "plural": "nonbinary draperies",
+    "singular": "nonbinary drapery"
+  },
+   "POLYAMDRAPERY": {
+    "default": "polyamorous drapery",
+    "plural": "polyamorous draperies",
+    "singular": "polyamorous drapery"
+  },
+   "GENDERFLUIDDRAPERY": {
+    "default": "gender fluid drapery",
+    "plural": "gender fluid draperies",
+    "singular": "gender fluid drapery"
+  },
+   "GENDERFLUXDRAPERY": {
+    "default": "gender flux drapery",
+    "plural": "gender flux draperies",
+    "singular": "gender flux drapery"
+  },
+   "GAYDRAPERY": {
+    "default": "gay drapery",
+    "plural": "gay draperies",
+    "singular": "gay drapery"
+  },
+   "OMNISEXUALDRAPERY": {
+    "default": "omnisexual drapery",
+    "plural": "omnisexual draperies",
+    "singular": "omnisexual drapery"
+  },
+   "OBJECTUMDRAPERY": {
+    "default": "objectum drapery",
+    "plural": "objectum draperies",
+    "singular": "objectum drapery"
+  },
+   "RAINBOWDRAPERY": {
+    "default": "rainbow drapery",
+    "plural": "rainbow draperies",
+    "singular": "rainbow drapery"
+  },
+   "PHILIDRAPERY": {
+    "default": "philadelphia pride drapery",
+    "plural": "philadelphia pride draperies",
+    "singular": "philadelphia pride drapery"
+  },
+   "BISEXUALDRAPERY": {
+    "default": "bisexual drapery",
+    "plural": "bisexual draperies",
+    "singular": "bisexual drapery"
+  },
+   "PANSEXUALDRAPERY": {
+    "default": "panexual drapery",
+    "plural": "pansexual draperies",
+    "singular": "pansexual drapery"
+  },
+   "POLYSEXUALDRAPERY": {
+    "default": "polysexual drapery",
+    "plural": "polysexual draperies",
+    "singular": "polysexual drapery"
+  },
+   "ASEXUALDRAPERY": {
+    "default": "asexual drapery",
+    "plural": "asexual draperies",
+    "singular": "asexual drapery"
+  },
+   "INTERSEXDRAPERY": {
+    "default": "intersex drapery",
+    "plural": "intersex draperies",
+    "singular": "intersex drapery"
+  },
+   "EYEPATCHWHITE": {
+    "default": "white eyepatch",
+    "plural": "white eyepatches",
+    "singular": "white eyepatch"
+  },
+   "EYEPATCHGREEN": {
+    "default": "green eyepatch",
+    "plural": "green eyepatches",
+    "singular": "green eyepatch"
+  },
+   "EYEPATCHAQUA": {
+    "default": "aqua eyepatch",
+    "plural": "aqua eyepatches",
+    "singular": "aqua eyepatch"
+  },
+   "EYEPATCHTURQUOISE": {
+    "default": "turquoise eyepatch",
+    "plural": "turquoise eyepatches",
+    "singular": "turquoise eyepatch"
+  },
+   "EYEPATCHCYAN": {
+    "default": "cyan eyepatch",
+    "plural": "cyan eyepatches",
+    "singular": "cyan eyepatch"
+  },
+   "EYEPATCHBLUE": {
+    "default": "blue eyepatch",
+    "plural": "blue eyepatches",
+    "singular": "blue eyepatch"
+  },
+   "EYEPATCHINDIGO": {
+    "default": "indigo eyepatch",
+    "plural": "indigo eyepatches",
+    "singular": "indigo eyepatch"
+  },
+   "EYEPATCHPURPLE": {
+    "default": "purple eyepatch",
+    "plural": "purple eyepatches",
+    "singular": "purple eyepatch"
+  },
+   "EYEPATCHMAGENTA": {
+    "default": "magenta eyepatch",
+    "plural": "magenta eyepatches",
+    "singular": "magenta eyepatch"
+  },
+   "EYEPATCHPINK": {
+    "default": "pink eyepatch",
+    "plural": "pink eyepatches",
+    "singular": "pink eyepatch"
+  },
+   "EYEPATCHROSE": {
+    "default": "rose eyepatch",
+    "plural": "rose eyepatches",
+    "singular": "rose eyepatch"
+  },
+   "EYEPATCHLIGHTGRAY": {
+    "default": "light gray eyepatch",
+    "plural": "light gray eyepatches",
+    "singular": "light gray eyepatch"
+  },
+   "EYEPATCHDARKGRAY": {
+    "default": "dark gray eyepatch",
+    "plural": "dark gray eyepatches",
+    "singular": "dark gray eyepatch"
+  },
+   "EYEPATCHBLACK": {
+    "default": "black eyepatch",
+    "plural": "black eyepatches",
+    "singular": "black eyepatch"
+  },
+   "EYEPATCHRED": {
+    "default": "red eyepatch",
+    "plural": "red eyepatches",
+    "singular": "red eyepatch"
+  },
+   "EYEPATCHORANGE": {
+    "default": "orange eyepatch",
+    "plural": "orange eyepatches",
+    "singular": "orange eyepatch"
+  },
+   "EYEPATCHAMBER": {
+    "default": "amber eyepatch",
+    "plural": "amber eyepatches",
+    "singular": "amber eyepatch"
+  },
+   "EYEPATCHYELLOW": {
+    "default": "yellow eyepatch",
+    "plural": "yellow eyepatches",
+    "singular": "yellow eyepatch"
+  },
+   "EYEPATCHLIME": {
+    "default": "lime eyepatch",
+    "plural": "lime eyepatches",
+    "singular": "lime eyepatch"
   }
 }
