@@ -136,7 +136,7 @@ class Sprites:
             'medcatherbs',
             'collars', 'bellcollars', 'bowcollars', 'nyloncollars', 'rwlizards', 'drones', 'muddypaws', 
             'herbs2', 'insectwings', 'buddies', 'newaccs', 'bodypaint', 'implant', 'magic', 'necklaces',
-            'newaccs2',
+            'newaccs2', 'drapery', 'eyepatches',
             'singlecolours', 'speckledcolours', 'tabbycolours', 'bengalcolours', 'marbledcolours',
             'rosettecolours', 'smokecolours', 'tickedcolours', 'mackerelcolours', 'classiccolours',
             'sokokecolours', 'agouticolours', 'singlestripecolours', 'maskedcolours', 'bananacolours',
@@ -846,7 +846,16 @@ class Sprites:
             ["NECKLACEWHITE", "NECKLACEPINK", "NECKLACEPURPLE", "NECKLACEYELLOW", "NECKLACECYAN"],
             ["NECKLACEGREEN", "NECKLACERED", "NECKLACEORANGE", "NECKLACEBLUE", "NECKLACEBLACK"]
         ]
-
+        drapery_data = [
+            ["DRAPERYWHITE", "DRAPERYORANGE", "DRAPERYTAN", "DRAPERYPALEYELLOW", "DRAPERYYELLOW", "DRAPERYMINT", "DRAPERYGREEN", "DRAPERYLIGHTAQUA"],
+            ["DRAPERYAQUA", "DRAPERYCYAN", "DRAPERYLIGHTGRAY", "DRAPERYPURPLE", "DRAPERYLIGHTINDIGO", "DRAPERYBLUE", "DRAPERYLAVENDER", "DRAPERYLIGHTPINK", "DRAPERYPINK"],
+            ["DRAPERYHOTPINK", "DRAPERYGRAY", "DRAPERYDARKGRAY", "DRAPERYLIGHTRED", "DRAPERYRED", "DRAPERYPEACH", "DRAPERYLIGHTORANGE"]
+        ]
+        eyepatch_data = [
+            ["EYEPATCHWHITE", "EYEPATCHGREEN", "EYEPATCHAQUA", "EYEPATCHTURQUOISE", "EYEPATCHCYAN", "EYEPATCHBLUE", "EYEPATCHINDIGO"],
+            ["EYEPATCHPURPLE", "EYEPATCHMAGENTA", "EYEPATCHPINK", "EYEPATCHROSE", "EYEPATCHLIGHTGRAY", "EYEPATCHDARKGRAY", "EYEPATCHBLACK"],
+            ["EYEPATCHRED", "EYEPATCHORANGE", "EYEPATCHAMBER", "EYEPATCHYELLOW", "EYEPATCHLIME"]
+        ]
         # medcatherbs
         for row, herbs in enumerate(medcatherbs_data):
             for col, herb in enumerate(herbs):
@@ -939,7 +948,14 @@ class Sprites:
         for row, necklaces in enumerate(necklaces_data):
             for col, necklaces in enumerate(necklaces):
                 self.make_group('necklaces', (col, row), f'necklaces{necklaces}')
-
+        #drapery
+        for row, drapery in enumerate(drapery_data):
+            for col, drapery in enumerate(drapery):
+                self.make_group('drapery', (col, row), f'drapery{drapery}')
+        #eyepatches
+        for row, eyepatches in enumerate(eyepatch_data):
+            for col, eyepatches in enumerate(eyepatches):
+                self.make_group('eyepatches', (col, row), f'eyepatches{eyepatches}')
 
     def load_symbols(self):
         """
