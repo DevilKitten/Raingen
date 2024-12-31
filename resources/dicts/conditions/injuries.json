@@ -517,7 +517,9 @@
             "dislocated joint",
             "blood loss",
             "scrapes",
-            "bruises"
+            "bruises",
+            "shock",
+            "lingering shock"
         ],
         "cause_permanent": [
             "partial hearing loss",
