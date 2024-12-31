@@ -421,6 +421,13 @@ class Condition_Events:
             "FULLBODYBURNS": ["partial hearing loss", "one bad eye"],
             "HALFFACELEFT": ["partial hearing loss", "one bad eye"],
             "HALFFACERIGHT": ["partial hearing loss", "one bad eye"]
+            "SMOKINGFACE": ["partial hearing loss", "one bad eye"]
+            "MESSIAH": ["raspy lungs"]
+            "EXTRACTIONTWO": ["raspy lungs"]
+            "RESTITCHEDLOWER": ["weak leg", "twisted leg"]
+            "RESTITCHEDUPPER": ["weak leg", "twisted leg"]
+            "LABRATLIMBS": ["weak leg", "twisted leg"]
+            "DANGEROUS": ["weak leg", "twisted leg"]
         }
 
         scarless_conditions = [
