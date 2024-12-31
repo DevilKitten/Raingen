@@ -60,6 +60,8 @@ class Pelt():
         'Cherry': 'cherry',
         'Hypnotist': 'hypnotist',
         'Ringed': 'ringed',
+        'Skinny': 'skinny',
+        'Sparse': 'sparse',
         'Tortie': None,
         'Calico': None,
     }
@@ -94,7 +96,7 @@ class Pelt():
                 'cyanlizard', 'vulture', 'banana', 'centipede', 'conductor', 'lizard', 'lantern', 'leviathan',
                 'fluffy', 'amoeba', 'yeek', 'rusted', 'envoy', 'drizzle', 'solace', 'leafy', 'scaled', 'dragonfruit', 
                 'necklace', 'dreamer', 'duskdawn', 'seer', 'rotten', 'fire', 'countershaded', 'sunset', 'oldgrowth', 
-                'sparklecat', 'wolf', 'cherry', 'hypnotist', 'ringed']
+                'sparklecat', 'wolf', 'cherry', 'hypnotist', 'ringed', 'skinny', 'sparse']
     
     pelt_length = ["short", "medium", "long"]
     eye_colours = ['YELLOW', 'AMBER', 'HAZEL', 'PALEGREEN', 'GREEN', 'BLUE', 'DARKBLUE', 'GREY', 'CYAN', 'EMERALD', 'PALEBLUE', 
@@ -242,6 +244,11 @@ class Pelt():
         "DRAPERYAQUA", "DRAPERYCYAN", "DRAPERYLIGHTGRAY", "DRAPERYPURPLE", "DRAPERYLIGHTINDIGO", "DRAPERYBLUE", "DRAPERYLAVENDER", "DRAPERYLIGHTPINK", "DRAPERYPINK",
         "DRAPERYHOTPINK", "DRAPERYGRAY", "DRAPERYDARKGRAY", "DRAPERYLIGHTRED", "DRAPERYRED", "DRAPERYPEACH", "DRAPERYLIGHTORANGE"
     ]
+    pridedrapery = [
+            "ORIGINALGAYDRAPERY", "TRANSDRAPERY", "GENDERQUEERDRAPERY", "AGENDERDRAPERY", "NONBINARYDRAPERY", "POLYAMDRAPERY", "GENDERFLUIDDRAPERY",
+            "GENDERFLUXDRAPERY", "GAYDRAPERY", "OMNISEXUALDRAPERY", "OBJECTUMDRAPERY", "RAINBOWDRAPERY", "PHILIDRAPERY", "BISEXUALDRAPERY",
+            "PANSEXUALDRAPERY", "POLYSEXUALDRAPERY", "ASEXUALDRAPERY", "INTERSEXDRAPERY"
+    ]
     eyepatches = [
         "EYEPATCHWHITE", "EYEPATCHGREEN", "EYEPATCHAQUA", "EYEPATCHTURQUOISE", "EYEPATCHCYAN", "EYEPATCHBLUE", "EYEPATCHINDIGO",
         "EYEPATCHPURPLE", "EYEPATCHMAGENTA", "EYEPATCHPINK", "EYEPATCHROSE", "EYEPATCHLIGHTGRAY", "EYEPATCHDARKGRAY", "EYEPATCHBLACK",
@@ -249,8 +256,8 @@ class Pelt():
     ]
 
     tabbies = ["Tabby", "Ticked", "Classic", "Sokoke", "Agouti", "Masked", "Vulture", "Envoy", "Drizzle", "Necklace", "Leviathan", "Rotten", "Fire", "Solace"]
-    spotted = ["Speckled", "Rosette", "Gravel", "Banana", "Conductor", "Bengal", "Dreamer", "Oldgrowth", "Cherry"]
-    plain = ["SingleColour", "TwoColour", "Smoke", "Singlestripe", "Collared", "Lizard", "Slimemold", "Fluffy", "Yeek", "Rusted", "Leafy", "Scaled", "Countershaded", "Sunset"]
+    spotted = ["Speckled", "Rosette", "Gravel", "Banana", "Conductor", "Bengal", "Dreamer", "Oldgrowth", "Cherry", "Sparse"]
+    plain = ["SingleColour", "TwoColour", "Smoke", "Singlestripe", "Collared", "Lizard", "Slimemold", "Fluffy", "Yeek", "Rusted", "Leafy", "Scaled", "Countershaded", "Sunset", "Skinny"]
     exotic = ["Mackerel", "Marbled", "Cyanlizard", "Centipede", "Lantern", "Amoeba", "Seaslug", "Dragonfruit", "Duskdawn", "Seer", "Wolf", "Sparklecat", "Hypnotist"]
     torties = ["Tortie", "Calico"]
     pelt_categories = [tabbies, spotted, plain, exotic, torties]
@@ -881,6 +888,7 @@ class Pelt():
                 choice(Pelt.bodypaint),
                 choice(Pelt.necklaces),
                 choice(Pelt.drapery),
+                choice(Pelt.pridedrapery),
                 choice(Pelt.eyepatches)
             ]))
         else:
