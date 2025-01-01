@@ -148,7 +148,7 @@ class Sprites:
             'seercolours', 'rottencolours', 'firecolours', 'countershadedcolours', 'cherrycolours',
             'oldgrowthcolours', 'sparklecatcolours', 'wolfcolours', 'sunsetcolours', 'hypnotistcolours',
             'ringedcolours', 'skinnycolours', 'sparsecolours', 'impishcolours', 'sportycolours', 'fizzycolours',
-            'raineyes', 'raineyes2', 'multieyes', 'multiraineyes', 'larseyes', 'multilarseyes', 'larseyes2', 'rivuleteyes', 'rivuleteyes2',
+            'raineyes', 'raineyes2', 'multieyes', 'multiraineyes', 'larseyes', 'multilarseyes', 'larseyes2',
             'shadersnewwhite', 'lightingnew',
             'whitepatches', 'tortiepatchesmasks',
             'fademask', 'fadestarclan', 'fadedarkforest',
@@ -243,7 +243,7 @@ class Sprites:
                 ['MULTICREAMY', 'MULTIDAWN', 'MULTIESES', 'MULTIEXILE', 'MULTIFAE', 'MULTIFALLSTAR', 'MULTIFIELD', 'MULTIFOAM', 'MULTIHOT', 'MULTIIRID']):
             self.make_group('multilarseyes', (a, 1), f'eyes2{i}')
         for a, i in enumerate(
-                ['MULTIKARMA', 'MULTIKIND', 'MULTIMARTI', 'MULTIMEISTALT', 'MULTIMEISTER', 'MULTIMELON', 'MULTIMESS', 'MULTIMHUNT', 'MULTIMINT', 'MULTIMINV']):
+                ['MULTIKARMA', 'MULTIKIND', 'MULTIMARTI', 'MULTIMEISTALT', 'MULTIMHUNT', 'MULTIMELON', 'MULTIMESS', 'MULTIMEISTER', 'MULTIMINT', 'MULTIMINV']):
             self.make_group('multilarseyes', (a, 2), f'eyes2{i}')
         for a, i in enumerate(
                 ['MULTIMOON', 'MULTIMRIV', 'MULTIPEACH', 'MULTIPEBB', 'MULTIPELA', 'MULTIPEPPER', 'MULTIRETRO', 'MULTIRUNT', 'MULTIRUST', 'MULTISIG']):
@@ -253,16 +253,16 @@ class Sprites:
             self.make_group('multilarseyes', (a, 4), f'eyes2{i}')
                     
         #rivulet eyes
-        for a, i in enumerate(
-                ['RIVYELLOW', 'RIVAMBER', 'RIVHAZEL', 'RIVPALEGREEN', 'RIVGREEN', 'RIVBLUE', 
-                'RIVDARKBLUE', 'RIVGREY', 'RIVCYAN', 'RIVEMERALD', 'RIVHEATHERBLUE', 'RIVSUNLITICE']):
-            self.make_group('eyes', (a, 0), f'eyes{i}')
-            self.make_group('eyes2', (a, 0), f'eyes2{i}')
-        for a, i in enumerate(
-                ['RIVCOPPER', 'RIVSAGE', 'RIVCOBALT', 'RIVPALEBLUE', 'RIVBRONZE', 'RIVSILVER',
-                'RIVPALEYELLOW', 'RIVGOLD', 'RIVGREENYELLOW']):
-            self.make_group('rivuleteyes', (a, 1), f'rivuleteyes{i}')
-            self.make_group('rivuleteyes2', (a, 1), f'rivuleteyes2{i}')
+        #for a, i in enumerate(
+        #        ['RIVYELLOW', 'RIVAMBER', 'RIVHAZEL', 'RIVPALEGREEN', 'RIVGREEN', 'RIVBLUE', 
+        #        'RIVDARKBLUE', 'RIVGREY', 'RIVCYAN', 'RIVEMERALD', 'RIVHEATHERBLUE', 'RIVSUNLITICE']):
+        #    self.make_group('rivuleteyes', (a, 0), f'rivuleteyes{i}')
+        #    self.make_group('rivuleteyes2', (a, 0), f'rivuleteyes2{i}')
+        #for a, i in enumerate(
+        #        ['RIVCOPPER', 'RIVSAGE', 'RIVCOBALT', 'RIVPALEBLUE', 'RIVBRONZE', 'RIVSILVER',
+        #        'RIVPALEYELLOW', 'RIVGOLD', 'RIVGREENYELLOW']):
+        #    self.make_group('rivuleteyes', (a, 1), f'rivuleteyes{i}')
+        #    self.make_group('rivuleteyes2', (a, 1), f'rivuleteyes2{i}')
 
         # white patches
         for a, i in enumerate(['FULLWHITE', 'ANY', 'TUXEDO', 'LITTLE', 'COLOURPOINT', 'VAN', 'ANYTWO',
@@ -777,7 +777,7 @@ class Sprites:
              "ENVOYCHEST", "HALFFACELEFT", "FULLBODYBURNS", "BESIEGED", "HALFFACERIGHT"],
             ["STARBURN", "ARMBURN", "DOUBLEBITE", "DANGEROUS", "SMOKINGFACE", "NIBBLEDIDIOT", "EXTRACTIONONE",
              "NIBBEDAGAIN", "MESSIAH", "EXTRACTIONTWO", "RESTITCHEDUPPER", "RESTITCHEDLOWER"],
-            ["STITCHEDHEAD"],
+            ["STITCHEDHEAD", "BURNTLEG", "BURNTARM"],
         ]
 
         # define missing parts
@@ -1033,7 +1033,7 @@ class Sprites:
         #harleyaccs
         for row, harleyaccs in enumerate(harleyaccs_data):
             for col, harleyaccs in enumerate(harleyaccs):
-                self.make_group('harleyaccs', (col, row), f'harleyaccs{larsaccs}')
+                self.make_group('harleyaccs', (col, row), f'harleyaccs{harleyaccs}')
 
     def load_symbols(self):
         """

@@ -147,13 +147,13 @@ class Pelt():
                 'MULTIVIVID', 'MULTIWAVE', 'MULTIWINKS', 'MULTIZENI', 'MULTIBEAST'
                 ]
     # rivulet eye colours by @bucketofmackerels on discord
-    riveye_colours = ['RIVYELLOW', 'RIVAMBER', 'RIVHAZEL', 'RIVPALEGREEN', 'RIVGREEN', 'RIVBLUE', 'RIVDARKBLUE', 'RIVGREY', 'RIVCYAN', 'RIVEMERALD', 'RIVPALEBLUE', 
-                'RIVPALEYELLOW', 'RIVGOLD', 'RIVHEATHERBLUE', 'RIVCOPPER', 'RIVSAGE', 'RIVCOBALT', 'RIVSUNLITICE', 'RIVGREENYELLOW', 'RIVBRONZE', 'RIVSILVER'
-                ]
-
-    yellow_riv_eyes = ['RIVYELLOW', 'RIVAMBER', 'RIVPALEYELLOW', 'RIVGOLD', 'RIVCOPPER', 'RIVGREENYELLOW', 'RIVBRONZE', 'RIVSILVER']
-    blue_riv_eyes = ['RIVBLUE', 'RIVDARKBLUE', 'RIVCYAN', 'RIVPALEBLUE', 'RIVHEATHERBLUE', 'RIVCOBALT', 'RIVSUNLITICE']
-    green_riv_eyes = ['RIVPALEGREEN', 'RIVGREEN', 'RIVEMERALD', 'RIVSAGE']
+    #riveye_colours = ['RIVYELLOW', 'RIVAMBER', 'RIVHAZEL', 'RIVPALEGREEN', 'RIVGREEN', 'RIVBLUE', 'RIVDARKBLUE', 'RIVGREY', 'RIVCYAN', 'RIVEMERALD', 'RIVPALEBLUE', 
+    #            'RIVPALEYELLOW', 'RIVGOLD', 'RIVHEATHERBLUE', 'RIVCOPPER', 'RIVSAGE', 'RIVCOBALT', 'RIVSUNLITICE', 'RIVGREENYELLOW', 'RIVBRONZE', 'RIVSILVER'
+    #            ]
+#
+    #yellow_riv_eyes = ['RIVYELLOW', 'RIVAMBER', 'RIVPALEYELLOW', 'RIVGOLD', 'RIVCOPPER', 'RIVGREENYELLOW', 'RIVBRONZE', 'RIVSILVER']
+    #blue_riv_eyes = ['RIVBLUE', 'RIVDARKBLUE', 'RIVCYAN', 'RIVPALEBLUE', 'RIVHEATHERBLUE', 'RIVCOBALT', 'RIVSUNLITICE']
+    #green_riv_eyes = ['RIVPALEGREEN', 'RIVGREEN', 'RIVEMERALD', 'RIVSAGE']
     
     # bite scars by @wood pank on discord
 
@@ -161,8 +161,8 @@ class Pelt():
     scars1 = ["ONE", "TWO", "THREE", "FOUR", "TAILSCAR", "SNOUT", "CHEEK", "SIDE", "THROAT", "TAILBASE", "BELLY",
               "LEGBITE", "NECKBITE", "FACE", "MANLEG", "BRIGHTHEART", "MANTAIL", "BRIDGE", "RIGHTBLIND", "LEFTBLIND",
               "BOTHBLIND", "BEAKCHEEK", "BEAKLOWER", "CATBITE", "RATBITE", "QUILLCHUNK", "QUILLSCRATCH", "HINDLEG",
-              "BACK", "QUILLSIDE", "SCRATCHSIDE", "BEAKSIDE", "CATBITETWO", "FOUR", "LABRATFACE", "LABRATCHEST", 
-              "NEUTRINO", "MANGLEDARM", "DOUBLEBITE", "DANGEROUS", "CUTOPEN"]
+              "BACK", "QUILLSIDE", "SCRATCHSIDE", "BEAKSIDE", "CATBITETWO", "LABRATFACE", "LABRATCHEST", 
+              "NEUTRINO", "MANGLEDARM", "DOUBLEBITE", "DANGEROUS"]
 
     # missing parts
     scars2 = ["LEFTEAR", "RIGHTEAR", "NOTAIL", "HALFTAIL", "NOPAW", "NOLEFTEAR", "NORIGHTEAR", "NOEAR"]
@@ -171,8 +171,8 @@ class Pelt():
     scars3 = ["SNAKE", "TOETRAP", "BURNPAWS", "BURNTAIL", "BURNBELLY", "BURNRUMP", "FROSTFACE", "FROSTTAIL",
               "FROSTMITT", "FROSTSOCK", "TOE", "SNAKETWO", "ROTMARKED", "ROTRIDDEN", "TOPSURGERY", "CUTOPEN", 
               "VIVISECTION", "LABRATLIMBS", "HALFFACELEFT", "FULLBODYBURNS", "BESIEGED", "HALFFACERIGHT", 
-              "STARBURN", "ARMBURN", "ENVOYCHEST",  "EXTRACTIONONE", "EXTRACTIONTWO", "LABRATCHEST", "DANGEROUS",
-              "RESTITCHEDUPPER", "RESTITCHEDLOWER", "STITCHEDHEAD", "MESSIAH", "SMOKINGFACE"]
+              "STARBURN", "ARMBURN", "ENVOYCHEST",  "EXTRACTIONONE", "EXTRACTIONTWO", "RESTITCHEDUPPER", 
+              "RESTITCHEDLOWER", "STITCHEDHEAD", "MESSIAH", "SMOKINGFACE", "BURNTLEG", "BURNTARM"]
 
     # make sure to add plural and singular forms of new accs to acc_display.json so that they will display nicely
     plant_accessories = ["MAPLE LEAF", "HOLLY", "BLUE BERRIES", "FORGET ME NOTS", "RYE STALK", "LAUREL",
@@ -280,7 +280,7 @@ class Pelt():
     ]
 
     tabbies = ["Tabby", "Ticked", "Classic", "Sokoke", "Agouti", "Masked", "Vulture", "Envoy", "Drizzle", "Necklace", "Leviathan", "Rotten", "Fire", "Solace"]
-    spotted = ["Speckled", "Rosette", "Gravel", "Banana", "Conductor", "Bengal", "Dreamer", "Oldgrowth", "Cherry", "Sparse", "Impish"]
+    spotted = ["Speckled", "Rosette", "Gravel", "Banana", "Conductor", "Bengal", "Dreamer", "Oldgrowth", "Cherry", "Sparse", "Impish", "Ringed"]
     plain = ["SingleColour", "TwoColour", "Smoke", "Singlestripe", "Collared", "Lizard", "Slimemold", "Fluffy", "Yeek", "Rusted", "Leafy", "Scaled", "Countershaded", "Sunset", "Skinny", "Sporty"]
     exotic = ["Mackerel", "Marbled", "Cyanlizard", "Centipede", "Lantern", "Amoeba", "Seaslug", "Dragonfruit", "Duskdawn", "Seer", "Wolf", "Sparklecat", "Hypnotist", "Fizzy"]
     torties = ["Tortie", "Calico"]
@@ -881,17 +881,38 @@ class Pelt():
             return
 
         if age in ['kitten', 'adolescent']:
-            scar_choice = random.randint(0, 50)  # 2%
+            scar_choice = random.randint(0, 2)  # 2%   was 50
         elif age in ['young adult', 'adult']:
             scar_choice = random.randint(0, 20)  # 5%
         else:
             scar_choice = random.randint(0, 15)  # 6.67%
+
+        mutilation_scars = [
+            "CUTOPEN",
+            "BESIEGED",
+            "VIVISECTION", 
+            "LABRATCHEST", 
+            "LABRATLIMBS", 
+            "DANGEROUS", 
+            "RESTITCHEDUPPER", 
+            "RESTITCHEDLOWER", 
+            "STITCHEDHEAD",
+            "EXTRACTIONTWO", 
+            "EXTRACTIONONE", 
+            "MESSIAH", 
+            "ENVOYCHEST"
+        ]
 
         if scar_choice == 1:
             self.scars.append(choice([
                 choice(Pelt.scars1),
                 choice(Pelt.scars3)
             ]))
+
+        if age in ['kitten', 'adolescent']:
+            for i in self.scars:
+                if i in mutilation_scars:
+                    self.scars.remove(i)
 
         if 'NOTAIL' in self.scars and 'HALFTAIL' in self.scars:
             self.scars.remove('HALFTAIL')
@@ -921,11 +942,7 @@ class Pelt():
                 choice(Pelt.newaccs),
                 choice(Pelt.bodypaint),
                 choice(Pelt.necklaces),
-                choice(Pelt.drapery),
-                choice(Pelt.pridedrapery),
-                choice(Pelt.eyepatches),
-                choice(Pelt.larsaccs),
-                choice(Pelt.harleyaccs)
+                choice(Pelt.larsaccs)
             ]))
         else:
             self.accessories = []
