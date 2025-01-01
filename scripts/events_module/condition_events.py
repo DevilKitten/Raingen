@@ -418,7 +418,7 @@ class Condition_Events:
             "BOTHBLIND": ["blind"],
             "RATBITE": ["weak leg"],
             "ROTRIDDEN": ["the rot"],
-            "FULLBODYBURNS": ["partial hearing loss", "one bad eye"],
+            "FULLBODYBURNS": ["partial hearing loss", "one bad eye", "weak leg"],
             "HALFFACELEFT": ["partial hearing loss", "one bad eye"],
             "HALFFACERIGHT": ["partial hearing loss", "one bad eye"],
             "SMOKINGFACE": ["partial hearing loss", "one bad eye"],
@@ -427,7 +427,9 @@ class Condition_Events:
             "RESTITCHEDLOWER": ["weak leg", "twisted leg"],
             "RESTITCHEDUPPER": ["weak leg", "twisted leg"],
             "LABRATLIMBS": ["weak leg", "twisted leg"],
-            "DANGEROUS": ["weak leg", "twisted leg"]
+            "DANGEROUS": ["weak leg", "twisted leg"],
+            "BURNTLEG": ["weak leg", "twisted leg"],
+            "BURNTARM": ["weak leg", "twisted leg"]
         }
 
         scarless_conditions = [
