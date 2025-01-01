@@ -339,6 +339,10 @@ class HandleShortEvents:
             acc_list.extend(Pelt.pridedrapery)
         if "EYEPATCHES" in possible_accs:
             acc_list.extend(Pelt.eyepatches)
+        if "LARSACCS" in possible_accs:
+            acc_list.extend(Pelt.larsaccs)
+        if "HARLEYACCS" in possible_accs:
+            acc_list.extend(Pelt.harleyaccs)
         
 
         for acc in possible_accs:
