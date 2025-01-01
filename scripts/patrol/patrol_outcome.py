@@ -1054,7 +1054,7 @@ class PatrolOutcome:
             acc_list = [x for x in acc_list if x in Pelt.plant_accessories + Pelt.wild_accessories +\
         Pelt.tail_accessories + Pelt.collars + Pelt.lizards + Pelt.insectwings + Pelt.buddies + Pelt.muddypaws +\
         Pelt.newaccs + Pelt.bodypaint + Pelt.herbs2 + Pelt.implant + Pelt.magic + Pelt.necklaces + Pelt.drapery +\
-        Pelt.pridedrapery + Pelt.eyepatches
+        Pelt.pridedrapery + Pelt.eyepatches + Pelt.larsaccs + Pelt.harleyaccs
                             and x not in cat.pelt.inventory]
 
         if not acc_list:
