@@ -1027,12 +1027,12 @@ class Sprites:
             for col, eyepatches in enumerate(eyepatches):
                 self.make_group('eyepatches', (col, row), f'eyepatches{eyepatches}')
         #larsaccs
-        for row, eyepatches in enumerate(eyepatch_data):
-            for col, eyepatches in enumerate(eyepatches):
+        for row, larsaccs in enumerate(larsaccs_data):
+            for col, larsaccs in enumerate(larsaccs):
                 self.make_group('larsaccs', (col, row), f'larsaccs{larsaccs}')
         #harleyaccs
-        for row, eyepatches in enumerate(eyepatch_data):
-            for col, eyepatches in enumerate(eyepatches):
+        for row, harleyaccs in enumerate(harleyaccs_data):
+            for col, harleyaccs in enumerate(harleyaccs):
                 self.make_group('harleyaccs', (col, row), f'harleyaccs{larsaccs}')
 
     def load_symbols(self):
