@@ -52,7 +52,10 @@
     "Wolf": [" The Wolf", " The Leapzard", " The Marked"],
     "Cherry": [" The Hunter", " The Bloodborn"],
     "Hypnotist": [" The Hypnotic", " The Hypnotist", " The Spiraled"],
-    "Ringed": [" The Ringed", " The Banded", " The Circled"]
+    "Ringed": [" The Ringed", " The Banded", " The Circled"],
+    "Impish": [" The Hellborn", " The Impish", " The Imp"],
+    "Sporty": [" The Sporty", " The Athletic", " The Player"],
+    "Fizzy": [" The Fizzy", " The Bubbly", " The Bubbling", " The Soda", " The Pop", " The Sparkling"]
     
   },
   "tortie_pelt_suffixes": {
