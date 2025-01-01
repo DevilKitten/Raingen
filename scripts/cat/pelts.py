@@ -565,7 +565,7 @@ class Pelt():
             elif self.eye_colour in Pelt.red_pupil_eyes:
                 eye_choice = choice([Pelt.yellow_pupil_eyes, Pelt.green_pupil_eyes, Pelt.blue_pupil_eyes])
 
-             elif self.eye_colour in Pelt.yellow_riv_eyes:
+            elif self.eye_colour in Pelt.yellow_riv_eyes:
                 eye_choice = choice([Pelt.blue_riv_eyes, Pelt.green_riv_eyes])
                 self.eye_colour2 = choice(eye_choice)
             elif self.eye_colour in Pelt.blue_riv_eyes:
