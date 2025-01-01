@@ -527,7 +527,7 @@
       "any"
     ],
     "weight": 20,
-    "event_text": "m_c has collected quite a lot of ticks in {PRONOUN/m_c/poss} pelt, and grumbles about the itchy bites dotted throughout.",
+    "event_text": "m_c went swimming and collected quite a lot of leeches in {PRONOUN/m_c/poss} pelt, and grumbles about the itchy bites dotted throughout.",
     "m_c": {
       "age": [
         "senior adult",
@@ -543,7 +543,7 @@
           "m_c"
         ],
         "injuries": [
-          "tick bites"
+          "leech bites"
         ]
       }
     ]
@@ -557,7 +557,7 @@
       "any"
     ],
     "weight": 20,
-    "event_text": "m_c has been yowling about {PRONOUN/m_c/poss} ticks for the better part of the day, the itchy bites maddening to {PRONOUN/m_c/object}.",
+    "event_text": "m_c has been yowling about {PRONOUN/m_c/poss} leech bites for the better part of the day, the itch maddening to {PRONOUN/m_c/object}.",
     "m_c": {
       "age": [
         "senior adult",
@@ -582,7 +582,7 @@
           "m_c"
         ],
         "injuries": [
-          "tick bites"
+          "leech bites"
         ]
       }
     ]
@@ -599,7 +599,7 @@
       "clan:apprentice"
     ],
     "weight": 20,
-    "event_text": "m_c keeps pointedly reminding other slugcats that {PRONOUN/m_c/poss} ticks haven't been seen to yet, clearly uncomfortable with the itchy bites dotting {PRONOUN/m_c/poss} pelt.",
+    "event_text": "m_c keeps pointedly reminding other slugcats that {PRONOUN/m_c/poss} leech bites haven't been seen to yet, clearly uncomfortable with the itchy dots in {PRONOUN/m_c/poss} pelt.",
     "m_c": {
       "age": [
         "senior adult",
@@ -624,7 +624,7 @@
           "m_c"
         ],
         "injuries": [
-          "tick bites"
+          "leech bites"
         ]
       }
     ]
@@ -665,7 +665,7 @@
           "m_c"
         ],
         "injuries": [
-          "tick bites"
+          "leech bites"
         ]
       }
     ]
@@ -7213,8 +7213,8 @@
     "season": [
       "any"
     ],
-    "weight": 20,
-    "event_text": "m_c disappeared for the majority of the cycle, but was later found severely injured and nearly dead. {PRONOUN/m_c/subject/CAP} {VERB/m_c/were/was} rushed to the clerics den shortly after being found.",
+    "weight": 10,
+    "event_text": "m_c disappeared for a few cycles, but was later found severely injured and nearly dead. {PRONOUN/m_c/subject/CAP} {VERB/m_c/were/was} rushed to the clerics den shortly after being found.",
     "m_c": {
       "age": [
         "adolescent",
@@ -7231,6 +7231,15 @@
         ],
         "injuries": [
           "mangled pelt"
+        ],
+        "scars": [
+          "VIVISECTION", 
+          "LABRATCHEST", 
+          "LABRATLIMBS", 
+          "RESTITCHEDUPPER", 
+          "RESTITCHEDLOWER", 
+          "STITCHEDHEAD", 
+          "FULLBODYBURNS"
         ]
       }
     ],
@@ -7239,9 +7248,9 @@
         "cats": [
           "m_c"
         ],
-        "scar": "m_c {VERB/m_c/were/was} mangled after dissapearing for the majority of a cycle.",
-        "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after being found severely injured.",
-        "lead_death": "{VERB/m_c/were/was} killed by {PRONOUN/m_c/poss} wounds after dissapearing"
+        "scar": "m_c {VERB/m_c/were/was} mangled by an Iterator.",
+        "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after being mangled by an Iterator.",
+        "lead_death": "{VERB/m_c/were/was} killed by {PRONOUN/m_c/poss} wounds after being mangled by an Iterator"
       }
     ]
   },
@@ -7253,8 +7262,8 @@
     "season": [
       "any"
     ],
-    "weight": 20,
-    "event_text": "m_c was seen conversing with an overseer before disapearing for a cycle, however upon returning {PRONOUN/m_c/subject} remained quiet and went straight to the cleric, hiding a bleeding wound.",
+    "weight": 10,
+    "event_text": "m_c was seen conversing with an overseer before disapearing for a few cycles, however upon returning {PRONOUN/m_c/subject} remained quiet and went straight to the cleric, hiding a bleeding wound.",
     "m_c": {
       "age": [
         "adolescent",
@@ -7271,6 +7280,13 @@
         ],
         "injuries": [
           "chest wound"
+        ],
+        "scars": [
+          "CUTOPEN", 
+          "EXTRACTIONTWO", 
+          "EXTRACTIONONE", 
+          "MESSIAH", 
+          "ENVOYCHEST"
         ]
       }
     ],
@@ -7279,9 +7295,9 @@
         "cats": [
           "m_c"
         ],
-        "scar": "m_c {VERB/m_c/were/was} injured after disapearing, seemingly missing something.",
-        "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after disapearing for the majority of a cycle.",
-        "lead_death": "{VERB/m_c/were/was} killed by {PRONOUN/m_c/poss} wounds after dissapearing"
+        "scar": "m_c {VERB/m_c/were/was} mangled by an Iterator.",
+        "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after being mangled by an Iterator.",
+        "lead_death": "{VERB/m_c/were/was} killed by {PRONOUN/m_c/poss} wounds after being mangled by an Iterator"
       }
     ]
   },
@@ -7293,8 +7309,8 @@
     "season": [
       "any"
     ],
-    "weight": 20,
-    "event_text": "m_c disappeared for the majority of the cycle, however when they returned they were clutching {PRONOUN/m_c/poss} chest, now bloody. They hurried over to the cleric's den, unwilling to talk about what happened.",
+    "weight": 10,
+    "event_text": "m_c disappeared for a few cycles, however when they returned they were clutching {PRONOUN/m_c/poss} chest, now bloody. They hurried over to the cleric's den, unwilling to talk about what happened.",
     "m_c": {
       "age": [
         "adolescent",
@@ -7311,6 +7327,13 @@
         ],
         "injuries": [
           "chest wound"
+        ],
+        "scars": [
+          "CUTOPEN", 
+          "EXTRACTIONTWO", 
+          "EXTRACTIONONE", 
+          "MESSIAH", 
+          "ENVOYCHEST"
         ]
       }
     ],
@@ -7319,9 +7342,9 @@
         "cats": [
           "m_c"
         ],
-        "scar": "m_c {VERB/m_c/were/was} injured after disapearing, seemingly missing something.",
-        "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after disapearing for the majority of a cycle.",
-        "lead_death": "{VERB/m_c/were/was} killed by {PRONOUN/m_c/poss} wounds after dissapearing"
+        "scar": "m_c {VERB/m_c/were/was} mangled by an Iterator.",
+        "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after being mangled by an Iterator.",
+        "lead_death": "{VERB/m_c/were/was} killed by {PRONOUN/m_c/poss} wounds after being mangled by an Iterator"
       }
     ]
   },
@@ -7333,8 +7356,8 @@
     "season": [
       "any"
     ],
-    "weight": 20,
-    "event_text": "m_c was seen conversing with an overseer before disappearing for the majority of a cycle, later {PRONOUN/m_c/suject} came back to camp, barely walking and looking half dead, they were rushed to the clerics immediately.",
+    "weight": 10,
+    "event_text": "m_c was seen conversing with an overseer before disappearing for a few cycles, later {PRONOUN/m_c/subject} came back to camp, barely walking and looking half dead, they were rushed to the clerics immediately.",
     "m_c": {
       "age": [
         "adolescent",
@@ -7351,6 +7374,15 @@
         ],
         "injuries": [
           "mangled pelt"
+        ],
+        "scars": [
+          "VIVISECTION", 
+          "LABRATCHEST", 
+          "LABRATLIMBS", 
+          "RESTITCHEDUPPER", 
+          "RESTITCHEDLOWER", 
+          "STITCHEDHEAD", 
+          "FULLBODYBURNS"
         ]
       }
     ],
@@ -7359,9 +7391,9 @@
         "cats": [
           "m_c"
         ],
-        "scar": "m_c {VERB/m_c/were/was} mangled after dissapearing for the majority of a cycle.",
-        "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after being found severely injured.",
-        "lead_death": "{VERB/m_c/were/was} killed by {PRONOUN/m_c/poss} wounds after dissapearing"
+        "scar": "m_c {VERB/m_c/were/was} mangled by an Iterator.",
+        "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after being mangled by an Iterator.",
+        "lead_death": "{VERB/m_c/were/was} killed by {PRONOUN/m_c/poss} wounds after being mangled by an Iterator"
       }
     ]
   }
