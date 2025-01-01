@@ -13,6 +13,110 @@
     }
   },
   {
+    "event_id": "gen_misc_FAUXMANE",
+    "location": ["any"],
+    "season": ["any"],
+    "sub_type": ["accessory"],
+    "weight": 5,
+    "event_text": "m_c disapeared for a few cycles, but returned with a new acc_singular, every slugcat silently knows though that m_c was staying with an iterator now.",
+    "new_accessory": ["FAUXMANE"],
+    "m_c": {
+      "age": ["any"],
+      "status": ["any"]
+    }
+  },
+  {
+    "event_id": "gen_misc_any_torncloak",
+    "location": ["any"],
+    "season": ["any"],
+    "sub_type": ["accessory"],
+    "weight": 10,
+    "event_text": "m_c returned from an iterator structure scouring, and now proudly wears a acc_singular around {PRONOUN/m_c/object}.",
+    "new_accessory": ["TORNCLOAKFALL", "TORNCLOAKWINTER", "TORNCLOAKNIGHT", "TORNCLOAKSHADOW", "TORNCLOAKSILVER"],
+    "m_c": {
+      "age": ["any"],
+      "status": ["any"]
+    }
+  },
+  {
+    "event_id": "gen_misc_any_fallenstar",
+    "location": ["any"],
+    "season": ["any"],
+    "sub_type": ["accessory"],
+    "weight": 5,
+    "event_text": "m_c vanished for a few cycles before returning bearing a fierce looking acc_singular, {PRONOUN/m_c/poss} clanmates look jealously at {PRONOUN/m_c/object}.",
+    "new_accessory": ["FALLENSTARMASK", "FALLENSTARPAWS"],
+    "m_c": {
+      "age": ["any"],
+      "status": ["any"]
+    }
+  },
+  {
+    "event_id": "gen_misc_any_straightearings",
+    "location": ["any"],
+    "season": ["any"],
+    "sub_type": ["accessory"],
+    "weight": 7,
+    "event_text": "m_c was seen conversing with a passing patrol of scavengers, after some bartering {PRONOUN/m_c/subject} {VERB/m_c/return/returns} now adorning acc_plural.",
+    "new_accessory": ["STRAIGHTGOLD", "STRAIGHTSILVER"],
+    "m_c": {
+      "age": ["any"],
+      "status": ["any"]
+    }
+  },
+  {
+    "event_id": "gen_misc_any_allseeingearings",
+    "location": ["any"],
+    "season": ["any"],
+    "sub_type": ["accessory"],
+    "weight": 7,
+    "event_text": "m_c was seen conversing with a passing patrol of scavengers, after some bartering {PRONOUN/m_c/subject} {VERB/m_c/return/returns} now adorning some acc_singular.",
+    "new_accessory": ["ALLSEEINGGOLD", "ALLSEEINGSILVER"],
+    "m_c": {
+      "age": ["any"],
+      "status": ["any"]
+    }
+  },
+  {
+    "event_id": "gen_misc_any_besiegemask",
+    "location": ["any"],
+    "season": ["any"],
+    "sub_type": ["accessory"],
+    "weight": 15,
+    "event_text": "m_c was taking a walk out in the teritory when {PRONOUN/m_c/subject} stumbled into an elite scavenger, after some bartering m_c returns to camp now one acc_singular richer",
+    "new_accessory": ["BESIEGEDMASKOG", "BESIEGEDMASKBLUE", "BESIEGEDMASKCYAN", "BESIEGEDMASKGRAY", "BESIEGEDMASKGREEN", "BESIEGEDMASKINDIGO", "BESIEGEDMASKORANGE", "BESIEGEDMASKPINK", "BESIEGEDMASKPURPLE", "BESIEGEDMASKRED", "BESIEGEDMASKROSE", "BESIEGEDMASKAQUA", "BESIEGEDMASKYELLOW"],
+    "m_c": {
+      "age": ["any"],
+      "status": ["any"]
+    }
+  },
+  {
+    "event_id": "gen_misc_any_allseeingearings",
+    "location": ["any"],
+    "season": ["any"],
+    "sub_type": ["accessory"],
+    "weight": 15,
+    "event_text": "m_c was out traveling when {PRONOUN/m_c/subject} saw the unmistakable shine of a acc_singular, oddly this acc_singular was in pristine condition! m_c decided to carry around this special gift from the Ascended",
+    "new_accessory": ["HANDPEARLBLANK", "HANDPEARLBLUE", "HANDPEARLGREEN", "HANDPEARLORANGE", "HANDPEARLPURPLE", "HANDPEARLRED", "HANDPEARLYELLOW"],
+    "m_c": {
+      "age": ["any"],
+      "status": ["any"]
+    }
+  },
+   {
+    "event_id": "gen_misc_any_pearl_drapery",
+    "location": ["any"],
+    "season": ["any"],
+    "sub_type": ["accessory"],
+    "weight": 5,
+    "event_text": "m_c for the past few cycles was seen asking around camp for white pearls, and why has become apparent as {PRONOUN/m_c/subject} now {VERB/m_c/wear/wears} a drapery made of pearls.",
+    "new_accessory": ["PEARLDRAPERY"],
+    "m_c": {
+      "age": ["any"],
+      "status": ["any"]
+    }
+  },
+  {
     "event_id": "gen_misc_any_bodypaint",
     "location": ["any"],
     "season": ["any"],
@@ -57,7 +161,7 @@
     "season": ["any"],
     "sub_type": ["accessory"],
     "weight": 15,
-    "event_text": "m_c is seen crafting something from some loose fabric, eventually {PRONOUN/m_c/subject} walk around camp brandishing an eyepatch.",
+    "event_text": "m_c is seen crafting something from some loose fabric, eventually {PRONOUN/m_c/subject} {VERB/m_c/walk/walks} around camp brandishing an eyepatch.",
     "new_accessory": ["EYEPATCHES"],
     "m_c": {
       "age": ["any"],
