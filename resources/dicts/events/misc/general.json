@@ -8,7 +8,7 @@
     "event_text": "m_c went missing for a few cycles and came back with a acc_singular.",
     "new_accessory": ["MAGIC"],
     "m_c": {
-      "age": ["any"],
+      "age": ["adolescent", "young adult", "adult"],
       "status": ["any"]
     }
   },
@@ -17,11 +17,11 @@
     "location": ["any"],
     "season": ["any"],
     "sub_type": ["accessory"],
-    "weight": 5,
+    "weight": 3,
     "event_text": "m_c disapeared for a few cycles, but returned with a new acc_singular, every slugcat silently knows though that m_c was staying with an iterator now.",
     "new_accessory": ["FAUXMANE"],
     "m_c": {
-      "age": ["any"],
+      "age": ["adolescent", "young adult", "adult", "senior adult", "senior"],
       "status": ["any"]
     }
   },
@@ -30,11 +30,11 @@
     "location": ["any"],
     "season": ["any"],
     "sub_type": ["accessory"],
-    "weight": 10,
+    "weight": 7,
     "event_text": "m_c returned from an iterator structure scouring, and now proudly wears a acc_singular around {PRONOUN/m_c/object}.",
     "new_accessory": ["TORNCLOAKFALL", "TORNCLOAKWINTER", "TORNCLOAKNIGHT", "TORNCLOAKSHADOW", "TORNCLOAKSILVER"],
     "m_c": {
-      "age": ["any"],
+      "age": ["adolescent", "young adult", "adult", "senior adult", "senior"],
       "status": ["any"]
     }
   },
@@ -43,11 +43,11 @@
     "location": ["any"],
     "season": ["any"],
     "sub_type": ["accessory"],
-    "weight": 5,
+    "weight": 3,
     "event_text": "m_c vanished for a few cycles before returning bearing a fierce looking acc_singular, {PRONOUN/m_c/poss} clanmates look jealously at {PRONOUN/m_c/object}.",
     "new_accessory": ["FALLENSTARMASK", "FALLENSTARPAWS"],
     "m_c": {
-      "age": ["any"],
+      "age": ["adolescent", "young adult", "adult", "senior adult", "senior"],
       "status": ["any"]
     }
   },
@@ -56,11 +56,11 @@
     "location": ["any"],
     "season": ["any"],
     "sub_type": ["accessory"],
-    "weight": 7,
+    "weight": 8,
     "event_text": "m_c was seen conversing with a passing patrol of scavengers, after some bartering {PRONOUN/m_c/subject} {VERB/m_c/return/returns} now adorning acc_plural.",
     "new_accessory": ["STRAIGHTGOLD", "STRAIGHTSILVER"],
     "m_c": {
-      "age": ["any"],
+      "age": ["adolescent", "young adult", "adult", "senior adult", "senior"],
       "status": ["any"]
     }
   },
@@ -69,11 +69,11 @@
     "location": ["any"],
     "season": ["any"],
     "sub_type": ["accessory"],
-    "weight": 7,
+    "weight": 8,
     "event_text": "m_c was seen conversing with a passing patrol of scavengers, after some bartering {PRONOUN/m_c/subject} {VERB/m_c/return/returns} now adorning some acc_singular.",
     "new_accessory": ["ALLSEEINGGOLD", "ALLSEEINGSILVER"],
     "m_c": {
-      "age": ["any"],
+      "age": ["adolescent", "young adult", "adult", "senior adult", "senior"],
       "status": ["any"]
     }
   },
@@ -84,14 +84,14 @@
     "sub_type": ["accessory"],
     "weight": 15,
     "event_text": "m_c was taking a walk out in the teritory when {PRONOUN/m_c/subject} stumbled into an elite scavenger, after some bartering m_c returns to camp now one acc_singular richer",
-    "new_accessory": ["BESIEGEDMASKOG", "BESIEGEDMASKBLUE", "BESIEGEDMASKCYAN", "BESIEGEDMASKGRAY", "BESIEGEDMASKGREEN", "BESIEGEDMASKINDIGO", "BESIEGEDMASKORANGE", "BESIEGEDMASKPINK", "BESIEGEDMASKPURPLE", "BESIEGEDMASKRED", "BESIEGEDMASKROSE", "BESIEGEDMASKAQUA", "BESIEGEDMASKYELLOW"],
+    "new_accessory": ["BESIEGEDMASKOG", "BESIEGEDMASKBLUE", "BESIEGEDMASKCYAN", "BESIEGEDMASKGRAY", "BESIEGEDMASKGREEN", "BESIEGEDMASKINDIGO", "BESIEGEDMASKORANGE", "BESIEGEDMASKPINK", "BESIEGEDMASKPURPLE", "BESIEGEDMASKRED", "BESIEGEDMASKROSE", "BESIEGEDMASKAQUA", "BESIEGEDMASKYELLOW", "VULTMASK", "KINGMASK", "SCAVMASK"],
     "m_c": {
-      "age": ["any"],
+      "age": ["adolescent", "young adult", "adult", "senior adult", "senior"],
       "status": ["any"]
     }
   },
   {
-    "event_id": "gen_misc_any_allseeingearings",
+    "event_id": "gen_misc_any_handpearl",
     "location": ["any"],
     "season": ["any"],
     "sub_type": ["accessory"],
@@ -99,7 +99,7 @@
     "event_text": "m_c was out traveling when {PRONOUN/m_c/subject} saw the unmistakable shine of a acc_singular, oddly this acc_singular was in pristine condition! m_c decided to carry around this special gift from the Ascended",
     "new_accessory": ["HANDPEARLBLANK", "HANDPEARLBLUE", "HANDPEARLGREEN", "HANDPEARLORANGE", "HANDPEARLPURPLE", "HANDPEARLRED", "HANDPEARLYELLOW"],
     "m_c": {
-      "age": ["any"],
+      "age": ["adolescent", "young adult", "adult", "senior adult", "senior"],
       "status": ["any"]
     }
   },
@@ -108,11 +108,11 @@
     "location": ["any"],
     "season": ["any"],
     "sub_type": ["accessory"],
-    "weight": 5,
+    "weight": 10,
     "event_text": "m_c for the past few cycles was seen asking around camp for white pearls, and why has become apparent as {PRONOUN/m_c/subject} now {VERB/m_c/wear/wears} a drapery made of pearls.",
     "new_accessory": ["PEARLDRAPERY"],
     "m_c": {
-      "age": ["any"],
+      "age": ["adolescent", "young adult", "adult", "senior adult", "senior"],
       "status": ["any"]
     }
   },
@@ -134,11 +134,11 @@
     "location": ["any"],
     "season": ["any"],
     "sub_type": ["accessory"],
-    "weight": 15,
+    "weight": 10,
     "event_text": "m_c whilst out on an adventure, returns with some kind of drapery around {PRONOUN/m_c/object}.",
     "new_accessory": ["DRAPERY"],
     "m_c": {
-      "age": ["any"],
+      "age": ["adolescent", "young adult", "adult", "senior adult", "senior"],
       "status": ["any"]
     }
   },
@@ -147,11 +147,11 @@
     "location": ["any"],
     "season": ["any"],
     "sub_type": ["accessory"],
-    "weight": 15,
+    "weight": 7,
     "event_text": "m_c after vanishing for a few cycles returns with a prideful drapery around {PRONOUN/m_c/object}.",
     "new_accessory": ["PRIDEDRAPERY"],
     "m_c": {
-      "age": ["any"],
+      "age": ["adolescent", "young adult", "adult", "senior adult", "senior"],
       "status": ["any"]
     }
   },
@@ -177,7 +177,7 @@
     "event_text": "m_c went missing for a few cycles and came back with a acc_singular.",
     "new_accessory": ["IMPLANT"],
     "m_c": {
-      "age": ["any"],
+      "age": ["adolescent", "young adult", "adult", "senior adult", "senior"],
       "status": ["any"]
     }
   },
@@ -329,7 +329,7 @@
     "location": ["any"],
     "season": ["any"],
     "sub_type": ["accessory"],
-    "weight": 10,
+    "weight": 15,
     "event_text":  "m_c finds an explosive spear and decides to keep it.",
     "new_accessory": ["EXPLOSPEAR"],
     "m_c": {
@@ -342,7 +342,7 @@
     "location": ["any"],
     "season": ["any"],
     "sub_type": ["accessory"],
-    "weight": 10,
+    "weight": 15,
     "event_text":  "m_c finds a shiny electric spear and decides to keep it.",
     "new_accessory": ["ELESPEAR"],
     "m_c": {
@@ -374,7 +374,7 @@
     "event_text": "m_c fought a vulture and won. {PRONOUN/m_c/subject/CAP} decided to keep its mask as a trophy.",
     "new_accessory": ["VULTMASK"],
     "m_c":{
-      "age": ["any"],
+      "age": ["adolescent", "young adult", "adult", "senior adult", "senior"],
       "skill": ["FIGHTER,0"]
     }
   },
@@ -388,7 +388,7 @@
     "event_text": "m_c fought a king vulture and won. {PRONOUN/m_c/subject/CAP} decided to keep its mask as a trophy.",
     "new_accessory": ["KINGMASK"],
     "m_c":{
-      "age": ["any"],
+      "age": ["adolescent", "young adult", "adult", "senior adult", "senior"],
       "skill": ["FIGHTER,1"]
     }
   },
@@ -3576,7 +3576,8 @@
       "age":["any"],
       "status":["leader"]
     },
-    "r_c": {"age":["any"],
+    "r_c": {
+      "age":["any"],
       "status": ["apprentice", "mediator apprentice", "medicine cat apprentice"]
     }
   },
