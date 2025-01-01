@@ -792,18 +792,27 @@ def create_new_cat(
 
         mutilation_scars = [
             "CUTOPEN",
-            "VIVISECTION",
-            "LABRATLIMBS",
-            "BESIEGED"
+            "BESIEGED",
+            "VIVISECTION", 
+            "LABRATCHEST", 
+            "LABRATLIMBS", 
+            "DANGEROUS", 
+            "RESTITCHEDUPPER", 
+            "RESTITCHEDLOWER", 
+            "STITCHEDHEAD",
+            "EXTRACTIONTWO", 
+            "EXTRACTIONONE", 
+            "MESSIAH", 
+            "ENVOYCHEST"
         ]
 
         if kittypet:
             if new_cat.genderalign == "trans male" or new_cat.genderalign == "nonbinary":
                 new_cat.pelt.scars.append("TOPSURGERY")
 
-            if not randint(0, 2): #placeholder chance 50%
-                new_cat.pelt.scars.append(choice(mutilation_scars)) #TO BE CONTINUED.............
-
+            if not randint(0, 5): #1 out of 5
+                new_cat.pelt.scars.append(choice(mutilation_scars)) 
+                
         # give em a collar if they got one
         if accessory:
             new_cat.pelt.accessories.append(accessory)
