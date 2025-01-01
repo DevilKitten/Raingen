@@ -881,7 +881,7 @@ class Pelt():
             return
 
         if age in ['kitten', 'adolescent']:
-            scar_choice = random.randint(0, 2)  # 2%   was 50
+            scar_choice = random.randint(0, 50)  # 2%
         elif age in ['young adult', 'adult']:
             scar_choice = random.randint(0, 20)  # 5%
         else:
