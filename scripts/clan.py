@@ -987,6 +987,10 @@ class Clan:
                     acc_list.extend(Pelt.pridedrapery)
                 if "EYEPATCHES" in possible_accs:
                     acc_list.extend(Pelt.eyepatches)
+                if "LARSACCS" in possible_accs:
+                    acc_list.extend(Pelt.larsaccs)
+                if "HARLEYACCS" in possible_accs:
+                    acc_list.extend(Pelt.harleyaccs)
                 if "NOTAIL" in c.pelt.scars or "HALFTAIL" in c.pelt.scars:
                     for acc in Pelt.tail_accessories:
                         if acc in acc_list:
