@@ -1043,6 +1043,12 @@ class PatrolOutcome:
         #eyepatches
         elif "EYEPATCHES" in acc_list:
             acc_list = Pelt.eyepatches
+        #larsaccs
+        elif "LARSACCS" in acc_list:
+            acc_list = Pelt.larsaccs
+        #harleyaccs
+        elif "HARLEYACCS" in acc_list:
+            acc_list = Pelt.harleyaccs
         #drones used to be here but apparently they are collars
         else:
             acc_list = [x for x in acc_list if x in Pelt.plant_accessories + Pelt.wild_accessories +\
