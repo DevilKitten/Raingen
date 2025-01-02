@@ -32,10 +32,12 @@ Added:
   - Fallen Star Mask and Paws by Harley
   - 5 Torn Cloak variants by Harley
 - 27 new scars
-  - Artiburnarm, Artiburn, Artiburnface, Besieged, Fullbodyburns, Enoyface, Envoychest, Neutrinoscars, Doublebite, Dangerous, Restitchedhead, Restitchedupper,     
+  - Artiburnarm, Artiburn, Artiburnface, Fullbodyburns, Enoyface, Envoychest, Neutrinoscars, Doublebite, Dangerous, Restitchedhead, Restitchedupper,     
     Restitchedlower, Messiah, Dragonslayerscars, Crossedface, Dragonbitearm, Dragonbiteleg, Smokingface, Charredarm, and Charredleg scars by Harley
   - Hollyhock scar by Cosmonaught
   - Labratface, Labratvivisection, Labratchest, Labratlimbs and Pearlextraction scars by RestlessRenegade
+  - Besieged scar by Mimalot
+
 - 2 new injuries, chest wound, mangled pelt
 - Rainworlded prophecy text
 - New events for accessories
