@@ -1,5 +1,129 @@
 [
   {
+    "event_id": "gen_injury_robotarm",
+    "location": [
+      "any"
+    ],
+    "season": [
+      "any"
+    ],
+    "weight": 3,
+    "event_text": "m_c disappeared for a few cycles, however when {PRONOUN/m_c/subject} returned {PRONOUN/m_c/subject} {VERB/m_c/were/was} clutching {PRONOUN/m_c/poss} arm, now replaced with a piece of metal.",
+    "new_accessory": ["ROBOTARM"],
+    "m_c": {
+      "age": [
+        "adolescent",
+        "young adult",
+        "adult",
+        "senior adult",
+        "senior"
+      ]
+    },
+    "injury": [
+      {
+        "cats": [
+          "m_c"
+        ],
+        "injuries": [
+          "joint pain"
+        ],
+        "scars": [
+          "NOPAW"
+        ]
+      }
+    ],
+    "history": [
+      {
+        "cats": [
+          "m_c"
+        ],
+        "scar": "m_c was scarred when an Iterator replaced {PRONOUN/m_c/poss} arm with a prosthetic.",
+        "reg_death": "m_c died after an Iterator replaced {PRONOUN/m_c/poss} arm with a prosthetic.",
+        "lead_death": "died after an Iterator replaced {PRONOUN/m_c/poss} arm with a prosthetic."
+      }
+    ]
+  },
+  {
+    "event_id": "gen_injury_coloredeyepatches",
+    "location": [
+      "any"
+    ],
+    "season": [
+      "any"
+    ],
+    "weight": 3,
+    "event_text": "m_c hurt {PRONOUN/m_c/poss} eyes very badly. {PRONOUN/m_c/subject/CAP} tied a piece of cloth around {PRONOUN/m_c/poss} head to hide the scars.",
+    "new_accessory": ["EYEPATCHES"],
+    "m_c": {
+      "status": [
+        "any"
+      ]
+    },
+    "injury": [
+      {
+        "cats": [
+          "m_c"
+        ],
+        "injuries": [
+          "damaged eyes"
+        ],
+        "scars": [
+          "BOTHBLIND"
+        ]
+      }
+    ],
+    "history": [
+      {
+        "cats": [
+          "m_c"
+        ],
+        "scar": "m_c was scarred in both eyes.",
+        "reg_death": "m_c died from a severe eye injury.",
+        "lead_death": "died from a severe eye injury."
+      }
+    ]
+  },
+  {
+    "event_id": "gen_injury_eyepatch",
+    "location": [
+      "any"
+    ],
+    "season": [
+      "any"
+    ],
+    "weight": 5,
+    "event_text": "m_c hurt an eye badly. {PRONOUN/m_c/subject/CAP} decided to craft an eyepatch to cover it.",
+    "new_accessory": ["EYEPATCH"],
+    "m_c": {
+      "status": [
+        "any"
+      ]
+    },
+    "injury": [
+      {
+        "cats": [
+          "m_c"
+        ],
+        "injuries": [
+          "damaged eyes"
+        ],
+        "scars": [
+          "RIGHTBLIND"
+        ]
+      }
+    ],
+    "history": [
+      {
+        "cats": [
+          "m_c"
+        ],
+        "scar": "m_c was scarred in one eye",
+        "reg_death": "m_c died from a severe eye injury",
+        "lead_death": "died from a severe eye injury"
+      }
+    ]
+  },
+  {
     "event_id": "gen_injury_bruises_anykitten1",
     "location": [
       "any"
@@ -7213,8 +7337,8 @@
     "season": [
       "any"
     ],
-    "weight": 10,
-    "event_text": "m_c disappeared for a few cycles, but was later found severely injured and nearly dead. {PRONOUN/m_c/subject/CAP} {VERB/m_c/were/was} rushed to the clerics den shortly after being found.",
+    "weight": 5,
+    "event_text": "m_c disappeared for a few cycles, but {VERB/m_c/were/was} later found severely injured and nearly dead. {PRONOUN/m_c/subject/CAP} {VERB/m_c/were/was} rushed to the clerics den shortly after being found.",
     "m_c": {
       "age": [
         "adolescent",
@@ -7262,8 +7386,8 @@
     "season": [
       "any"
     ],
-    "weight": 10,
-    "event_text": "m_c was seen conversing with an overseer before disapearing for a few cycles, however upon returning {PRONOUN/m_c/subject} remained quiet and went straight to the cleric, hiding a bleeding wound.",
+    "weight": 5,
+    "event_text": "m_c {VERB/m_c/were/was} seen conversing with an overseer before disapearing for a few cycles, however upon returning {PRONOUN/m_c/subject} remained quiet and went straight to the cleric, hiding a bleeding wound.",
     "m_c": {
       "age": [
         "adolescent",
@@ -7284,7 +7408,6 @@
         "scars": [
           "CUTOPEN", 
           "EXTRACTIONTWO", 
-          "X-FACE", 
           "MESSIAH", 
           "ENVOYCHEST"
         ]
@@ -7309,8 +7432,8 @@
     "season": [
       "any"
     ],
-    "weight": 10,
-    "event_text": "m_c disappeared for a few cycles, however when they returned they were clutching {PRONOUN/m_c/poss} chest, now bloody. They hurried over to the cleric's den, unwilling to talk about what happened.",
+    "weight": 5,
+    "event_text": "m_c disappeared for a few cycles, however when {PRONOUN/m_c/subject} returned {PRONOUN/m_c/subject} {VERB/m_c/were/was} clutching {PRONOUN/m_c/poss} chest, now bloody. {PRONOUN/m_c/subject/CAP} hurried over to the cleric's den, unwilling to talk about what happened.",
     "m_c": {
       "age": [
         "adolescent",
@@ -7331,7 +7454,6 @@
         "scars": [
           "CUTOPEN", 
           "EXTRACTIONTWO", 
-          "X-FACE", 
           "MESSIAH", 
           "ENVOYCHEST"
         ]
@@ -7356,8 +7478,8 @@
     "season": [
       "any"
     ],
-    "weight": 10,
-    "event_text": "m_c was seen conversing with an overseer before disappearing for a few cycles, later {PRONOUN/m_c/subject} came back to camp, barely walking and looking half dead, they were rushed to the clerics immediately.",
+    "weight": 5,
+    "event_text": "m_c {VERB/m_c/were/was} seen conversing with an overseer before disappearing for a few cycles, later {PRONOUN/m_c/subject} came back to camp, barely walking and looking half dead, {PRONOUN/m_c/subject} {VERB/m_c/were/was} rushed to the clerics immediately.",
     "m_c": {
       "age": [
         "adolescent",
