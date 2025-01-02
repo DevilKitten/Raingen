@@ -78,7 +78,7 @@
             false
         ],
         "retirement": [
-            "Slugats will never retire due to a permanent condition",
+            "Slugcats will never retire due to a permanent condition",
             "When this setting is off, slugcats with permanent conditions will choose whether or not they want to retire.",
             false
         ],
