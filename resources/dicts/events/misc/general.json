@@ -1,5 +1,18 @@
 [
   {
+    "event_id": "gen_misc_any_glitching",
+    "location": ["any"],
+    "season": ["any"],
+    "sub_type": ["accessory"],
+    "weight": 5,
+    "event_text": "m_c went missing for a few cycles, and when {PRONOUN/m_c/subject} came back, reality was warping around {PRONOUN/m_c/object}",
+    "new_accessory": ["GLITCHING"],
+    "m_c": {
+      "age": ["adolescent", "young adult", "adult"],
+      "status": ["any"]
+    }
+  },
+  {
     "event_id": "gen_misc_any_magicaccsPLACEHOLDER",
     "location": ["any"],
     "season": ["any"],
