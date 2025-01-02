@@ -1,3 +1,50 @@
+<strong>.1.4.0</strong>
+Added: (oh boy here we go)
+- THE CHANGELOG IS NOW REAL
+- changing slugcat mentor icon slugcatified by Flamedash
+- credits tab updated for Raingen credits
+- 23 new pelts:
+  - dragonfruit, sparklecat, wolf, cherry, impish pelts by Harley
+  - necklace, duskdawn, dreamer, seer, rotten, fire, oldgrowth, ringed, shred, and glowing pelts by Foxett
+  - countershaded, sunet, and hypnotist pelts by Cosmonaught
+  - skinny, and sparse pelts by Loveskies
+  - sporty pelt by Mimalot 
+  - fizzy pelt by Squidsaymoo
+  - skeleslug pelt by Silveryshingu
+- 17 new white and tortie patches
+  - night, halfface, halfbody, baller, and paint splat whitepatches by Loveskies
+  - defender colorpoint, meistersaint, meisterriv, needlemaster, and meistergourm whitepatches by Harley
+  - third eye, sprite error, plushie seams, skelescug, eyeliner, strong signal, and weak signal whitepatches by Cosmonaught
+- 52 new eye colours by Lars + multieye variants by Harley
+- 14 new unique accessories (127 new accessories overall including color variants)
+  - 4 Lantern Mice Plushies variants by Lars
+  - 8 Inv Mouth variants by Cosmonaught
+  - 5 Inspecter Eye Implant variations by Harley
+  - 14 Neuron Glow variantions by Harley
+  - Pearl Drapery by Lars
+  - 7 Handheld Pearl variants by Lars
+  - 4 Jewlery (Straight earings and all seeing earings) variants by Lars
+  - 13 Besieged Mask variants by Lars
+  - 18 Pride Drapery variants by Harley
+  - 26 Solid Drapery variants by Lovelyskies
+  - 19 Makeshift Eyepatch variants by Lovelyskies
+  - Faux Mane by Harley
+  - Fallen Star Mask and Paws by Harley
+  - 5 Torn Cloak variants by Harley
+- 27 new scars
+  - Artiburnarm, Artiburn, Artiburnface, Besieged, Fullbodyburns, Enoyface, Envoychest, Neutrinoscars, Doublebite, Dangerous, Restitchedhead, Restitchedupper,     
+    Restitchedlower, Messiah, Dragonslayerscars, Crossedface, Dragonbitearm, Dragonbiteleg, Smokingface, Charredarm, and Charredleg scars by Harley
+  - Hollyhock scar by Cosmonaught
+  - Labratface, Labratvivisection, Labratchest, Labratlimbs and Pearlextraction scars by RestlessRenegade
+- 2 new injuries, chest wound, mangled pelt
+- Rainworlded prophecy text
+- New events for accessories
+- Outsider cats can now be transgender and can come with top surgery scars
+- Some injury renames to be rainworld themed
+Fixes:
+- Accessory menu buttons now properly work
+- Caught some more clangen text and rainworldified it
+
 <strong>v1.3.1</strong>
 Added:
 - a complete overhaul of the accessories by Devilkitten! now you can see accessories in a separate tab and turn on and off every accessory individually
