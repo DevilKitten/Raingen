@@ -702,7 +702,7 @@
             "no_body", "all_lives"
         ],
         "weight": 20,
-        "event_text": "Looking to find a way to cool off, m_c decides to go exploring in the water. Too focused on fighting the waves, {PRONOUN/m_c/subject} doesn’t notice the ominous shape below them in the water until it’s too late. The last thing {PRONOUN/m_c/subject} hears is the metallic creaking of the leviathan’s jaws, and then all goes dark",
+        "event_text": "Looking to find a way to cool off, m_c decides to go exploring in the water. Too focused on fighting the waves, {PRONOUN/m_c/subject} doesn't notice the ominous shape below them in the water until it's too late. The last thing {PRONOUN/m_c/subject} hears is the metallic creaking of the leviathan's jaws, and then all goes dark",
         "m_c": {
             "age": [
                 "adolescent",
