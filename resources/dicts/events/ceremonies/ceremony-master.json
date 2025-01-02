@@ -340,7 +340,7 @@
       "grumpy",
       "rebellious"
     ],
-    "As m_c touches noses with (mentor), {PRONOUN/m_c/subject} {VERB/m_c/hope/hopes} that {PRONOUN/(mentor)/subject}'ll be a cool mentor that won't assign boring tasks. Anything but gathering moss or tick duty!"
+    "As m_c touches noses with (mentor), {PRONOUN/m_c/subject} {VERB/m_c/hope/hopes} that {PRONOUN/(mentor)/subject}'ll be a cool mentor that won't assign boring tasks. Anything but gathering moss or leech duty!"
   ],
   "app_21": [
     [
@@ -492,7 +492,7 @@
       "oblivious",
       "flamboyant"
     ],
-    "As m_c touches noses with (mentor), {PRONOUN/m_c/subject} {VERB/m_c/hope/hopes} {PRONOUN/m_c/subject}'ll get to do something that will really impress the Clan on {PRONOUN/m_c/poss} first day. Maybe {PRONOUN/m_c/subject} could catch a big, fat rabbit? Or chase off a fox! That'll show the Clan {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} the best apprentice anyone's ever seen!"
+    "As m_c touches noses with (mentor), {PRONOUN/m_c/subject} {VERB/m_c/hope/hopes} {PRONOUN/m_c/subject}'ll get to do something that will really impress the Clan on {PRONOUN/m_c/poss} first day. Maybe {PRONOUN/m_c/subject} could catch a big, fat lantern mouse? Or chase off a lizard! That'll show the Clan {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} the best apprentice anyone's ever seen!"
   ],
   "app_28": [
     [
@@ -513,7 +513,7 @@
       "competitive",
       "grumpy"
     ],
-    "m_c sits excitedly beside (mentor) as the meeting ends and hopes {PRONOUN/m_c/subject}'ll be doing something exciting like battle training first. {PRONOUN/m_c/poss/CAP} claws are itching to tear at something."
+    "m_c sits excitedly beside (mentor) as the meeting ends and hopes {PRONOUN/m_c/subject}'ll be doing something exciting like battle training first. {PRONOUN/m_c/poss/CAP} paws are itching to stab at something."
   ],
   "app_29": [
     [
@@ -716,7 +716,7 @@
       "general_backstory",
       "all_traits"
     ],
-    "m_c sits beside {PRONOUN/m_c/poss} new mentor (mentor) as the meeting comes to a close. {PRONOUN/m_c/poss/CAP} claws dig into the ground as {PRONOUN/m_c/subject} {VERB/m_c/glare/glares} up at the sky, wondering why dead_par1 couldn't be there with {PRONOUN/m_c/object} at such an important moment."
+    "m_c sits beside {PRONOUN/m_c/poss} new mentor (mentor) as the meeting comes to a close. {PRONOUN/m_c/poss/CAP} paws dig into the ground as {PRONOUN/m_c/subject} {VERB/m_c/glare/glares} up at the sky, wondering why dead_par1 couldn't be there with {PRONOUN/m_c/object} at such an important moment."
   ],
   "app_44": [
     [
@@ -858,7 +858,7 @@
       "general_backstory",
       "all_traits"
     ],
-    "(old_name), like every young slugpup, had dreams of becoming a warrior from a young age. However, as {PRONOUN/m_c/subject} grew older, {PRONOUN/m_c/subject} knew that {PRONOUN/m_c/poss} destiny lay in the medicine den. {PRONOUN/m_c/subject/CAP} happily {VERB/m_c/take/takes} up {PRONOUN/m_c/poss} new place as a cleric apprentice - looking forward to healing {PRONOUN/m_c/poss} Clanmates for many cycles to come."
+    "(old_name), like every young slugpup, had dreams of becoming a warrior from a young age. However, as {PRONOUN/m_c/subject} grew older, {PRONOUN/m_c/subject} knew that {PRONOUN/m_c/poss} destiny lay in the cleric den. {PRONOUN/m_c/subject/CAP} happily {VERB/m_c/take/takes} up {PRONOUN/m_c/poss} new place as a cleric apprentice - looking forward to healing {PRONOUN/m_c/poss} Clanmates for many cycles to come."
   ],
   "med_app_1": [
     [
@@ -1101,7 +1101,7 @@
       "general_backstory",
       "wise"
     ],
-    "m_c sees no reason to sully {PRONOUN/m_c/poss} claws with blood, {PRONOUN/m_c/subject} {VERB/m_c/are/is} far more interested in the knowledge and wisdom that can be gained by a cleric apprentice. (mentor) promises to teach {PRONOUN/m_c/object} all {PRONOUN/(mentor)/subject} {VERB/(mentor)/know/knows} and they go into the medicine den together immediately after the ceremony."
+    "m_c sees no reason to sully {PRONOUN/m_c/poss} paws with blood, {PRONOUN/m_c/subject} {VERB/m_c/are/is} far more interested in the knowledge and wisdom that can be gained by a cleric apprentice. (mentor) promises to teach {PRONOUN/m_c/object} all {PRONOUN/(mentor)/subject} {VERB/(mentor)/know/knows} and they go into the cleric den together immediately after the ceremony."
   ],
   "med_app_23": [
     [
@@ -1135,7 +1135,7 @@
       "flamboyant",
       "rebellious"
     ],
-    "After m_c touches noses with (mentor), {PRONOUN/m_c/subject} immediately {VERB/m_c/run/runs} towards the medicine den, boasting that {PRONOUN/m_c/subject} will be the best cleric any Clan has ever seen."
+    "After m_c touches noses with (mentor), {PRONOUN/m_c/subject} immediately {VERB/m_c/run/runs} towards the cleric den, boasting that {PRONOUN/m_c/subject} will be the best cleric any Clan has ever seen."
   ],
   "med_app_26": [
     [
@@ -1200,7 +1200,7 @@
       "general_backstory",
       "all_traits"
     ],
-    "m_c is fascinated by (mentor)'s ability to solve disputes without tooth or claw. (mentor) takes {PRONOUN/m_c/object} under {PRONOUN/(mentor)/poss} wing - {PRONOUN/m_c/subject/CAP} {VERB/m_c/are/is} clearly eager to learn."
+    "m_c is fascinated by (mentor)'s ability to solve disputes without tooth or spear. (mentor) takes {PRONOUN/m_c/object} under {PRONOUN/(mentor)/poss} wing - {PRONOUN/m_c/subject/CAP} {VERB/m_c/are/is} clearly eager to learn."
   ],
   "mediator_app_3": [
     [
@@ -1257,7 +1257,7 @@
       "general_backstory",
       "all_traits"
     ],
-    "Despite the odd choice, m_c is firm that {PRONOUN/m_c/subject}'ll be (mentor)'s apprentice: {PRONOUN/m_c/subject} {VERB/m_c/want/wants} to help the Clan through words and influence, not through claw or fang."
+    "Despite the odd choice, m_c is firm that {PRONOUN/m_c/subject}'ll be (mentor)'s apprentice: {PRONOUN/m_c/subject} {VERB/m_c/want/wants} to help the Clan through words and influence, not through spear or fang."
   ],
   "mediator_app_8": [
     [
