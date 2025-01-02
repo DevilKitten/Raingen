@@ -4,27 +4,27 @@ Added:
 - changing slugcat mentor icon slugcatified by Flamedash
 - credits tab updated for Raingen credits
 - 23 new pelts:
-  - dragonfruit, sparklecat, wolf, cherry, impish pelts by Harley
+  - dragonfruit, sparklecat, wolf, cherry, impish(colour corrected by Lars) pelts by Harley
   - necklace, duskdawn, dreamer, seer, rotten, fire, oldgrowth, ringed, shred, and glowing pelts by Foxett
   - countershaded, sunet, and hypnotist pelts by Cosmonaught
   - skinny, and sparse pelts by Loveskies
-  - sporty pelt by Mimalot 
+  - sporty(colour corrected by Lars) pelt by Mimalot 
   - fizzy pelt by Squidsaymoo
   - skeleslug pelt by Silveryshingu
 - 17 new white and tortie patches
   - night, halfface, halfbody, baller, and paint splat whitepatches by Loveskies
   - defender colorpoint, meistersaint, meisterriv, needlemaster, and meistergourm whitepatches by Harley
   - third eye, sprite error, plushie seams, skelescug, eyeliner, strong signal, and weak signal whitepatches by Cosmonaught
-- 52 new eye colours by Lars + multieye variants by Harley
+- 49 new eye colours by Lars, 1 new eye colour by Sunflowering + multieye variants by Harley
 - 14 new unique accessories (127 new accessories overall including color variants)
-  - 4 Lantern Mice Plushies variants by Lars
+  - 4 Lantern Mice Plushies variants by Lars, original sprite by Mimalot
   - 8 Inv Mouth variants by Cosmonaught
   - 5 Inspecter Eye Implant variations by Harley
   - 14 Neuron Glow variantions by Cosmonaught
   - Pearl Drapery by Lars
   - 7 Handheld Pearl variants by Lars
   - 4 Jewlery (Straight earings and all seeing earings) variants by Lars
-  - 13 Besieged Mask variants by Lars
+  - 13 Besieged Mask variants by flamedash, original sprite by Lars
   - 18 Pride Drapery variants by Harley
   - 26 Solid Drapery variants by Lovelyskies
   - 19 Makeshift Eyepatch variants by Lovelyskies
