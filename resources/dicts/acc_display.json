@@ -1214,6 +1214,11 @@
     "plural": "blue neuron glow",
     "singular": "blue neuron glow"
   },
+  "CELLIMPLANT": {
+    "default": "rarefaction cell implant",
+    "plural": "rarefaction cell implant",
+    "singular": "rarefaction cell implant"
+  },
   "ORANGEFIRE": {
     "default": "orange flame tail",
     "plural": "orange flame tails",
