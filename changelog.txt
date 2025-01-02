@@ -26,8 +26,8 @@ Added:
   - 4 Jewlery (Straight earings and all seeing earings) variants by Lars
   - 13 Besieged Mask variants by flamedash, original sprite by Lars
   - 18 Pride Drapery variants by Harley
-  - 26 Solid Drapery variants by Lovelyskies
-  - 19 Makeshift Eyepatch variants by Lovelyskies
+  - 26 Solid Drapery variants by Loveskies
+  - 19 Makeshift Eyepatch variants by Loveskies
   - Faux Mane by Harley
   - Fallen Star Mask and Paws by Harley
   - 5 Torn Cloak variants by Harley
