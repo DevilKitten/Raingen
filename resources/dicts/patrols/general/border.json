@@ -29,7 +29,7 @@
                 ]
             },
             {
-                "text": "s_c sets up an ambush for the wandering lizard. When the lizard nears {PRONOUN/s_c/poss} hiding spot, s_c leaps out with claws unsheathed, bloodies its snout, and leads it on a wild chasing dance across the border and out of c_n territory.",
+                "text": "s_c sets up an ambush for the wandering lizard. When the lizard nears {PRONOUN/s_c/poss} hiding spot, s_c leaps out, spear brandished, bloodies its snout, and leads it on a wild chasing dance across the border and out of c_n territory.",
                 "exp": 40,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,3"],
@@ -463,7 +463,7 @@
                 ]
             },
             {
-                "text": "s_c selflessly throws {PRONOUN/s_c/self} into the fight, and every time the red lizard tries to grab at {PRONOUN/s_c/poss} Clanmates, {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} there with claws, fur puffed out to twice {PRONOUN/s_c/poss} normal size. With s_c defending them, the patrol drives the lizard off, yowling triumphantly.",
+                "text": "s_c selflessly throws {PRONOUN/s_c/self} into the fight, and every time the red lizard tries to grab at {PRONOUN/s_c/poss} Clanmates, {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} there with a spear, standing to look twice {PRONOUN/s_c/poss} normal size. With s_c defending them, the patrol drives the lizard off, yowling triumphantly.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -610,7 +610,7 @@
                 ]
             },
             {
-                "text": "The patrol fights bravely, but you only need to be unlucky once. r_c gets taken out of the fight with one snap of the beast's huge jaws. The rest of the patrol rallies to defend {PRONOUN/r_c/object}, and r_c is safely helped back to camp, where the medicine den awaits.",
+                "text": "The patrol fights bravely, but you only need to be unlucky once. r_c gets taken out of the fight with one snap of the beast's huge jaws. The rest of the patrol rallies to defend {PRONOUN/r_c/object}, and r_c is safely helped back to camp, where the cleric den awaits.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1101,7 +1101,7 @@
                 ]
             },
             {
-                "text": "s_c selflessly throws {PRONOUN/s_c/self} into the fight, and every time the cyan lizard tries to grab at {PRONOUN/s_c/poss} Clanmates, {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} there with claws, fur puffed out to twice {PRONOUN/s_c/poss} normal size. With s_c defending them, the patrol drives the lizard off, yowling triumphantly.",
+                "text": "s_c selflessly throws {PRONOUN/s_c/self} into the fight, and every time the cyan lizard tries to grab at {PRONOUN/s_c/poss} Clanmates, {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} there, spear brandished, standing to look twice {PRONOUN/s_c/poss} normal size. With s_c defending them, the patrol drives the lizard off, yowling triumphantly.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1742,12 +1742,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "The patrol stumbles across a cyan lizard wandering through the middle of the Clan's territory.",
-        "decline_text": "The patrol decides not to pursue such a dangerous creature. c_n will just have to hope it doesn't come any nearer to camp.",
+        "intro_text": "The patrol stumbles across a pack of yellow lizards wandering through the middle of the Clan's territory.",
+        "decline_text": "The patrol decides not to pursue such dangerous creaturse. c_n will just have to hope they don't come any nearer to camp.",
         "chance_of_success": 10,
         "success_outcomes": [
             {
-                "text": "They decide that no slugcat is going to be surprised by this predator again, and the patrol shadows the lizard, sending a message to warn camp. With enough slugcats to keep watch, rest, track, and send messages back and forth, c_n is kept safe from the wandering lizard.",
+                "text": "They decide that no slugcat is going to be surprised by these predators again, and the patrol shadows the lizards, sending a message to warn camp. With enough slugcats to keep watch, rest, track, and send messages back and forth, c_n is kept safe from the wandering lizards.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -1761,7 +1761,7 @@
                 ]
             },
             {
-                "text": "The patrol gathers their courage and valiantly drives away the cyan lizard. Together, working as one, and with all the strength of the Ascended behind them, the patrol harries the lizard. By keeping up a series of small skirmishes through the entire day, they drive it all the way off c_n territory.",
+                "text": "The patrol gathers their courage and valiantly drives away the yellow lizards. Together, working as one, and with all the strength of the Ascended behind them, the patrol harries the lizards. By keeping up a series of small skirmishes through the entire day, they drive them all the way off c_n territory.",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -1775,7 +1775,7 @@
                 ]
             },
             {
-                "text": "s_c has just enough time to yowl out a plan, leading the whole large patrol in a skillful battle maneuver against the cyan lizard that protects the slugcats from the chance of injury. The lizard tucks tail and runs for more friendly lands.",
+                "text": "s_c has just enough time to yowl out a plan, leading the whole large patrol in a skillful battle maneuver against the yellow lizards that protects the slugcats from the chance of injury. The lizards tuck tail and run for more friendly lands.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,3"],
@@ -1790,7 +1790,7 @@
                 ]
             },
             {
-                "text": "s_c selflessly throws {PRONOUN/s_c/self} into the fight, and every time the cyan lizard tries to grab at {PRONOUN/s_c/poss} Clanmates, {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} there with claws, fur puffed out to twice {PRONOUN/s_c/poss} normal size. With s_c defending them, the patrol drives the lizard off, yowling triumphantly.",
+                "text": "s_c selflessly throws {PRONOUN/s_c/self} into the fight, and every time the yellow lizards try to grab at {PRONOUN/s_c/poss} Clanmates, {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} there, spear brandished, standing to look twice {PRONOUN/s_c/poss} normal size. With s_c defending them, the patrol drives the lizards off, yowling triumphantly.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1949,7 +1949,7 @@
                 ]
             },
             {
-                "text": "With so many slugcats all working as one, the cyan lizard started to get beaten back. But just as the tide of the fight seems about to turn, one lucky strike hits r_c, and those vicious jaws take {PRONOUN/r_c/object} to the Void.",
+                "text": "With so many slugcats all working as one, the yellow lizards start to get beaten back. But just as the tide of the fight seems about to turn, one lucky strike hits r_c, and those vicious jaws take {PRONOUN/r_c/object} to the Void.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["r_c"],
@@ -2000,9 +2000,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "This cat is scarred from bravely defending the Clan against a cyan lizard pack.",
-                    "reg_death": "This slugcat died to keep the Clan safe from a large cyan lizard pack.",
-                    "lead_death": "died to keep c_n safe from a large cyan lizard pack"
+                    "scar": "This cat is scarred from bravely defending the Clan against a yellow lizard pack.",
+                    "reg_death": "This slugcat died to keep the Clan safe from a large yellow lizard pack.",
+                    "lead_death": "died to keep c_n safe from a large yellow lizard pack"
                 },
                 "relationships": [
                     {
@@ -2046,12 +2046,12 @@
                 ]
             },
             {
-                "text": "r_c unsheathes {PRONOUN/r_c/poss} claws, puffs {PRONOUN/r_c/poss} fur out to as far as it'll go, gathers {PRONOUN/r_c/poss} courage, and drives the pink lizard from the border.",
+                "text": "r_c unsheathes {PRONOUN/r_c/poss} spear, standing as tall as {PRONOUN/r_c/subject} can, gathers {PRONOUN/r_c/poss} courage, and drives the pink lizard from the border.",
                 "exp": 10,
                 "weight": 5
             },
             {
-                "text": "s_c unleashes all {PRONOUN/r_c/poss} battle experience, darting this way and that, ripping chunks of lizard hide out as {PRONOUN/r_c/subject} {VERB/r_c/drive/drives} it into the distance.",
+                "text": "s_c unleashes all {PRONOUN/r_c/poss} battle experience, darting this way and that, slicing chunks of lizard hide as {PRONOUN/r_c/subject} {VERB/r_c/drive/drives} it into the distance.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,1"]
@@ -2175,7 +2175,7 @@
                 ]
             },
             {
-                "text": "The patrol paces towards the pink lizard, claws out, fur up, backed up with the courage of their Clanmates. The lizard breaks into a hissing fit, but that's their opportunity to attack, covering each other as they push the creature away from their territory.",
+                "text": "The patrol paces towards the pink lizard, spear out, standing tall, backed up with the courage of their Clanmates. The lizard breaks into a hissing fit, but that's their opportunity to attack, covering each other as they push the creature away from their territory.",
                 "exp": 10,
                 "weight": 5,
                 "relationships": [
@@ -2295,7 +2295,7 @@
                 "chance_of_success": 10,
         "success_outcomes": [
             {
-                "text": "The patrol paces towards the pink lizard, claws out, fur up, backed up with the courage of their Clanmates. The lizard breaks into a hissing fit, but that's their opportunity to attack, covering each other as they push the creature away from their territory.",
+                "text": "The patrol paces towards the pink lizard, spear out, standing tall, backed up with the courage of their Clanmates. The lizard breaks into a hissing fit, but that's their opportunity to attack, covering each other as they push the creature away from their territory.",
                 "exp": 10,
                 "weight": 20,
                 "relationships": [
@@ -2443,12 +2443,12 @@
                 ]
             },
             {
-                "text": "r_c unsheathes {PRONOUN/r_c/poss} claws, puffs {PRONOUN/r_c/poss} fur out to as far as it'll go, gathers {PRONOUN/r_c/poss} courage, and drives the blue lizard from the border.",
+                "text": "r_c unsheathes {PRONOUN/r_c/poss} spear, standing as tall as {PRONOUN/r_c/subject} can, gathers {PRONOUN/r_c/poss} courage, and drives the blue lizard from the border.",
                 "exp": 10,
                 "weight": 5
             },
             {
-                "text": "s_c unleashes all {PRONOUN/r_c/poss} battle experience, darting this way and that, ripping chunks of lizard hide out as {PRONOUN/r_c/subject} {VERB/r_c/drive/drives} it into the distance.",
+                "text": "s_c unleashes all {PRONOUN/r_c/poss} battle experience, darting this way and that, slicing chunks of lizard hide as {PRONOUN/r_c/subject} {VERB/r_c/drive/drives} it into the distance.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,1"]
@@ -2572,7 +2572,7 @@
                 ]
             },
             {
-                "text": "The patrol paces towards the blue lizard, claws out, fur up, backed up with the courage of their Clanmates. The lizard breaks into a hissing fit, but that's their opportunity to attack, covering each other as they push the creature away from their territory.",
+                "text": "The patrol paces towards the blue lizard, spears out, standing tall, backed up with the courage of their Clanmates. The lizard breaks into a hissing fit, but that's their opportunity to attack, covering each other as they push the creature away from their territory.",
                 "exp": 10,
                 "weight": 5,
                 "relationships": [
@@ -2692,7 +2692,7 @@
                 "chance_of_success": 10,
         "success_outcomes": [
             {
-                "text": "The patrol paces towards the blue lizard, claws out, fur up, backed up with the courage of their Clanmates. The lizard breaks into a hissing fit, but that's their opportunity to attack, covering each other as they push the creature away from their territory.",
+                "text": "The patrol paces towards the blue lizard, spears out, standing tall, backed up with the courage of their Clanmates. The lizard breaks into a hissing fit, but that's their opportunity to attack, covering each other as they push the creature away from their territory.",
                 "exp": 10,
                 "weight": 20,
                 "relationships": [
@@ -2840,12 +2840,12 @@
                 ]
             },
             {
-                "text": "r_c unsheathes {PRONOUN/r_c/poss} claws, puffs {PRONOUN/r_c/poss} fur out to as far as it'll go, gathers {PRONOUN/r_c/poss} courage, and drives the green lizard from the border.",
+                "text": "r_c unsheathes {PRONOUN/r_c/poss} spear, standing as tall as {PRONOUN/r_c/subject} can, gathers {PRONOUN/r_c/poss} courage, and drives the green lizard from the border.",
                 "exp": 10,
                 "weight": 5
             },
             {
-                "text": "s_c unleashes all {PRONOUN/r_c/poss} battle experience, darting this way and that, ripping chunks of lizard hide out as {PRONOUN/r_c/subject} {VERB/r_c/drive/drives} it into the distance.",
+                "text": "s_c unleashes all {PRONOUN/r_c/poss} battle experience, darting this way and that, slicing chunks of lizard hide as {PRONOUN/r_c/subject} {VERB/r_c/drive/drives} it into the distance.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,1"]
@@ -2910,7 +2910,7 @@
                 "weight": 20
             },
             {
-                "text": "The animal is far more powerful than r_c ever expected, and once the fight starts, there's no escaping from it. As r_c's world goes dark, {PRONOUN/r_c/subject} {VERB/r_c/have/has} {PRONOUN/r_c/poss} fangs sunk in the blue lizard's throat. At least {PRONOUN/r_c/subject}'ll take the beast with {PRONOUN/r_c/object}.",
+                "text": "The animal is far more powerful than r_c ever expected, and once the fight starts, there's no escaping from it. As r_c's world goes dark, {PRONOUN/r_c/subject} {VERB/r_c/have/has} {PRONOUN/r_c/poss} fangs sunk in the green lizard's throat. At least {PRONOUN/r_c/subject}'ll take the beast with {PRONOUN/r_c/object}.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["r_c"],
@@ -2969,7 +2969,7 @@
                 ]
             },
             {
-                "text": "The patrol paces towards the green lizard, claws out, fur up, backed up with the courage of their Clanmates. The lizard breaks into a hissing fit, but that's their opportunity to attack, covering each other as they push the creature away from their territory.",
+                "text": "The patrol paces towards the green lizard, spears out, standing tall, backed up with the courage of their Clanmates. The lizard breaks into a hissing fit, but that's their opportunity to attack, covering each other as they push the creature away from their territory.",
                 "exp": 10,
                 "weight": 5,
                 "relationships": [
@@ -3100,7 +3100,7 @@
                 "chance_of_success": 10,
         "success_outcomes": [
             {
-                "text": "The patrol paces towards the green lizard, claws out, fur up, backed up with the courage of their Clanmates. The lizard breaks into a hissing fit, but that's their opportunity to attack, covering each other as they push the creature away from their territory.",
+                "text": "The patrol paces towards the green lizard, spears out, standing tall, backed up with the courage of their Clanmates. The lizard breaks into a hissing fit, but that's their opportunity to attack, covering each other as they push the creature away from their territory.",
                 "exp": 10,
                 "weight": 20,
                 "relationships": [
@@ -3259,12 +3259,12 @@
                 ]
             },
             {
-                "text": "r_c unsheathes {PRONOUN/r_c/poss} claws, puffs {PRONOUN/r_c/poss} fur out to as far as it'll go, gathers {PRONOUN/r_c/poss} courage, and drives the white lizard from the border.",
+                "text": "r_c unsheathes {PRONOUN/r_c/poss} spear, standing as tall as {PRONOUN/r_c/subject} can, gathers {PRONOUN/r_c/poss} courage, and drives the white lizard from the border.",
                 "exp": 10,
                 "weight": 5
             },
             {
-                "text": "s_c unleashes all {PRONOUN/r_c/poss} battle experience, darting this way and that, ripping chunks of lizard hide out as {PRONOUN/r_c/subject} {VERB/r_c/drive/drives} it into the distance.",
+                "text": "s_c unleashes all {PRONOUN/r_c/poss} battle experience, darting this way and that, slicing chunks of lizard hide as {PRONOUN/r_c/subject} {VERB/r_c/drive/drives} it into the distance.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,1"]
@@ -3388,7 +3388,7 @@
                 ]
             },
             {
-                "text": "The patrol paces towards the white lizard, claws out, fur up, backed up with the courage of their Clanmates. The lizard breaks into a hissing fit, but that's their opportunity to attack, covering each other as they push the creature away from their territory.",
+                "text": "The patrol paces towards the white lizard, spears out, standing tall, backed up with the courage of their Clanmates. The lizard breaks into a hissing fit, but that's their opportunity to attack, covering each other as they push the creature away from their territory.",
                 "exp": 10,
                 "weight": 5,
                 "relationships": [
@@ -3519,7 +3519,7 @@
                 "chance_of_success": 10,
         "success_outcomes": [
             {
-                "text": "The patrol paces towards the white lizard, claws out, fur up, backed up with the courage of their Clanmates. The lizard breaks into a hissing fit, but that's their opportunity to attack, covering each other as they push the creature away from their territory.",
+                "text": "The patrol paces towards the white lizard, spears out, standing tall, backed up with the courage of their Clanmates. The lizard breaks into a hissing fit, but that's their opportunity to attack, covering each other as they push the creature away from their territory.",
                 "exp": 10,
                 "weight": 20,
                 "relationships": [
@@ -3678,12 +3678,12 @@
                 ]
             },
             {
-                "text": "r_c unsheathes {PRONOUN/r_c/poss} claws, puffs {PRONOUN/r_c/poss} fur out to as far as it'll go, gathers {PRONOUN/r_c/poss} courage, and drives the salamander from the border.",
+                "text": "r_c unsheathes {PRONOUN/r_c/poss} spear, standing as tall as {PRONOUN/r_c/subject} can, gathers {PRONOUN/r_c/poss} courage, and drives the salamander from the border.",
                 "exp": 10,
                 "weight": 5
             },
             {
-                "text": "s_c unleashes all {PRONOUN/r_c/poss} battle experience, darting this way and that, ripping chunks of salamander hide out as {PRONOUN/r_c/subject} {VERB/r_c/drive/drives} it into the distance.",
+                "text": "s_c unleashes all {PRONOUN/r_c/poss} battle experience, darting this way and that, slicing chunks of salamander hide as {PRONOUN/r_c/subject} {VERB/r_c/drive/drives} it into the distance.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,1"]
@@ -3859,7 +3859,7 @@
                 ]
             },
             {
-                "text": "The patrol paces towards the salamander, claws out, fur up, backed up with the courage of their Clanmates. The salamander breaks into a hissing fit, but that's their opportunity to attack, covering each other as they push the creature away from their territory.",
+                "text": "The patrol paces towards the salamander, spears out, standing tall, backed up with the courage of their Clanmates. The salamander breaks into a hissing fit, but that's their opportunity to attack, covering each other as they push the creature away from their territory.",
                 "exp": 10,
                 "weight": 5,
                 "relationships": [
@@ -4044,7 +4044,7 @@
                 "chance_of_success": 10,
         "success_outcomes": [
             {
-                "text": "The patrol paces towards the salamander, claws out, fur up, backed up with the courage of their Clanmates. The salamander breaks into a hissing fit, but that's their opportunity to attack, covering each other as they push the creature away from their territory.",
+                "text": "The patrol paces towards the salamander, spears out, standing tall, backed up with the courage of their Clanmates. The salamander breaks into a hissing fit, but that's their opportunity to attack, covering each other as they push the creature away from their territory.",
                 "exp": 10,
                 "weight": 20,
                 "relationships": [
@@ -4257,12 +4257,12 @@
                 ]
             },
             {
-                "text": "r_c unsheathes {PRONOUN/r_c/poss} claws, puffs {PRONOUN/r_c/poss} fur out to as far as it'll go, gathers {PRONOUN/r_c/poss} courage, and drives the lizard from the border.",
+                "text": "r_c unsheathes {PRONOUN/r_c/poss} spear, standing as tall as {PRONOUN/r_c/subject} can, gathers {PRONOUN/r_c/poss} courage, and drives the lizard from the border.",
                 "exp": 10,
                 "weight": 5
             },
             {
-                "text": "s_c unleashes all {PRONOUN/r_c/poss} battle experience, darting this way and that, ripping chunks of lizard hide out as {PRONOUN/r_c/subject} {VERB/r_c/drive/drives} it into the distance.",
+                "text": "s_c unleashes all {PRONOUN/r_c/poss} battle experience, darting this way and that, sicing chunks of lizard hide as {PRONOUN/r_c/subject} {VERB/r_c/drive/drives} it into the distance.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,1"]
@@ -4386,7 +4386,7 @@
                 ]
             },
             {
-                "text": "The patrol paces towards the lizard, claws out, fur up, backed up with the courage of their Clanmates. The lizard breaks into a hissing fit, but that's their opportunity to attack, covering each other as they push the creature away from their territory.",
+                "text": "The patrol paces towards the lizard, spears out, standing tall, backed up with the courage of their Clanmates. The lizard breaks into a hissing fit, but that's their opportunity to attack, covering each other as they push the creature away from their territory.",
                 "exp": 10,
                 "weight": 5,
                 "relationships": [
@@ -4519,7 +4519,7 @@
                 "chance_of_success": 10,
         "success_outcomes": [
             {
-                "text": "The patrol paces towards the salamander, claws out, fur up, backed up with the courage of their Clanmates. The salamander breaks into a hissing fit, but that's their opportunity to attack, covering each other as they push the creature away from their territory.",
+                "text": "The patrol paces towards the salamander, spears out, standing tall, backed up with the courage of their Clanmates. The salamander breaks into a hissing fit, but that's their opportunity to attack, covering each other as they push the creature away from their territory.",
                 "exp": 10,
                 "weight": 20,
                 "relationships": [
@@ -4781,7 +4781,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "p_l orders the patrol to go back to camp, asking that r_c be left behind to help {PRONOUN/p_l/object}. They approach the little slugpups and convince them that they're gonna give them the best badger ride ever. As they approach o_c_n's camp with the slugpups squealing with joy on their back, they are greeted with relief and laughter.",
+                "text": "p_l orders the patrol to go back to camp, asking that r_c be left behind to help {PRONOUN/p_l/object}. They approach the little slugpups and convince them that they're gonna give them the best deer ride ever. As they approach o_c_n's camp with the slugpups squealing with joy on their back, they are greeted with relief and laughter.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1", "MEDIATOR,1"],
@@ -4832,7 +4832,7 @@
                 "other_clan_rep": -1
             },
             {
-                "text": "As p_l crosses the border with r_c to grab the slugpups by their scruff, a o_c_n patrol suddenly appears, looking furious, with their claws unsheathed and fangs bared! r_c gently drops the slugpup and attempts to explain the situation but is immediately and viciously killed. p_l races back over to their side of the border, just barely escaping the wrath of o_c_n warriors.",
+                "text": "As p_l crosses the border with r_c to grab the slugpups by their scruff, a o_c_n patrol suddenly appears, looking furious, with their spears unsheathed and fangs bared! r_c gently drops the slugpup and attempts to explain the situation but is immediately and viciously killed. p_l races back over to their side of the border, just barely escaping the wrath of o_c_n warriors.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["r_c"],
@@ -4918,7 +4918,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "p_l tells the patrol to continue on and hops over the border to walk to o_c_n's camp. {PRONOUN/p_l/subject/CAP} {VERB/p_l/are/is} greeted at the camp entrance with bristled fur, angry hisses and the leader demanding to know what {PRONOUN/p_l/subject}{VERB/p_l/'re/'s} doing there. {PRONOUN/p_l/subject/CAP} {VERB/p_l/explain/explains} the situation and, with {PRONOUN/p_l/poss} smooth-talking skills, {VERB/p_l/manage/manages} to convince the slugcats of {PRONOUN/p_l/poss} good intentions. The leader thanks {PRONOUN/p_l/object} and orders a patrol to escort {PRONOUN/p_l/object} back to the border.",
+                "text": "p_l tells the patrol to continue on and hops over the border to walk to o_c_n's camp. {PRONOUN/p_l/subject/CAP} {VERB/p_l/are/is} greeted at the camp entrance with unsheathed spears, angry hisses and the leader demanding to know what {PRONOUN/p_l/subject}{VERB/p_l/'re/'s} doing there. {PRONOUN/p_l/subject/CAP} {VERB/p_l/explain/explains} the situation and, with {PRONOUN/p_l/poss} smooth-talking skills, {VERB/p_l/manage/manages} to convince the slugcats of {PRONOUN/p_l/poss} good intentions. The leader thanks {PRONOUN/p_l/object} and orders a patrol to escort {PRONOUN/p_l/object} back to the border.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1", "MEDIATOR,1"],
@@ -5095,7 +5095,7 @@
         "chance_of_success": 45,
         "success_outcomes": [
             {
-                "text": "{PRONOUN/p_l/subject/CAP} {VERB/p_l/crouch/crouches} out of sight and {VERB/p_l/wait/waits}, still as stone. After a short while, there's a soft call across the border. Perking up, p_l rushes forward, pushing {PRONOUN/p_l/poss} nose into the fur of a slugcat from o_c_n. Tails entwined, they talk in hushed voices until the stars start to blink out. With a soft goodbye, each returns home, their Clans unaware of their secret.",
+                "text": "{PRONOUN/p_l/subject/CAP} {VERB/p_l/crouch/crouches} out of sight and {VERB/p_l/wait/waits}, still as stone. After a short while, there's a soft call across the border. Perking up, p_l rushes forward, pushing {PRONOUN/p_l/poss} nose into the pelt of a slugcat from o_c_n. Tails entwined, they talk in hushed voices until the stars start to blink out. With a soft goodbye, each returns home, their Clans unaware of their secret.",
                 "exp": 5,
                 "weight": 20
             },
@@ -5229,7 +5229,7 @@
                 "other_clan_rep": -1
             },
             {
-                "text": "Deciding it looks safe enough, p_l sneaks across the border... right into a late-night border patrol. {PRONOUN/p_l/subject/CAP}'{VERB/p_l/re/s} dealt with pretty quickly, and {PRONOUN/p_l/poss} fur prickles with embarrassment as {PRONOUN/p_l/subject} {VERB/p_l/scramble/scrambles} back over the border. {PRONOUN/p_l/subject} {VERB/p_l/have/has} the whole walk back to camp to think of an explanation for the fresh claw-wounds scoring {PRONOUN/p_l/poss} pelt.",
+                "text": "Deciding it looks safe enough, p_l sneaks across the border... right into a late-night border patrol. {PRONOUN/p_l/subject/CAP}'{VERB/p_l/re/s} dealt with pretty quickly, and {PRONOUN/p_l/poss} pelt prickles with embarrassment as {PRONOUN/p_l/subject} {VERB/p_l/scramble/scrambles} back over the border. {PRONOUN/p_l/subject} {VERB/p_l/have/has} the whole walk back to camp to think of an explanation for the fresh claw-wounds scoring {PRONOUN/p_l/poss} pelt.",
                 "exp": 0,
                 "weight": 10,
                 "stat_trait": [
@@ -5353,7 +5353,7 @@
                 "weight": 20
             },
             {
-                "text": "The patrol cautiously heads in the direction of the strange, motionless eyes. When p_l gets closer {PRONOUN/p_l/subject} {VERB/p_l/are/is} overwhelmed with the scent of Iterators and smoke. Upon closer inspection, it seems that these foolish Scavengers are trying to set fire to a pumpkin with an unsettling hollow face! p_l and r_c charge the Iterators, hissing, spitting, and doing their best to scare them off. Thankfully the Iterators scatter before they set the pumpkin ablaze.",
+                "text": "The patrol cautiously heads in the direction of the strange, motionless eyes. When p_l gets closer {PRONOUN/p_l/subject} {VERB/p_l/are/is} overwhelmed with the scent of Scavengers and smoke. Upon closer inspection, it seems that these foolish Scavengers are trying to set fire to a pumpkin with an unsettling hollow face! p_l and r_c charge the Scavengers, hissing, spitting, and doing their best to scare them off. Thankfully the Scavengers scatter before they set the pumpkin ablaze.",
                 "exp": 10,
                 "weight": 5
             },
@@ -5383,7 +5383,7 @@
                     "LONER,0"]
             },
             {
-                "text": "The patrol nervously heads towards the unblinking eyes, unsure of what lies ahead. As the strange object comes into view, s_c begins to bristle with unease. {PRONOUN/s_c/subject/CAP} can see strange, mist-like Scavengers floating around the glowing, unblinking face of a... pumpkin? The figures approach s_c, and run their cold, fur-less paws through {PRONOUN/s_c/subject} fur. s_c can hardly hear r_c asking {PRONOUN/s_c/object} why {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} frozen in place.",
+                "text": "The patrol nervously heads towards the unblinking eyes, unsure of what lies ahead. As the strange object comes into view, s_c begins to bristle with unease. {PRONOUN/s_c/subject/CAP} can see strange, mist-like Scavengers floating around the glowing, unblinking face of a... pumpkin? The figures approach s_c, and run their cold, fur-less paws along {PRONOUN/s_c/subject} pelt. s_c can hardly hear r_c asking {PRONOUN/s_c/object} why {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} frozen in place.",
                 "exp": 20,
                 "weight": 10,
                 "stat_skill": ["GHOST,1"]
@@ -5480,7 +5480,7 @@
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "r_c hesitantly approaches the scavenger, fur bristling and on guard. It doesn't appear to notice {PRONOUN/r_c/object} yet. Paw by paw, r_c inches forward, but realizes something seems off. Is this scavenger... even alive? After a quick investigation, r_c finds hay sticking out of the scavenger's pelt. How odd. r_c reports back with {PRONOUN/r_c/poss} findings.",
+                "text": "r_c hesitantly approaches the scavenger, spear brandished and on guard. It doesn't appear to notice {PRONOUN/r_c/object} yet. Paw by paw, r_c inches forward, but realizes something seems off. Is this scavenger... even alive? After a quick investigation, r_c finds hay sticking out of the scavenger's pelt. How odd. r_c reports back with {PRONOUN/r_c/poss} findings.",
                 "exp": 10,
                 "weight": 20
             },
@@ -5507,7 +5507,7 @@
                 "weight": 10
             },
             {
-                "text": "s_c sneaks up behind the scavenger. With a mighty roar, s_c leaps onto its back and {PRONOUN/s_c/poss} momentum sends both of them to the ground. s_c ends up covered in hay, {PRONOUN/s_c/poss} claws sunk into a harmless scarecrow.",
+                "text": "s_c sneaks up behind the scavenger. With a mighty roar, s_c leaps onto its back and {PRONOUN/s_c/poss} momentum sends both of them to the ground. s_c ends up covered in hay, {PRONOUN/s_c/poss} spear sunk into a harmless scarecrow.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,0"]
@@ -5552,7 +5552,7 @@
                 ]
             },
             {
-                "text": "p_l and r_c had been bickering the entire morning. But when {PRONOUN/p_l/subject} {VERB/p_l/spot/spots} the shadow of a rouge falling on r_c, {PRONOUN/p_l/subject} {VERB/p_l/react/reacts} without thought, leaping forward, claws ripping into the enemy's back and flipping them off r_c with a ferocious snarl. r_c is badly injured, but will live thanks to p_l dragging {PRONOUN/r_c/object} back to camp.",
+                "text": "p_l and r_c had been bickering the entire morning. But when {PRONOUN/p_l/subject} {VERB/p_l/spot/spots} the shadow of a rouge falling on r_c, {PRONOUN/p_l/subject} {VERB/p_l/react/reacts} without thought, leaping forward, spear lodged into the enemy's back and flipping them off r_c with a ferocious snarl. r_c is badly injured, but will live thanks to p_l dragging {PRONOUN/r_c/object} back to camp.",
                 "exp": 10,
                 "weight": 5,
                 "injury": {
@@ -5733,7 +5733,7 @@
                 ]
             },
             {
-                "text": "p_l and r_c had been arguing the entire morning. But when {PRONOUN/p_l/subject} {VERB/p_l/spot/spots} the shadow of a rouge falling on r_c, {PRONOUN/p_l/subject} {VERB/p_l/react/reacts} without thought, leaping forward, claws ripping into the enemy's back and flipping them off r_c with a ferocious snarl. r_c is badly injured, but will live thanks to p_l dragging {PRONOUN/r_c/object} back to camp.",
+                "text": "p_l and r_c had been arguing the entire morning. But when {PRONOUN/p_l/subject} {VERB/p_l/spot/spots} the shadow of a rouge falling on r_c, {PRONOUN/p_l/subject} {VERB/p_l/react/reacts} without thought, leaping forward, spear lodged into the enemy's back and flipping them off r_c with a ferocious snarl. r_c is badly injured, but will live thanks to p_l dragging {PRONOUN/r_c/object} back to camp.",
                 "exp": 10,
                 "weight": 15,
                 "injury": {
@@ -5790,7 +5790,7 @@
                 "weight": 20
             },
             {
-                "text": "In the midst of another argument, p_l swiftly swipes at r_c to shut {PRONOUN/r_c/object} up. r_c hisses, and slashes back. Fur flies as both cats trade blows. The chaotic brawl ends with both of them wounded and a tense silence in the air. When they return to camp, many eyes stare in judgement. The Clan is disappointed in their actions.",
+                "text": "In the midst of another argument, p_l swiftly swipes at r_c to shut {PRONOUN/r_c/object} up. r_c hisses, and slashes back. Blood flies as both slugcats trade blows. The chaotic brawl ends with both of them wounded and a tense silence in the air. When they return to camp, many eyes stare in judgement. The Clan is disappointed in their actions.",
                 "exp": 0,
                 "weight": 10,
                 "injury": {
@@ -5945,7 +5945,7 @@
                 "art": "gen_train_speakingromance1"
             },
             {
-                "text": "p_l dips {PRONOUN/p_l/poss} head to the o_c_n patrol in respect, and the patrol carries on marking the border. app1 is distracted from the other apprentice and helps p_l mark a tree stump.",
+                "text": "p_l dips {PRONOUN/p_l/poss} head to the o_c_n patrol in respect, and the patrol carries on marking the border. app1 is distracted from the other apprentice and helps p_l mark a broken pole.",
                 "exp": 10,
                 "weight": 20,
                 "other_clan_rep": 1
@@ -6021,7 +6021,7 @@
         "antag_success_outcomes":
         [
             {
-                "text": "app1 sashays up to the border with a smirk and marks the border just a <i>bit</i> further forward than {PRONOUN/app1/subject} should. r_c points this out to app1, who protests that it's just one little mouse-length and shoots an insolent smile at the o_c_n apprentice. The o_c_n patrol's annoyed stares follow c_n's patrol as they carry on.",
+                "text": "app1 sashays up to the border with a smirk and marks the border just a <i>bit</i> further forward than {PRONOUN/app1/subject} should. r_c points this out to app1, who protests that it's just one little eggbug-length and shoots an insolent smile at the o_c_n apprentice. The o_c_n patrol's annoyed stares follow c_n's patrol as they carry on.",
                 "exp": 15,
                 "weight": 40,
                 "stat_trait": [ "arrogant", "troublesome", "shameless", "confident", "daring", "flamboyant", "sneaky", "daring", "cunning", "rebellious", "vengeful", "bold" ],
@@ -6044,7 +6044,7 @@
                 ]
             },
             {
-                "text": "app1 doesn't get the chance to meow hello to the o_c_n apprentice - s_c hisses and arches {PRONOUN/s_c/poss} back, staring down the other patrol. The o_c_n warriors respond in kind, fluffing out their pelts and slitting their eyes. Tension hangs heavy in the air, and both patrols spend more time posturing than border-marking.",
+                "text": "app1 doesn't get the chance to meow hello to the o_c_n apprentice - s_c hisses and arches {PRONOUN/s_c/poss} back, staring down the other patrol. The o_c_n warriors respond in kind, standing taller and slitting their eyes. Tension hangs heavy in the air, and both patrols spend more time posturing than border-marking.",
                 "exp": 15,
                 "weight": 40,
                 "stat_trait": [ "bloodthirsty", "fierce", "vengeful", "cold", "arrogant", "daring", "bold", "confident" ],
@@ -6088,7 +6088,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "The sneering comment has barely left app1's mouth before the other apprentice bunches their hind legs and springs across the border, claws out! The two apprentices tussle for a moment, hissing and spitting, then r_c and a o_c_n warrior drag them off each other. app1 trades spiteful looks with the other apprentice as the patrols hurry away from each other. {PRONOUN/app1/subject/CAP}'ll be hearing about this back at camp.",
+                "text": "The sneering comment has barely left app1's mouth before the other apprentice bunches their hind legs and springs across the border, spear out! The two apprentices tussle for a moment, hissing and spitting, then r_c and a o_c_n warrior drag them off each other. app1 trades spiteful looks with the other apprentice as the patrols hurry away from each other. {PRONOUN/app1/subject/CAP}'ll be hearing about this back at camp.",
                 "exp": 0,
                 "weight": 20,
                 "other_clan_rep": -2,
@@ -6116,7 +6116,7 @@
                 ]
             },
             {
-                "text": "app1 raises {PRONOUN/app1/poss} hackles, staring down the other apprentice until they spit a challenge back. Tempers flare, and the patrols size each other up. It doesn't take much for the o_c_n patrol to decide c_n has put a paw wrong and leap across the border with claws unsheathed and teeth bared. s_c breaks up the skirmish, convincing {PRONOUN/s_c/poss} Clanmates not to waste all the cleric's herbs on a petty dispute.",
+                "text": "app1 raises {PRONOUN/app1/poss} hackles, staring down the other apprentice until they spit a challenge back. Tempers flare, and the patrols size each other up. It doesn't take much for the o_c_n patrol to decide c_n has put a paw wrong and leap across the border with spears unsheathed and teeth bared. s_c breaks up the skirmish, convincing {PRONOUN/s_c/poss} Clanmates not to waste all the cleric's herbs on a petty dispute.",
                 "exp": 0,
                 "weight": 40,
                 "stat_skill": [ "MEDIATOR,1", "SPEAKER,1", "TEACHER,1", "INSIGHTFUL,1"],
