@@ -264,7 +264,7 @@ class Events:
             )
             if not med_fullfilled:
                 string = (
-                    f"{game.clan.name}Clan does not have enough healthy clerics! Slugats will be sick/hurt "
+                    f"{game.clan.name}Clan does not have enough healthy clerics! Slugcats will be sick/hurt "
                     f"for longer and have a higher chance of dying. "
                 )
                 game.cur_events_list.insert(0, Single_Event(string, "health"))
@@ -573,7 +573,7 @@ class Events:
 
             prey_amount += random.randint(lower_value, upper_value)
         game.freshkill_event_list.append(
-            f"The clan managed to catch {prey_amount} pieces of prey in this moon."
+            f"The clan managed to catch {prey_amount} pieces of prey in this cycle."
         )
         game.clan.freshkill_pile.add_freshkill(prey_amount)
 
@@ -621,7 +621,7 @@ class Events:
                     herbs_found = []
                     herb_display = []
                 if not herbs_found:
-                    event_list.append(f"{med.name} could not find any herbs this moon.")
+                    event_list.append(f"{med.name} could not find any herbs this cycle.")
                 else:
                     try:
                         if len(herbs_found) == 1:
@@ -630,10 +630,10 @@ class Events:
                             insert = f"{herb_display[0]} and {herb_display[1]}"
                         else:
                             insert = f"{', '.join(herb_display[:-1])}, and {herb_display[-1]}"
-                        event_list.append(f"{med.name} gathered {insert} this moon.")
+                        event_list.append(f"{med.name} gathered {insert} this cycle.")
                     except IndexError:
                         event_list.append(
-                            f"{med.name} could not find any herbs this moon."
+                            f"{med.name} could not find any herbs this cycle."
                         )
                         return
             game.herb_events_list.extend(event_list)
@@ -904,7 +904,7 @@ class Events:
                 if len(value) == 1:
                     game.cur_events_list.append(
                         Single_Event(
-                            f"One cat got {condition_type} during {text_snippet}",
+                            f"One slugcat got {condition_type} during {text_snippet}",
                             "health",
                             value,
                         )
@@ -912,7 +912,7 @@ class Events:
                 elif len(value) > 1:
                     game.cur_events_list.append(
                         Single_Event(
-                            f"Multiple cats got {condition_type} {text_snippet}",
+                            f"Multiple slugcats got {condition_type} {text_snippet}",
                             "health",
                             value,
                         )
