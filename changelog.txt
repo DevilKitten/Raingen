@@ -1,5 +1,5 @@
 <strong>.1.4.0</strong>
-Added: (oh boy here we go)
+Added:
 - THE CHANGELOG IS NOW REAL
 - changing slugcat mentor icon slugcatified by Flamedash
 - credits tab updated for Raingen credits
