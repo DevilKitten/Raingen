@@ -759,9 +759,9 @@ class Pregnancy_Events:
                 # No parents provided, give a blood parent - this is an adoption.
                 if not blood_parent:
                     # Generate a blood parent if we haven't already.
-                    insert = "their kits are"
+                    insert = "their slugpups are"
                     if kits_amount == 1:
-                        insert = "their kit is"
+                        insert = "their slugpup is"
                     thought = f"Is glad that {insert} safe"
                     blood_parent = create_new_cat(Cat,
                                                   status=random.choice(["loner", "kittypet"]),
