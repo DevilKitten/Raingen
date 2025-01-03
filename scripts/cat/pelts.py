@@ -68,6 +68,7 @@ class Pelt():
         'Skeleton': 'skeleton',
         'Shred': 'shred',
         'Glowing': 'glowing',
+        'Mold': 'mold',
         'Tortie': None,
         'Calico': None,
     }
@@ -103,7 +104,7 @@ class Pelt():
                 'fluffy', 'amoeba', 'yeek', 'rusted', 'envoy', 'drizzle', 'solace', 'leafy', 'scaled', 'dragonfruit', 
                 'necklace', 'dreamer', 'duskdawn', 'seer', 'rotten', 'fire', 'countershaded', 'sunset', 'oldgrowth', 
                 'sparklecat', 'wolf', 'cherry', 'hypnotist', 'ringed', 'skinny', 'sparse', 'impish', 'sporty', 
-                'skeleton', 'shred', 'glowing']
+                'skeleton', 'shred', 'glowing', 'mold']
     
     pelt_length = ["short", "medium", "long"]
     eye_colours = ['YELLOW', 'AMBER', 'HAZEL', 'PALEGREEN', 'GREEN', 'BLUE', 'DARKBLUE', 'GREY', 'CYAN', 'EMERALD', 'PALEBLUE', 
