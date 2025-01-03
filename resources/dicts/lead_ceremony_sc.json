@@ -15,21 +15,21 @@
       "tags": [],
       "lead_trait": [],
       "text": [
-        "m_c leaves to speak with the Ascended. {PRONOUN/m_c/subject/CAP} {VERB/m_c/close/closes} {PRONOUN/m_c/poss} eyes and {VERB/m_c/are/is} immediately surrounded by {PRONOUN/m_c/poss} loved ones, friends, and Clanmates who have passed on. Stars shine throughout their pelts, and their eyes are warm as they greet the new leader."
+        "m_c leaves to speak with the Ascended. {PRONOUN/m_c/subject/CAP} {VERB/m_c/close/closes} {PRONOUN/m_c/poss} eyes and {VERB/m_c/are/is} immediately surrounded by {PRONOUN/m_c/poss} loved ones, friends, and Clanmates who have passed on. Their pelts shimmering and shifting like the Void around them. Their eyes are warm as they greet the new leader."
       ]
     },
     "new_clan": {
       "tags": ["new_clan"],
       "lead_trait": [],
       "text": [
-        "As m_c dreams that night, {PRONOUN/m_c/subject} {VERB/m_c/find/finds} {PRONOUN/m_c/self} walking the Void, a ghostly landscape surrounding {PRONOUN/m_c/object} and a single, starry scug sat within a clearing."
+        "As m_c dreams that night, {PRONOUN/m_c/subject} {VERB/m_c/find/finds} {PRONOUN/m_c/self} walking the Void, a ghostly landscape surrounding {PRONOUN/m_c/object} and a single, whispy scug sat in the loose clearing the Void has created."
       ]
     },
     "bloodthirsty": {
       "tags": [],
       "lead_trait": ["bloodthirsty"],
       "text": [
-            "m_c leaves to speak with the Ascended. {PRONOUN/m_c/subject/CAP} {VERB/m_c/close/closes} {PRONOUN/m_c/poss} eyes and {VERB/m_c/awaken/awakens} under a vast, inky black sky. {PRONOUN/m_c/subject/CAP} {VERB/m_c/turn/turns} around to see a wary group of slugcats approaching, stars dotting their pelts."
+            "m_c leaves to speak with the Ascended. {PRONOUN/m_c/subject/CAP} {VERB/m_c/close/closes} {PRONOUN/m_c/poss} eyes and {VERB/m_c/awaken/awakens} under a vast, inky black sky. {PRONOUN/m_c/subject/CAP} {VERB/m_c/turn/turns} around to see a wary group of slugcats approaching, their pelts whispy and shifting with the Void."
       ]
 
     }
@@ -48,7 +48,7 @@
       "rank": [],
       "life_giving": [
         {
-          "text": "The starry slugcat approaches {PRONOUN/m_c/object} and, although the cat is unfamiliar, their meeting still feels like a reunion with an old friend. \"My name is r_c. You meet me tonight, but the slugcats under your care will all meet me one day when they join the stars. For now,\" the cat presses {PRONOUN/r_c/poss} nose to m_c's forehead, \"Take this gift, to help you [virtue].\"",
+          "text": "The whispy slugcat approaches {PRONOUN/m_c/object} and, although the cat is unfamiliar, their meeting still feels like a reunion with an old friend. \"My name is r_c. You meet me tonight, but the slugcats under your care will all meet me one day when they join us in the Void. For now,\" the cat presses {PRONOUN/r_c/poss} nose to m_c's forehead, \"Take this gift, to help you [virtue].\"",
           "virtue": ["endure in the face of hardship", "know when to fight and when to choose peace", "have the strength to overcome your fears", "lead with tireless energy", "see the dawn behind the darkness", "find wisdom in desperate times"]
         }
       ]
@@ -61,7 +61,7 @@
       "rank": [],
       "life_giving": [
         {
-          "text": "Suddenly, the mist at the edge of the clearing takes shape. Dozens of wispy, starry spirits emerge, quickly surrounding m_c. \"We grant you your remaining [life_num] lives.\"  Individually, each voice is distant, but together, the force of their words shakes m_c to {PRONOUN/m_c/poss} core.  \"Use them well, with our blessing.\"  And in a heartbeat, they were gone.",
+          "text": "Suddenly, golden strands of void at the edge of the clearing takes shape. Dozens of wispy, shimmering spirits emerge, quickly surrounding m_c. \"We grant you your remaining [life_num] lives.\"  Individually, each voice is distant, but together, the force of their words shakes m_c to {PRONOUN/m_c/poss} core.  \"Use them well, with our blessing.\"  And in a heartbeat, they were gone.",
           "virtue": []
         }
       ]
@@ -100,7 +100,7 @@
       "rank": ["exiled"],
       "life_giving": [
         {
-          "text": "m_c is breathless when {PRONOUN/m_c/subject} {VERB/m_c/see/sees} r_c approach. Fierce pride, and a bit of guilt, burns in r_c's eyes as {PRONOUN/r_c/subject} {VERB/r_c/greet/greets} {PRONOUN/r_c/poss} child, pressing {PRONOUN/r_c/poss} nose to m_c's forehead and giving {PRONOUN/m_c/object} a life for [virtue]. {PRONOUN/r_c/subject/CAP} {VERB/r_c/whisper/whispers} a quick apology for what {PRONOUN/r_c/subject}{VERB/r_c/'ve'/'s'} done, before {PRONOUN/r_c/subject} {VERB/r_c/turn/turns} and {VERB/r_c/walk/walks} back into the gloom.",
+          "text": "m_c is breathless when {PRONOUN/m_c/subject} {VERB/m_c/see/sees} r_c approach. Fierce pride, and a bit of guilt, burns in r_c's eyes as {PRONOUN/r_c/subject} {VERB/r_c/greet/greets} {PRONOUN/r_c/poss} child, pressing {PRONOUN/r_c/poss} nose to m_c's forehead and giving {PRONOUN/m_c/object} a life for [virtue]. {PRONOUN/r_c/subject/CAP} {VERB/r_c/whisper/whispers} a quick apology for what {PRONOUN/r_c/subject}{VERB/r_c/'ve'/'s'} done, before {PRONOUN/r_c/subject} {VERB/r_c/turn/turns} and {VERB/r_c/walk/walks} back into the Void's expanse.",
           "virtue": ["courage in the face of hardship", "unconditional love", "compassion", "protection", "endurance through thick and thin", "empathy", "pride", "forgiveness"]
         }
       ]
@@ -113,7 +113,7 @@
       "rank": ["warrior", "elder", "medicine cat", "mediator", "apprentice", "deputy", "medicine cat apprentice", "mediator apprentice"],
       "life_giving": [
         {
-          "text": "It feels like a dream when r_c emerges from the star-filled crowd. m_c can barely stand {PRONOUN/m_c/poss} ground, resisting the temptation to run forward and press into {PRONOUN/m_c/poss} pup's fur. Love shines in r_c's eyes as {PRONOUN/r_c/subject} {VERB/r_c/give/gives} a life for [virtue].",
+          "text": "It feels like a dream when r_c emerges from the shimmering crowd around the clearing. m_c can barely stand {PRONOUN/m_c/poss} ground, resisting the temptation to run forward and press into {PRONOUN/m_c/poss} pup's fur. Love shines in r_c's eyes as {PRONOUN/r_c/subject} {VERB/r_c/give/gives} a life for [virtue].",
           "virtue": ["courage in the face of hardship", "unconditional love", "compassion", "protection", "endurance through thick and thin", "empathy", "pride", "forgiveness"]
         }
       ]
@@ -180,7 +180,7 @@
       "rank": ["warrior", "elder", "medicine cat", "mediator", "apprentice", "deputy", "medicine cat apprentice", "mediator apprentice"],
       "life_giving": [
         {
-          "text": "r_c waltzes up to m_c's side like a whirlwind, {PRONOUN/r_c/poss} fur sticking up in all angles. {PRONOUN/r_c/subject/CAP} {VERB/r_c/give/gives} the new leader a life for [virtue] before dashing off into the crowd of starlight.",
+          "text": "r_c waltzes up to m_c's side like a whirlwind, {PRONOUN/r_c/poss} pelt feeling like the zap of a centipede. {PRONOUN/r_c/subject/CAP} {VERB/r_c/give/gives} the new leader a life for [virtue] before dashing off into the crowd of Ascended.",
           "virtue": ["acceptance", "bravery", "certainty", "clear judgment", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
         },
         {
@@ -243,7 +243,7 @@
           "virtue": ["acceptance", "bravery", "certainty", "clear judgment", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
         },
         {
-          "text": "Paws treading softly, as if the very ground beneath recognizes {PRONOUN/r_c/poss} sacred touch, r_c gracefully navigates the hallowed path that leads to m_c. In the depths of {PRONOUN/r_c/poss} tranquil gaze, a reflection of countless moons shines forth, a testament to the unmatched wisdom that resides within. {PRONOUN/r_c/subject/CAP} inches forward, offering a life for [virtue].",
+          "text": "Paws treading softly, as if the very ground beneath recognizes {PRONOUN/r_c/poss} sacred touch, r_c gracefully navigates the gilded path that leads to m_c. In the depths of {PRONOUN/r_c/poss} tranquil gaze, a reflection of countless cycles shines forth, a testament to the unmatched wisdom that resides within. {PRONOUN/r_c/subject/CAP} inches forward, offering a life for [virtue].",
           "virtue": ["acceptance", "bravery", "certainty", "clear judgment", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
         }
       ]
@@ -332,7 +332,7 @@
           "virtue": ["acceptance", "bravery", "certainty", "clear judgment", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
         },
         {
-          "text": "Stars flicker in r_c's fur, and pride lit {PRONOUN/r_c/poss} friendly gaze. {PRONOUN/r_c/subject/CAP} {VERB/r_c/give/gives} m_c a life for [virtue], the sensation feeling like a warm nest surrounded by loved ones.",
+          "text": "Golden strings flicker in r_c's pelt, and pride lit {PRONOUN/r_c/poss} friendly gaze. {PRONOUN/r_c/subject/CAP} {VERB/r_c/give/gives} m_c a life for [virtue], the sensation feeling like a warm nest surrounded by loved ones.",
           "virtue": ["acceptance", "bravery", "certainty", "clear judgment", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
         },
         {
@@ -353,7 +353,7 @@
           "virtue": ["acceptance", "bravery", "certainty", "clear judgment", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
         },
         {
-          "text": "r_c placed {PRONOUN/r_c/poss} maw against m_c's head, starlight shining in {PRONOUN/r_c/poss} fur. {PRONOUN/r_c/poss/CAP} life for [virtue] felt like a rush of energy, like m_c could fight through a pack of lizards and rogues in order to protect c_n.",
+          "text": "r_c placed {PRONOUN/r_c/poss} maw against m_c's head, shimmering gold lining {PRONOUN/r_c/poss} pelt. {PRONOUN/r_c/poss/CAP} life for [virtue] felt like a rush of energy, like m_c could fight through a pack of lizards and rogues in order to protect c_n.",
           "virtue": ["acceptance", "bravery", "certainty", "clear judgment", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
         }
       ]
@@ -370,7 +370,7 @@
           "virtue": ["acceptance", "bravery", "certainty", "clear judgment", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
         },
         {
-          "text": "As r_c gives a life for [virtue], {PRONOUN/r_c/subject} {VERB/m_c/urge/urges} m_c to keep {PRONOUN/m_c/poss} head on straight, and to remember to sheathe {PRONOUN/r_c/poss} claws.",
+          "text": "As r_c gives a life for [virtue], {PRONOUN/r_c/subject} {VERB/m_c/urge/urges} m_c to keep {PRONOUN/m_c/poss} head on straight, and to remember to sheathe {PRONOUN/r_c/poss} spears.",
           "virtue": ["acceptance", "bravery", "certainty", "clear judgment", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
         }
       ]
@@ -387,7 +387,7 @@
           "virtue": ["acceptance", "bravery", "certainty", "clear judgment", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
         },
         {
-          "text": "When r_c presses {PRONOUN/r_c/poss} nose against m_c's head to give a life for [virtue], {PRONOUN/r_c/subject} {VERB/r_c/swear/swears} that {PRONOUN/r_c/subject} can already see starlight in {PRONOUN/m_c/poss} fur.",
+          "text": "When r_c presses {PRONOUN/r_c/poss} nose against m_c's head to give a life for [virtue], {PRONOUN/r_c/subject} {VERB/r_c/swear/swears} that {PRONOUN/r_c/subject} can already see the golden shimmer in {PRONOUN/m_c/poss} pelt.",
           "virtue": ["acceptance", "bravery", "certainty", "clear judgment", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
         }
       ]
@@ -400,11 +400,11 @@
       "rank": ["warrior", "elder", "medicine cat", "mediator", "apprentice", "deputy"],
       "life_giving": [
         {
-          "text": "Not all battles must end in death. Not all problems can be dealt with claws alone. r_c hopes that m_c will remember this as the life of [virtue] is given.",
+          "text": "Not all battles must end in death. Not all problems can be dealt with spears alone. r_c hopes that m_c will remember this as the life of [virtue] is given.",
           "virtue": ["acceptance", "bravery", "certainty", "clear judgment", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
         },
         {
-          "text": "r_c hesitates for a moment, a vision of blood across m_c's claws assaulting the Ascended slugcat's mind. But eventually, {PRONOUN/r_c/subject} {VERB/r_c/relent/relents} and gives a life for [virtue].",
+          "text": "r_c hesitates for a moment, a vision of blood across m_c's paws assaulting the Ascended slugcat's mind. But eventually, {PRONOUN/r_c/subject} {VERB/r_c/relent/relents} and gives a life for [virtue].",
           "virtue": ["acceptance", "bravery", "certainty", "clear judgment", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
         }
       ]
@@ -442,7 +442,7 @@
           "virtue": ["acceptance", "bravery", "certainty", "clear judgment", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
         },
         {
-          "text": "A new cat approaches. r_c steps forward to give m_c a life for [virtue]. m_c grits {PRONOUN/m_c/poss} teeth as the life rushes into {PRONOUN/m_c/object}.",
+          "text": "A new slugcat approaches. r_c steps forward to give m_c a life for [virtue]. m_c grits {PRONOUN/m_c/poss} teeth as the life rushes into {PRONOUN/m_c/object}.",
           "virtue": ["acceptance", "bravery", "certainty", "clear judgment", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
         },
         {
@@ -463,7 +463,7 @@
           "virtue": ["acceptance", "bravery", "certainty", "clear judgment", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
         },
         {
-          "text": "A new cat approaches. r_c steps forward to give m_c a life for [virtue]. m_c grits {PRONOUN/m_c/poss} teeth as the life rushes into {PRONOUN/m_c/object}.",
+          "text": "A new slugcat approaches. r_c steps forward to give m_c a life for [virtue]. m_c grits {PRONOUN/m_c/poss} teeth as the life rushes into {PRONOUN/m_c/object}.",
           "virtue": ["acceptance", "bravery", "certainty", "clear judgment", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
         },
         {
@@ -501,11 +501,11 @@
           "virtue": ["bravery", "certainty", "confidence", "courage", "strength"]
         },
         {
-          "text": "m_c can barely meet r_c's gaze as the starry slugcat approaches. {PRONOUN/m_c/poss/CAP} head snaps up as r_c speaks to {PRONOUN/m_c/object} to take heart in the life {PRONOUN/r_c/subject} {VERB/r_c/are/is} about to give. As r_c touches {PRONOUN/m_c/poss} forehead, a life for [virtue] surges through {PRONOUN/m_c/object}, filling {PRONOUN/m_c/object} with a resolve {PRONOUN/m_c/subject}{VERB/m_c/'ve/'s} never felt before.",
+          "text": "m_c can barely meet r_c's gaze as the whispy slugcat approaches. {PRONOUN/m_c/poss/CAP} head snaps up as r_c speaks to {PRONOUN/m_c/object} to take heart in the life {PRONOUN/r_c/subject} {VERB/r_c/are/is} about to give. As r_c touches {PRONOUN/m_c/poss} forehead, a life for [virtue] surges through {PRONOUN/m_c/object}, filling {PRONOUN/m_c/object} with a resolve {PRONOUN/m_c/subject}{VERB/m_c/'ve/'s} never felt before.",
           "virtue": ["bravery", "certainty", "confidence", "courage", "strength"]
         },
         {
-          "text": "Tail flicking nervously, m_c watches the Ascended slugcat approach. r_c dips {PRONOUN/r_c/poss} head and reassures m_c that if {PRONOUN/m_c/subject} {VERB/m_c/weren't/wasn't} fit to be leader, {PRONOUN/m_c/subject} wouldn't have made it this far. m_c braces as {PRONOUN/m_c/subject} {VERB/m_c/receive/receives} a life for [virtue], hoping that the starry slugcat is right.",
+          "text": "Tail flicking nervously, m_c watches the Ascended slugcat approach. r_c dips {PRONOUN/r_c/poss} head and reassures m_c that if {PRONOUN/m_c/subject} {VERB/m_c/weren't/wasn't} fit to be leader, {PRONOUN/m_c/subject} wouldn't have made it this far. m_c braces as {PRONOUN/m_c/subject} {VERB/m_c/receive/receives} a life for [virtue], hoping that the shimmering slugcat is right.",
           "virtue": ["acceptance", "bravery", "certainty", "clear judgment", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "instincts"]
         }
       ]
@@ -552,7 +552,7 @@
       "rank": ["warrior", "deputy"],
       "life_giving": [
         {
-          "text": "r_c approaches, dipping {PRONOUN/r_c/poss} head in greeting to m_c. {PRONOUN/r_c/subject/CAP} {VERB/r_c/meow/meows} something about not being afraid to look beyond traditions before touching {PRONOUN/r_c/poss} muzzle to m_c's head and a cool energy begins to fizz through {PRONOUN/m_c/poss} body. This life is for [virtue], the starry slugcat tells {PRONOUN/m_c/object}.",
+          "text": "r_c approaches, dipping {PRONOUN/r_c/poss} head in greeting to m_c. {PRONOUN/r_c/subject/CAP} {VERB/r_c/meow/meows} something about not being afraid to look beyond traditions before touching {PRONOUN/r_c/poss} muzzle to m_c's head and a cool energy begins to fizz through {PRONOUN/m_c/poss} body. This life is for [virtue], the glimmering slugcat tells {PRONOUN/m_c/object}.",
           "virtue": ["curiosity"]
         },
         {
@@ -573,7 +573,7 @@
       "rank": ["warrior", "elder", "medicine cat", "mediator", "apprentice", "deputy"],
       "life_giving": [
         {
-          "text":  "r_c winces at a question m_c asks, tail low with second-claw embarrassment. Nonetheless, {PRONOUN/r_c/subject} {VERB/r_c/give/gives} a life for [virtue].",
+          "text":  "r_c winces at a question m_c asks, tail low with second-paw embarrassment. Nonetheless, {PRONOUN/r_c/subject} {VERB/r_c/give/gives} a life for [virtue].",
           "virtue": ["acceptance", "bravery", "certainty", "clear judgment", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
         },
         {
@@ -641,7 +641,7 @@
       "rank": ["warrior", "elder", "medicine cat", "mediator", "apprentice", "deputy"],
       "life_giving": [
         {
-          "text": "Valuing m_c's thoughtful nature, r_c hopes that {PRONOUN/m_c/subject} will not let the stress of leadership get to {PRONOUN/m_c/object} as the StarClan cat gives a life for [virtue].",
+          "text": "Valuing m_c's thoughtful nature, r_c hopes that {PRONOUN/m_c/subject} will not let the stress of leadership get to {PRONOUN/m_c/object} as the Ascended slugcat gives a life for [virtue].",
           "virtue": ["acceptance", "bravery", "certainty", "clear judgment", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
         },
         {
@@ -679,7 +679,7 @@
           "virtue": ["acceptance", "bravery", "certainty", "clear judgment", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
         },
         {
-          "text": "A new cat approaches. r_c steps forward to give m_c a life for [virtue]. m_c grits {PRONOUN/m_c/poss} teeth as the life rushes into {PRONOUN/m_c/object}.",
+          "text": "A new slugcat approaches. r_c steps forward to give m_c a life for [virtue]. m_c grits {PRONOUN/m_c/poss} teeth as the life rushes into {PRONOUN/m_c/object}.",
           "virtue": ["acceptance", "bravery", "certainty", "clear judgment", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
         },
         {
@@ -713,7 +713,7 @@
       "rank": ["warrior", "deputy"],
       "life_giving": [
         {
-          "text": "m_c holds {PRONOUN/m_c/poss} head high as r_c approaches. r_c looks mildly amused - or is that annoyance? The starry slugcat offers m_c a life for [virtue], saying that {PRONOUN/m_c/subject} could definitely use it. m_c scoffs internally at the implication.",
+          "text": "m_c holds {PRONOUN/m_c/poss} head high as r_c approaches. r_c looks mildly amused - or is that annoyance? The whispy slugcat offers m_c a life for [virtue], saying that {PRONOUN/m_c/subject} could definitely use it. m_c scoffs internally at the implication.",
           "virtue": ["humility"]
         }
       ]
@@ -750,7 +750,7 @@
       "rank": ["warrior", "deputy"],
       "life_giving": [
         {
-          "text": "Despite r_c's best efforts, m_c didn't once crack a smile during the starry spirit's part of the ceremony. r_c awkwardly gives a life for [virtue] before leaving the grumpy slugcat behind.",
+          "text": "Despite r_c's best efforts, m_c didn't once crack a smile during the gilded spirit's part of the ceremony. r_c awkwardly gives a life for [virtue] before leaving the grumpy slugcat behind.",
           "virtue": ["acceptance", "bravery", "certainty", "clear judgment", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
         }
       ]
@@ -811,7 +811,7 @@
       "rank": ["kitten"],
       "life_giving": [
         {
-          "text": "A tiny pup, r_c, runs up to m_c, stars twinkling in {PRONOUN/r_c/poss} eyes. {PRONOUN/r_c/subject/CAP} loudly and theatrically {VERB/r_c/proclaim/proclaims} that {PRONOUN/r_c/subject}'ll be giving m_c a life for [virtue] before dashing back into line, looking very proud of {PRONOUN/r_c/self}.",
+          "text": "A tiny slugpup, r_c, runs up to m_c, golden streaks twirling in {PRONOUN/r_c/poss} eyes. {PRONOUN/r_c/subject/CAP} loudly and theatrically {VERB/r_c/proclaim/proclaims} that {PRONOUN/r_c/subject}'ll be giving m_c a life for [virtue] before dashing back into line, looking very proud of {PRONOUN/r_c/self}.",
           "virtue": ["excitement", "cheerfulness", "optimism", "friendship", "hope", "confidence", "pride"]
         }
       ]
@@ -824,7 +824,7 @@
       "rank": ["kitten"],
       "life_giving": [
         {
-          "text": "Emerging from the line comes r_c, a quiet calm to {PRONOUN/r_c/object} despite {PRONOUN/r_c/poss} small stature. {PRONOUN/r_c/subject/CAP} very carefully {VERB/r_c/offer/offers} a life for [virtue], sounding as though {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} trying very hard to remember the right words to say. Once finished, {PRONOUN/r_c/subject} {VERB/r_c/rush/rushes} back to the line of starry pelts.",
+          "text": "Emerging from the line comes r_c, a quiet calm to {PRONOUN/r_c/object} despite {PRONOUN/r_c/poss} small stature. {PRONOUN/r_c/subject/CAP} very carefully {VERB/r_c/offer/offers} a life for [virtue], sounding as though {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} trying very hard to remember the right words to say. Once finished, {PRONOUN/r_c/subject} {VERB/r_c/rush/rushes} back to the line of gold touched pelts.",
           "virtue": ["caution", "love", "patience", "trust", "optimism", "friendship"]
         }
       ]
@@ -850,7 +850,7 @@
       "rank": ["apprentice", "medicine cat apprentice", "mediator apprentice"],
       "life_giving": [
         {
-          "text": "A young slugcat emerges from the starry ranks to give a life. Starlight reflects off {PRONOUN/r_c/poss} youthful eyes. r_c stretches up to give a life for [virtue].",
+          "text": "A young slugcat emerges from the starry ranks to give a life. Golden streaks reflecting off {PRONOUN/r_c/poss} youthful eyes. r_c stretches up to give a life for [virtue].",
           "virtue": ["happiness", "honesty", "humor", "justice", "mentoring", "trust"]
         }
       ]
@@ -862,7 +862,7 @@
       "rank": ["apprentice", "medicine cat apprentice", "mediator apprentice"],
       "life_giving": [
         {
-          "text": "A young slugcat emerges from the starry ranks to give a life. {PRONOUN/r_c/subject/CAP} {VERB/r_c/hesitate/hesitates}, before an older slugcat nudges {PRONOUN/r_c/object} forward, whispering something in {PRONOUN/r_c/poss} ear. r_c stretches up to give a life for [virtue].",
+          "text": "A young slugcat emerges from the shimmering ranks to give a life. {PRONOUN/r_c/subject/CAP} {VERB/r_c/hesitate/hesitates}, before an older slugcat nudges {PRONOUN/r_c/object} forward, whispering something in {PRONOUN/r_c/poss} ear. r_c stretches up to give a life for [virtue].",
           "virtue": ["happiness", "honesty", "humor", "justice", "mentoring", "trust"]
         }
       ]
@@ -875,7 +875,7 @@
       "rank": ["apprentice", "medicine cat apprentice", "mediator apprentice"],
       "life_giving": [
         {
-          "text": "r_c bounds out of the crowd, grinning as {PRONOUN/r_c/subject} {VERB/r_c/press/presses} {PRONOUN/r_c/self} into m_c's fur. m_c chokes back a startled laugh before returning the affection as r_c offers a life for [virtue].",
+          "text": "r_c bounds out of the crowd, grinning as {PRONOUN/r_c/subject} {VERB/r_c/press/presses} {PRONOUN/r_c/self} into m_c's pelt. m_c chokes back a startled laugh before returning the affection as r_c offers a life for [virtue].",
           "virtue": ["happiness", "compassion", "protection", "pride", "certainty", "confidence", "sympathy", "unity", "humor", "justice", "trust", "forgiveness"]
         }
       ]
@@ -987,7 +987,7 @@
       "tags": [],
       "lead_trait": [],
       "text": [
-            "r_c hails m_c by {PRONOUN/m_c/poss} new name, m_c_star, telling {PRONOUN/m_c/object} that {PRONOUN/m_c/poss} old life is no more. {PRONOUN/m_c/subject/CAP} {VERB/m_c/are/is} granted guardianship of c_n, and {VERB/m_c/are/is} told to use {PRONOUN/m_c/poss} new power wisely. The group of starry cats yowls m_c_star's name in support. m_c_star wakes up feeling a new strength within {PRONOUN/m_c/poss} body and knows that {PRONOUN/m_c/subject} {VERB/m_c/are/is} now ready to lead the Clan."
+            "r_c hails m_c by {PRONOUN/m_c/poss} new name, m_c_ The Leader, telling {PRONOUN/m_c/object} that {PRONOUN/m_c/poss} old life is no more. {PRONOUN/m_c/subject/CAP} {VERB/m_c/are/is} granted guardianship of c_n, and {VERB/m_c/are/is} told to use {PRONOUN/m_c/poss} new power wisely. The group of void touched slugcats yowl m_c The Leader's name in support. m_c_star wakes up feeling a new strength within {PRONOUN/m_c/poss} body and knows that {PRONOUN/m_c/subject} {VERB/m_c/are/is} now ready to lead the Clan."
       ]
     },
 
@@ -995,7 +995,7 @@
       "tags": ["new_clan"],
       "lead_trait": [],
       "text": [
-        "m_c_star wakes, {PRONOUN/m_c/poss} new name echoing in {PRONOUN/m_c/poss} ears."
+        "m_c_ The Leader wakes, {PRONOUN/m_c/poss} new name echoing in {PRONOUN/m_c/poss} ears."
       ]
     },
 
@@ -1003,7 +1003,7 @@
       "tags": [],
       "lead_trait": ["bloodthirsty"],
       "text": [
-        "r_c hails m_c by {PRONOUN/m_c/poss} new name, m_c_star, telling {PRONOUN/m_c/object} that {PRONOUN/m_c/poss} old life is no more. {PRONOUN/m_c/subject/CAP} {VERB/m_c/are/is} granted guardianship of c_n, and {VERB/m_c/are/is} told to use {PRONOUN/m_c/poss} new power wisely. StarClan is silent as the new leader begins to wake up. m_c_star stands, feeling a new strength within {PRONOUN/m_c/poss} body, and grins."
+        "r_c hails m_c by {PRONOUN/m_c/poss} new name, m_c_ The Leader, telling {PRONOUN/m_c/object} that {PRONOUN/m_c/poss} old life is no more. {PRONOUN/m_c/subject/CAP} {VERB/m_c/are/is} granted guardianship of c_n, and {VERB/m_c/are/is} told to use {PRONOUN/m_c/poss} new power wisely. The Ascended are silent as the new leader begins to wake up. m_c_star stands, feeling a new strength within {PRONOUN/m_c/poss} body, and grins."
       ]
     }
   }
