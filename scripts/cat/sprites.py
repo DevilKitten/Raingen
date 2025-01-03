@@ -148,7 +148,7 @@ class Sprites:
             'seercolours', 'rottencolours', 'firecolours', 'countershadedcolours', 'cherrycolours',
             'oldgrowthcolours', 'sparklecatcolours', 'wolfcolours', 'sunsetcolours', 'hypnotistcolours',
             'ringedcolours', 'skinnycolours', 'sparsecolours', 'impishcolours', 'sportycolours', 
-            'fizzycolours', 'skeletoncolours', 'shredcolours', 'glowingcolours',
+            'fizzycolours', 'skeletoncolours', 'shredcolours', 'glowingcolours', 'moldcolours'
             'raineyes', 'raineyes2', 'multieyes', 'multiraineyes', 'larseyes', 'multilarseyes', 'larseyes2',
             'shadersnewwhite', 'lightingnew',
             'whitepatches', 'tortiepatchesmasks',
@@ -707,6 +707,14 @@ class Sprites:
             self.make_group('glowingcolours', (a, 1), f'glowing{i}')
         for a, i in enumerate(['LIGHTBROWN', 'LILAC', 'BROWN', 'GOLDEN-BROWN', 'DARKBROWN', 'CHOCOLATE']):
             self.make_group('glowingcolours', (a, 2), f'glowing{i}')
+            # mold
+        for a, i in enumerate(['WHITE', 'PALEGREY', 'SILVER', 'GREY', 'DARKGREY', 'GHOST', 'BLACK']):
+            self.make_group('moldcolours', (a, 0), f'mold{i}')
+        for a, i in enumerate(['CREAM', 'PALEGINGER', 'GOLDEN', 'GINGER', 'DARKGINGER', 'SIENNA']):
+            self.make_group('moldcolours', (a, 1), f'mold{i}')
+        for a, i in enumerate(['LIGHTBROWN', 'LILAC', 'BROWN', 'GOLDEN-BROWN', 'DARKBROWN', 'CHOCOLATE']):
+            self.make_group('moldcolours', (a, 2), f'mold{i}')
+
 
 
         # new new torties
