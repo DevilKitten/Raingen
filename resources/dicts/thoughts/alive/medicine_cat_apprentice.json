@@ -10,7 +10,7 @@
             "Prays that r_c is healthy and receives the strength {PRONOUN/r_c/subject} need to grow in the Void",
             "Is finally accepting {PRONOUN/m_c/subject} did all {PRONOUN/m_c/subject} could to save r_c",
             "Is pondering which role r_c would have been",
-            "Ponders how the Scended would deal with r_c",
+            "Ponders how the Ascended would deal with r_c",
             "Thought {PRONOUN/m_c/subject} encountered r_c while scavenging for herbs, but it was a trick of {PRONOUN/m_c/poss} mind",
             "Is listening to the reason behind r_c's name with a fond smile",
             "Wonders if newborn slugpups grow up to be adults or stay young forever in the Void",
@@ -20,7 +20,7 @@
             "Is reflecting on r_c's pelt, and is sad {PRONOUN/m_c/subject} never knew {PRONOUN/r_c/poss} eye color",
             "Was startled to meet a newborn slugpup while dreaming and ponders what it meant",
             "Was spooked when {PRONOUN/m_c/subject} encountered a ghostly newborn while collecting herbs, which disappeared when noticed",
-            "Is asking {PRONOUN/m_c/poss} mentor why the Ascended allows newborns to join Silverpelt",
+            "Is asking {PRONOUN/m_c/poss} mentor why the Ascended allows newborns to join those in the Void",
             "Is vowing to never let another newborn join the Void's ranks"
         ],
         "random_status_constraint": [
@@ -33,7 +33,7 @@
     {
         "id": "plain_med_cat_app_to_dead_starclan_newborn",
         "thoughts": [
-            "Is wondering if r_c was a part of the stars last night",
+            "Is wondering if r_c was a part of the sky last night",
             "Thought {PRONOUN/m_c/subject} heard r_c's mewls, but it was just the wind",
             "Is questioning who would provide for r_c in the Void",
             "Wonders if r_c would have played with the bugs in the grass if {PRONOUN/r_c/subject} had time to grow up",
@@ -41,7 +41,7 @@
             "Thought {PRONOUN/m_c/subject} saw r_c's spirit hanging around the nursery tunnel",
             "Wonders if r_c gets to venture out of the tunnels in the Void",
             "Thought {PRONOUN/m_c/subject} saw r_c playing with the roots of the tree, but sadly shakes off the thought",
-            "Was surprised to find r_c's spot in the nursery warm, despite {PRONOUN/r_c/object} being with the stars now",
+            "Was surprised to find r_c's spot in the nursery warm, despite {PRONOUN/r_c/object} being with the Ascended now",
             "Is pondering if r_c would stay in tunnels or go out an explore the territory in the Void",
             "Wonders if the newborns in the Void will ever get to play and run across open fields",
             "Prays to the Scended that the passed newborn Slugpups get to feel the wind across their pelt"
@@ -90,7 +90,7 @@
             "Is neatly stacking bundles of herbs after drying",
             "Helps apply a poultice to a small wound",
             "Is counting the numbers of herbs left",
-            "Rounding out rowdy slugpups from the cleric den",
+            "Rounding out rowdy slugpups from the cleric's den",
             "Patching up a Clanmate's wounds",
             "Having a debate with r_c about {PRONOUN/r_c/poss} latest dreams"
         ]
@@ -174,7 +174,7 @@
             "Flattens {PRONOUN/m_c/poss} ears hearing the other apprentices having more fun than {PRONOUN/m_c/object}",
             "Is frightened about {PRONOUN/m_c/poss} role, but even more frightened about ever switching to a warrior",
             "Feels like the Ascended made a mistake picking {PRONOUN/m_c/object} for this role",
-            "Scurries out of the cleric den at the sight of blood",
+            "Scurries out of the cleric's den at the sight of blood",
             "Is worrying about misinterpretating a sign that might endanger the Clan",
             "Is frightened by the constant ghostly voices",
             "Was overthinking hoarding herbs for a hypothetical crisis",
@@ -207,7 +207,7 @@
     {
         "id": "loving_medicine_cat_apprentice",
         "thoughts": [
-            "Couldn't stand the sight of seeing beloved Clanmates limping towards the cleric den",
+            "Couldn't stand the sight of seeing beloved Clanmates limping towards the cleric's den",
             "Gave a soft lick to a  wound, hoping it'll heal faster",
             "Often reassures others that {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} alright not sleeping to keep sick Clanmates company",
             "To not drop dead {PRONOUN/m_c/self}, was told to tend to {PRONOUN/m_c/poss} health as well",
@@ -229,8 +229,8 @@
             "Smacks anyone that asks {PRONOUN/m_c/object} to check a fake injury",
             "Grumbles at Acended slugcats for being vague in their warnings",
             "Watches in silence at their mentor's teachings",
-            "Told r_c to get straight to the point why {PRONOUN/r_c/subject} {VERB/r_c/is/are} in the cleric den",
-            "Shoves r_c into the cleric den for an early check-up"
+            "Told r_c to get straight to the point why {PRONOUN/r_c/subject} {VERB/r_c/is/are} in the cleric's den",
+            "Shoves r_c into the cleric's den for an early check-up"
         ],
         "main_trait_constraint": [
             "grumpy"
@@ -267,10 +267,10 @@
     {
         "id": "lonesome_medicine_cat_apprentice",
         "thoughts": [
-            "Feels more at home in the cleric den than anywhere else",
+            "Feels more at home in the clerics den than anywhere else",
             "Quickly tries to heal injuries so slugcats can leave {PRONOUN/m_c/object} alone",
             "Ventured out of camp to gather herbs without telling anyone",
-            "Only leaves the cleric den to grab prey before slinking back inside",
+            "Only leaves the cleric's den to grab prey before slinking back inside",
             "Has Clanmates surprised that {PRONOUN/m_c/subject} even have a mentor to talk to",
             "Prefers the company of herbs and medical berries more than {PRONOUN/m_c/subject} own Clanmates"
         ],
@@ -283,7 +283,7 @@
         "thoughts": [
             "Told {PRONOUN/m_c/poss} Clanmates {PRONOUN/m_c/subject} could see dead Ascended slugcats dancing",
             "Was taste-testing berries",
-            "Proposes carrying Void Fluid into the cleric den",
+            "Proposes carrying Void Fluid into the cleric's den",
             "Asks {PRONOUN/m_c/poss} mentor if slugcats reincarnate as lizards",
             "Asks {PRONOUN/m_c/poss} mentor if {PRONOUN/m_c/subject} could still be their apprentince if {PRONOUN/m_c/subject} turned into a worm"
         ],
@@ -296,7 +296,7 @@
         "thoughts": [
             "Is telling jokes to sick Clanmates to brighten their day",
             "Covers {PRONOUN/m_c/self} with sticks and plants",
-            "Sheepishly asks {PRONOUN/m_c/poss} mentor which herbs would rub out a skunk scent. No reason.",
+            "Sheepishly asks {PRONOUN/m_c/poss} mentor which herbs would rub out hazer ink. No reason.",
             "Jokingly told r_c {PRONOUN/r_c/subject} will grow antlers from eating berries",
             "Tries to hold in a laugh after giving r_c spicy herbs instead of the correct ones"
         ],
@@ -310,8 +310,8 @@
             "Is giving an injuried Clanmate company with small talk",
             "Can easily wrap a wound in a single blink",
             "Wraps {PRONOUN/m_c/poss} tail around a Clanmate's shoulder, reassuring them with a smile",
-            "Is loafing in front of the cleric den, purring",
-            "Is hoping to create a comfortable atomphere for slugcats to visit the cleric den"
+            "Is loafing in front of the cleric's den, purring",
+            "Is hoping to create a comfortable atomphere for slugcats to visit the cleric's den"
         ],
         "main_trait_constraint": [
             "mellow"
@@ -335,7 +335,7 @@
         "thoughts": [
             "Even if sick {PRONOUN/m_c/self}, {PRONOUN/m_c/subject} still wants to help {PRONOUN/m_c/poss} Clan",
             "Sneaks {PRONOUN/m_c/poss} way into a neighboring Clan to find rare herbs",
-            "Has heeded Ascended's warnings and is ready",
+            "Has heeded the Ascended's warnings and is ready",
             "Isn't shy to criticize {PRONOUN/m_c/poss} mentor's teachings",
             "Wants to test out obscured herbs"
         ],
