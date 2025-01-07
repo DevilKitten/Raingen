@@ -69,7 +69,7 @@
 		"id": "jealousy_app_de_med2",
 		"interactions": [
 			"m_c has been listening to r_c talk about how difficult herb memorization is.",
-			"m_c helps r_c wash mouse bile off of {PRONOUN/r_c/poss} paws."
+			"m_c helps r_c wash lantern mouse bile off of {PRONOUN/r_c/poss} paws."
 		],
 		"main_status_constraint": [
 			"apprentice",
