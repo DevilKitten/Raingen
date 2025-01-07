@@ -41,7 +41,7 @@
 		"id": "dislike_inc_med3",
 		"interactions": [
 			"m_c had a disagreement with r_c while on patrol earlier.",
-			"m_c stole r_c's catch right out from under {PRONOUN/r_c/poss} claws.",
+			"m_c stole r_c's catch right out from under {PRONOUN/r_c/poss} paws.",
 			"m_c prays that {PRONOUN/m_c/subject} {VERB/m_c/aren't/isn't} on patrol with r_c tomorrow.",
 			"m_c sighs loudly every time r_c does anything on patrol."
 		],
@@ -140,7 +140,7 @@
 			"m_c divides r_c into extra patrols.",
 			"m_c gives r_c a particularly hard task, expecting {PRONOUN/r_c/object} to fail.",
 			"m_c threatens r_c with never passing {PRONOUN/r_c/poss} assessment!",
-			"m_c tells other cats that r_c is not doing well in {PRONOUN/r_c/poss} training."
+			"m_c tells other slugcats that r_c is not doing well in {PRONOUN/r_c/poss} training."
 		],
 		"main_status_constraint": [
 			"deputy",
@@ -183,7 +183,7 @@
 		"interactions": [
 			"m_c had a fight with r_c.",
 			"m_c had a heated argument with r_c and said some very hurtful things.",
-			"m_c argues with r_c in front of other cats and reveals something embarrassing."
+			"m_c argues with r_c in front of other slugcats and reveals something embarrassing."
 		],
 		"reaction_random_cat": {
 			"dislike": "increase"
@@ -312,7 +312,7 @@
 		"id": "dislike_kit_inc_med3",
 		"interactions": [
 			"m_c whines that r_c won't play with {PRONOUN/m_c/object}, even though {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} always around camp.",
-			"m_c doesn't understand why r_c won't let {PRONOUN/m_c/object} play in the medicine cat den."
+			"m_c doesn't understand why r_c won't let {PRONOUN/m_c/object} play in the cleric's den."
 		],
 		"main_status_constraint": [
 			"kitten"
