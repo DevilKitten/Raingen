@@ -7,7 +7,7 @@
 			"m_c gave a gift to r_c, but {PRONOUN/r_c/subject} turned up {PRONOUN/r_c/poss} nose at the offering.",
 			"m_c heard r_c express an ideal {PRONOUN/m_c/subject} cannot agree with.",
 			"m_c heard r_c talking badly about {PRONOUN/m_c/object}.",
-			"m_c catches r_c staring at another cat."
+			"m_c catches r_c staring at another slugcat."
 		]
 	},
 	{
@@ -27,7 +27,7 @@
 		"id": "rom_dec_medium2",
 		"intensity": "medium",
 		"interactions": [
-			"m_c told r_c to stop padding after {PRONOUN/m_c/object} like a lost kit.",
+			"m_c told r_c to stop padding after {PRONOUN/m_c/object} like a lost slugpup.",
 			"m_c worries that r_c isn't being honest with their relationship.",
 			"m_c can't stand r_c's snoring in {PRONOUN/r_c/poss} nest."
 		],
@@ -60,7 +60,7 @@
 		"id": "rom_dec_medium4",
 		"intensity": "medium",
 		"interactions": [
-			"m_c had a disagreement with r_c over kits."
+			"m_c had a disagreement with r_c over slgpups."
 		],
 		"relationship_constraint": [
 			"mates"
