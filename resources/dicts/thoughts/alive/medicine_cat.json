@@ -5,13 +5,13 @@
             "Heads out of Clan territories to look for new herbs",
             "Purposefully planted herbs in hard-to-reach areas",
             "Is exploring unclaimed lands while searching for herbs",
-            "Climbs a tree to gather alder bark instead of just clawing the trunk",
+            "Climbs a tree to gather alder bark instead of just stripping the trunk",
             "Thinks about visiting the Ascended, just to explore their hunting grounds",
             "Asks the deputy to go on patrol",
             "Begs the leader to give {PRONOUN/m_c/object} the bounciest slugpup as {PRONOUN/m_c/poss} apprentice",
             "Is showing the slugpups herbs by taking them on adventures in the territory",
             "Helps the leader with their duties while the deputy is on patrol",
-            "Offers to help the queens with badger rides for the slugpups",
+            "Offers to help the queens with lizard rides for the slugpups",
             "Uses extra herbs just to go gather more"
         ],
         "main_trait_constraint": [
@@ -34,7 +34,7 @@
         "thoughts": [
             "Is gathering deathberries",
             "Has been disappearing a lot lately",
-            "Insists only on treating cats who need it",
+            "Insists only on treating slugcats who need it",
             "Is ripping some leaves to shreds",
             "Debates becoming a warrior",
             "Gives the wrong herbs to a warrior on purpose",
@@ -43,7 +43,7 @@
             "Is stocking up on yew berries",
             "Is stocking up on nightshade",
             "Is stocking up on watermint",
-            "Put herbs in prey to give cats stomachaches",
+            "Put herbs in prey to give slugcats stomachaches",
             "Refused to treat anyone today",
             "Is upset that {PRONOUN/m_c/subject} can't fight alongside the warriors",
             "Wishes to fight alongside the warriors",
@@ -137,7 +137,7 @@
     {
         "id": "daring_medicine_cat",
         "thoughts": [
-            "Steals catmint from a Twoleg garden"
+            "Steals scugmint from a scavenger garden"
         ],
         "main_trait_constraint": [
             "daring"
@@ -379,9 +379,9 @@
             "Is struggling to remember all of the names of herbs",
             "Is helping organize the herb stores",
             "Made a mess of the herbs and is panicking",
-            "Has been hearing the voices of Ascended cats...",
+            "Has been hearing the voices of Ascended slugcats...",
             "Has the foul taste of bitter herbs in {PRONOUN/m_c/poss} mouth",
-            "Is wondering if {PRONOUN/m_c/subject} could borrow some catmint from the other Clans",
+            "Is wondering if {PRONOUN/m_c/subject} could borrow some scugmint from the other Clans",
             "Is happy that {PRONOUN/m_c/subject} chose life as a cleric",
             "Is proud of {PRONOUN/m_c/poss} ability to care for {PRONOUN/m_c/poss} Clanmates"
         ]
