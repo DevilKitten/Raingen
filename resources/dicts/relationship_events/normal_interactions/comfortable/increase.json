@@ -25,7 +25,7 @@
 		"intensity": "low",
 		"interactions": [
 			"m_c is asking r_c to check {PRONOUN/m_c/object} for ticks.",
-			"m_c is happy to see r_c is the cat who is helping {PRONOUN/m_c/object} today."
+			"m_c is happy to see r_c is the slugcat who is helping {PRONOUN/m_c/object} today."
 		],
 		"main_status_constraint": [
 			"elder"
@@ -39,7 +39,7 @@
 	{
 		"id": "comfort_inc_med1",
 		"interactions": [
-			"m_c helps r_c pick burrs out of {PRONOUN/r_c/poss} fur."
+			"m_c helps r_c pick burrs out of {PRONOUN/r_c/poss} pelt."
 		]
 	},
 	{
@@ -62,7 +62,7 @@
 			"m_c is sharing the latest gossip {PRONOUN/m_c/subject} heard over the border with r_c.",
 			"m_c tells r_c {PRONOUN/m_c/subject}'ll save {PRONOUN/r_c/object} a piece of fresh-kill.",
 			"m_c playfully teases r_c for missing a catch.",
-			"m_c gives r_c some feathers from the bird {PRONOUN/m_c/subject} caught to line {PRONOUN/r_c/poss} nest.",
+			"m_c gives r_c some pretty pebbles {PRONOUN/m_c/subject} found to line {PRONOUN/r_c/poss} nest.",
 			"m_c is delighted to be working with r_c today."
 		],
 		"main_status_constraint": [
@@ -185,7 +185,7 @@
 		"id": "comfort_med_inc_medium1",
 		"interactions": [
 			"m_c thanks r_c for checking when {PRONOUN/r_c/subject} {VERB/r_c/ask/asks} if {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} feeling alright.",
-			"m_c drops into the medicine den to ask r_c if {PRONOUN/r_c/subject}{VERB/r_c/'ve/'s} eaten yet."
+			"m_c drops into the cleric's den to ask r_c if {PRONOUN/r_c/subject}{VERB/r_c/'ve/'s} eaten yet."
 		],
 		"random_status_constraint": [
 			"medicine cat",
