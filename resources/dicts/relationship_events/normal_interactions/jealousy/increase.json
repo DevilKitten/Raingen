@@ -84,7 +84,7 @@
 	{
 		"id": "jealousy_kit_inc_med3",
 		"interactions": [
-			"m_c looks at r_c and remembers how easy it was to be a kitten.",
+			"m_c looks at r_c and remembers how easy it was to be a slugpup.",
 			"m_c is resentful that so much is expected of {PRONOUN/m_c/object}, yet no one expects anything of r_c."
 		],
 		"main_status_constraint": [
@@ -103,7 +103,7 @@
 		"id": "jel_inc_high1",
 		"intensity": "high",
 		"interactions": [
-			"m_c is jealous that r_c gets to do cool super secret medicine cat things.",
+			"m_c is jealous that r_c gets to do cool super secret cleric things.",
 			"m_c thinks it's unfair that r_c always gets to go to Gatherings."
 		],
 		"main_status_constraint": [
