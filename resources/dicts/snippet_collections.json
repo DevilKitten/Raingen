@@ -16,9 +16,9 @@
     "sight": {
       "general": [
         ["blood pooling on the ground", "blood dripping from a leaf"],
-        ["spread claws", "a slugcat's paw devoid of claws"],
+        ["unsheathed spear", "a slugcat's broken spear"],
         ["snarling teeth", "bloodied teeth"],
-        ["a bird's feather"],
+        ["a vulture's feather"],
         ["soft fur"],
         ["sunlight glinting off a plant"],
         ["pouring rain", "storms never-ending", "a rainstorm on a sunny day"],
@@ -39,20 +39,20 @@
         ["honey dripping", "a dripping honeycomb"],
         ["spreading frost", "a frosty morning", "frost covering the camp"],
         ["falling trees"],
-        ["a dry river still flowing with water", "a clear pool of water", "a rippling pool of water", "a pool of water with something just below the surface", "claw-marks on a still puddle", "a rainbow on the water"],
+        ["a dry river still flowing with water", "a clear pool of water", "a rippling pool of water", "a pool of water with something just below the surface", "spear-marks on a still puddle", "a rainbow on the water"],
         ["deathberries", "wilting herbs", "bountiful herbs"],
         ["the moon", "a vulture covering the moon", "a bleeding moon"],
-        ["the stars", "the stars falling from the sky", "Silverpelt slowly disappearing", "dozens of new stars", "twinkling stars"],
+        ["the stars", "the stars falling from the sky", "the stars slowly disappearing", "dozens of new stars", "twinkling stars"],
         ["frozen paws"],
         ["an unyielding fog", "a suffocating fog"],
-        ["an oppressive darkness", "darkness unending", "a panther-black night", "darkness despite the shining sun"],
-        ["the apprentice den", "the leader's den", "the nursery", "the warrior's den", "the elder's den"],
+        ["an oppressive darkness", "darkness unending", "a void-black night", "darkness despite the shining sun"],
+        ["the apprentice den", "the leader's den", "the nursery", "the warrior's den", "the elder's den", "the cleric's den"],
         ["a deep lake"],
-        ["a snake eating it's own tail"],
+        ["a centipede eating it's own tail"],
         ["a ghostly pair of eyes"],
         ["two pawprints overlapping"],
         ["a broken Iterator collar"],
-        ["the fog of vultures"],
+        ["the fog from vultures"],
         ["skeletal trees against the sky"],
         ["abandoned superstructures", "spreading superstructures"],
         ["a tattered Iterator pelt"],
@@ -76,9 +76,11 @@
 
       ],
       "beach": [
+        ["blood soaked sands"]
         
       ],
       "mountainous": [
+        ["the echos of an avalanche"]
 
       ]
     },
@@ -90,12 +92,12 @@
         ["a slugpup's mew", "the mewl of a newborn", "the squeal of slugpups"],
         ["the sound of hissing"],
         ["howling in the distance", "a distant howl of pain", "slugcats howling to the moon"],
-        ["a vulture's hiss"],
+        ["a vulture's cry"],
         ["the purring of a friend", "the purr of an enemy", "the purr of a mother", "a rumbling purr"],
         ["the squeak of prey being killed", "the squeal of dying prey"],
         ["a buzz of squidcada", "the hum of squidcada on a clear morning"],
         ["crashing waves", "the roar of waves in the distance"],
-        ["the sounds of battle", "the screams of fighting slugcats"],
+        ["the sounds of battle", "the screams of fighting slugcats", "the sounds of spears whipping by"],
         ["the rushing sound of a river"],
         ["their own voice answering them"],
         ["the sound of cracking ice"],
@@ -106,15 +108,19 @@
 
       ],
       "forest": [
+        ["the creaking of trees"]
 
       ],
       "plains": [
+        ["the shuttering of grass"]
 
       ],
       "beach": [
+        ["the roar of the ocean"]
 
       ],
       "mountainous": [
+        ["the whistling of wind"]
 
       ]
     },
@@ -130,15 +136,19 @@
         ["the scent of milk far from the nursery"]
       ],
       "forest": [
+        ["the scent of decaying trees"]
 
       ],
       "plains": [
+        ["the scent of a thousand flowers"]
 
       ],
       "beach": [
+        ["the smell of the ocean"]
 
       ],
       "mountainous": [
+        ["the crisp smell of frozen air"]
 
       ]
     },
@@ -154,15 +164,19 @@
         ["the embrace of a family"]
       ],
       "forest": [
+        ["the serenity of the woods"]
 
       ],
       "plains": [
+        ["the emptieness of a field"]
 
       ],
       "beach": [
+        ["the ferocity of the ocean"]
 
       ],
       "mountainous": [
+        ["the wonder of standing atop the world"]
 
       ]
     },
@@ -174,15 +188,19 @@
         ["the warmth of a parent"]
       ],
       "forest": [
+        ["the rough bark of a tree"]
 
       ],
       "plains": [
+        ["the softness of grass"]
 
       ],
       "beach": [
+        ["the current of the sea"]
 
       ],
       "mountainous": [
+        ["the solidity of stone under-paw"]
 
       ]
     }
@@ -193,7 +211,7 @@
       "general": [
         ["a five-pointed leaf", "a star-shaped leaf", "an oddly torn leaf"],
         ["a stone of two halves perfectly fitting together", "a stone with shining chips in it", "a stone with odd patterns on it", "a sparkling stone"],
-        ["a crooked-jawed eggbug"],
+        ["a crooked-jawed lizard"],
         ["an odd pile of soft downy fur", "a lizard's scale", "a centipede's plate", "a charred scrap of fur"],
         ["a shard of glass"],
         ["withered deathberries"],
