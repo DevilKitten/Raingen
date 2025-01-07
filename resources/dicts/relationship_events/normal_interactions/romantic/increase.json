@@ -137,7 +137,7 @@
 		"interactions": [
 			"m_c wants to confess {PRONOUN/m_c/poss} love to r_c.",
 			"m_c is wondering what it would be like to grow old with r_c.",
-			"m_c is the first cat that r_c thinks of when {PRONOUN/m_c/subject} {VERB/m_c/get/gets} good news.",
+			"m_c is the first slugcat that r_c thinks of when {PRONOUN/m_c/subject} {VERB/m_c/get/gets} good news.",
 			"m_c realizes {PRONOUN/m_c/poss} heart always flutters whenever {PRONOUN/m_c/subject} {VERB/m_c/see/sees} r_c.",
 			"m_c feels like no one understands {PRONOUN/m_c/object} the way r_c does.",
 			"m_c would give it all to make r_c's dreams come true."
@@ -151,7 +151,7 @@
 		"id": "rom_inc_medium4",
 		"intensity": "medium",
 		"interactions": [
-			"m_c thinks r_c is the most beautiful cat in the Clan.",
+			"m_c thinks r_c is the most beautiful slugcat in the Clan.",
 			"m_c can't stop thinking about r_c.",
 			"m_c feels giddy about getting on the same patrol as r_c.",
 			"m_c wants r_c to understand how crazy {PRONOUN/m_c/subject} {VERB/m_c/are/is} about {PRONOUN/r_c/object}.",
@@ -175,9 +175,9 @@
 			"m_c asks r_c to go fishing with {PRONOUN/m_c/object}, but they keep on getting distracted by each other.",
 			"m_c gives r_c a beautiful feather {PRONOUN/m_c/subject} found, and hides behind {PRONOUN/m_c/poss} whiskers when thanked.",
 			"m_c gives r_c a wonderfully colored pebble {PRONOUN/m_c/subject} found, and hides behind {PRONOUN/m_c/poss} whiskers when thanked.",
-			"m_c gives r_c a circular Twoleg object {PRONOUN/m_c/subject} found, and hides behind {PRONOUN/m_c/poss} whiskers when thanked.",
+			"m_c gives r_c a pearl {PRONOUN/m_c/subject} found, and hides behind {PRONOUN/m_c/poss} whiskers when thanked.",
 			"m_c compliments r_c on how well groomed {PRONOUN/r_c/poss} pelt is today.",
-			"m_c compliments r_c on how sharp {PRONOUN/r_c/poss} claws are today.",
+			"m_c compliments r_c on how sharp {PRONOUN/r_c/poss} spear is today.",
 			"m_c compliments r_c on {PRONOUN/r_c/poss} catch during a hunting patrol, which causes {PRONOUN/r_c/object} to purr."
 		],
 		"reaction_random_cat": {
