@@ -207,7 +207,7 @@
 		"id": "trust_star_inc_high1",
 		"intensity": "high",
 		"interactions": [
-			"m_c tells r_c about {PRONOUN/m_c/poss} last encounter with StarClan."
+			"m_c tells r_c about {PRONOUN/m_c/poss} last encounter with the Ascended."
 		],
 		"main_status_constraint": [
 			"medicine cat apprentice",
@@ -272,7 +272,7 @@
 	{
 		"id": "trust_med_inc_high2",
 		"interactions": [
-			"m_c observes r_c carefully attending to any cat that needs help.",
+			"m_c observes r_c carefully attending to any slugcat that needs help.",
 			"m_c feels like {PRONOUN/m_c/subject} can count on r_c to give {PRONOUN/m_c/object} the best treatment possible."
 		],
 		"random_status_constraint": [
