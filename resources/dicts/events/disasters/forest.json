@@ -36,7 +36,7 @@
                 "triggers_during": "during",
                 "chance": 5,
                 "trigger_events": [
-                    "No slugcat can smell any prey scent past the snow. There could be mice right under their paws, but no warrior of c_n can track them, and those lucky enough to see one, slip more often than not."
+                    "No slugcat can smell any prey scent past the snow. There could be baby centipedes right under their paws, but no warrior of c_n can track them, and those lucky enough to see one, slip more often than not."
                 ]
             },
             {
@@ -63,7 +63,7 @@
         "duration": 3,
         "rarity": "uncommon",
         "trigger_events": [
-            "lead_name scuffs a paw in the dirt, clawing it to show dep_name and med_name. There's an alarming lack of moisture there, the soil dusty and dry. It may be time to declare this hot weather a drought, and start planning for the future.",
+            "lead_name unsheathes his spear, dragging it in the ground to show dep_name and med_name. There's an alarming lack of moisture there, the soil dusty and dry. It may be time to declare this hot weather a drought, and start planning for the future.",
             "med_name pulls aside lead_name. They've noticed some of the herbs that grow in the swampy corners of c_n's territory are beginning to wilt in this heat.",
             "The leaves on the trees wilt and droop, heavy with the exhaustion that the hot weather brings. In camp, slugcats lounge in the shade, waiting impatiently for the cool of night and the chance to hunt. It hasn't rained all moon."
         ],
@@ -71,7 +71,7 @@
             "moon1": [
                 "Even the trees look dry. The slugcats of c_n cart moss between camp and their water source, bringing back vital liquid to their youngest and oldest Clanmates. But there are murmurs of discontented gossip - what will they do if their water dries up?",
                 "The prey that slugcats bring back to the fresh-kill pile is beginning to look weak. Difficult to say what's taking its toll - the heat, or the difficulty of finding water.",
-                "med_name feels the crunch of leaf litter so dry it shatters under their footsteps. They swallow their concern - drought cannot be fought by the Clan's warriors, but med_name can stock the medicine cat's den with remedies against heat stroke and exhaustion."
+                "med_name feels the crunch of leaf litter so dry it shatters under their footsteps. They swallow their concern - drought cannot be fought by the Clan's warriors, but med_name can stock the cleric's den with remedies against heat stroke and exhaustion."
             ],
             "moon2": [
                 "The drought continues. The slugcats of c_n pant in the shade, too hot to move, their tongues dry and tacky.",
@@ -135,7 +135,7 @@
         "trigger_events": [
             "Smoke billows into the sky as the distant crackling of fire foreshadows a grim fate. A wildfire is blazing through the territory.",
             "c_n shivers as the forest roars, the hot teeth of fire ripping through their beloved woods.",
-            "Nothing could compare to this, not the roar of monsters or lizards or vultures. The creaking howl of fire rips through the forest, scattering all in front of its glowing destruction."
+            "Nothing could compare to this, not the roar of super structures or lizards or vultures. The creaking howl of fire rips through the forest, scattering all in front of its glowing destruction."
         ],
         "progress_events": {
             "moon1": [
@@ -212,9 +212,9 @@
         "duration": 2,
         "rarity": "uncommon",
         "trigger_events": [
-            "The air has sharper claws than any enemy warrior. Even the rising sun cannot make it gentler, only causing the new frozen land to glitter in grim beauty. A terrible cold has come, and sickness will soon follow.",
+            "The air is sharper than any enemy's spear. Even the rising sun cannot make it gentler, only causing the new frozen land to glitter in grim beauty. A terrible cold has come, and sickness will soon follow.",
             "It hurts to breathe, the cold air like daggers in their lungs. The Clan hunkers down in their dens, curling tightly around each other in shivering piles. This terrible cold will pass, they tell each other, it won't be for forever.",
-            "The forest is crying. lead_name's fur spikes with alarm, trying to keep calm and prevent panic as the terrible cold makes the trees creak and crack."
+            "The forest is crying. lead_name's pelt pricks with alarm, trying to keep calm and prevent panic as the terrible cold makes the trees creak and crack."
         ],
         "progress_events": {
             "moon1": [
@@ -224,7 +224,7 @@
             ]
         },
         "conclusion_events": [
-            "The sun rises one day, rainbow shards of ice glinting on the ground like so many days before, but as the day goes on... They melt and turn to mud. While everyone soon gets dirty, the sunlight feels so good on every slugcat's fur, no one can complain too much through their purrs.",
+            "The sun rises one day, rainbow shards of ice glinting on the ground like so many days before, but as the day goes on... They melt and turn to mud. While everyone soon gets dirty, the sunlight feels so good on every slugcat's pelt, no one can complain too much through their purrs.",
             "When the Clan steps from their dens and finds the world no longer freezing, they're almost shocked by the change. It had been so cold for so long, they'd forgotten warmth's embrace.",
             "As the cold loses its grip on their throats, the forest of c_n weeps with relief, trees oozing sap from their damaged trunks."
         ],
@@ -245,7 +245,7 @@
         "rarity": "uncommon",
         "trigger_events": [
             "lead_name checks on the tiny streams of snowmelt crisscrossing the forest with growing concern. They're far higher than usual for this point in newleaf, and if this keeps up, the woods will be flooded.",
-            "c_n huddles in their dens, miserable and soaked. The brambles and forest canopy still thin and budding have both failed under the heavy, constant rain. There's no sound out in the forest, there hasn't been for days, every preystep or bird chirp eclipse by the steady shower of water.",
+            "c_n huddles in their dens, miserable and soaked. The brambles and forest canopy still thin and budding have both failed under the heavy, constant rain. There's no sound out in the forest, there hasn't been for days, every preystep or batfly chirp eclipsed by the steady shower of water.",
             "The ground, still not fully recovered its green pelt after leaf-bare, now lies drenched and sodden, more mud than forest-floor. A stream is establishing itself right through the center of camp where the fresh-kill pile should be - not that there's been much fresh-kill, not with the rains soaking the hunting patrols right down to their skin."
         ],
         "progress_events": {
@@ -254,7 +254,7 @@
                 "As the floodwaters rise, c_n takes to the trees. There, at least, they can hunt, using skills normally reserved for the chase just to get around their territory. They can't be the only creatures driven into the canopy by the floods - surely their prey is here too, somewhere."
             ],
             "moon2": [
-                "It seems as though the world will never be dry again. While the waters have lowered, the cats still splash through puddles and rivers still rage on, an ever present threat."
+                "It seems as though the world will never be dry again. While the waters have lowered, the slugcats still splash through puddles and rivers still rage on, an ever present threat."
             ]
         },
         "conclusion_events": [
@@ -310,7 +310,7 @@
                 "chance": 0,
                 "trigger_events": [
                     "A scavenger was seen playing with fire, seemingly enjoying the dangerous plaything like a slugpup does a moss-ball and, just like a slugpup, they lost control of it. The forest is too dry in greenleaf to stop the fire, and it quickly spreads, the slugcats of c_n only able to run with the rest of the animals in the forest.",
-                    "The scavengers seem to enjoy gathering around large fires, much to the terror of the Clan.  Though the fires seem to be put out before the scavengers leave, it's no surprise when some embers persist and the forest begins to go up in flames."
+                    "The scavengers seem to enjoy gathering around large fires, much to the terror of the Clan. Though the fires seem to be put out before the scavengers leave, it's no surprise when some embers persist and the forest begins to go up in flames."
                 ]
             },
             {
@@ -318,7 +318,7 @@
                 "triggers_during": "during",
                 "chance": 0,
                 "trigger_events": [
-                    "The objects the scavengers bring smell so enticing, but the slugcats of c_n avoid them as much as possible. It only occurs to them that the prey they so rely on for food might not do the same when the first cats start getting sick."
+                    "The objects the scavengers bring smell so enticing, but the slugcats of c_n avoid them as much as possible. It only occurs to them that the prey they so rely on for food might not do the same when the first slugcats start getting sick."
                 ]
             }
         ],
@@ -341,7 +341,7 @@
         "rarity": "uncommon",
         "trigger_events": [
             "The objects the scavengers bring smell so enticing, but the slugcats of c_n avoid them as much as possible. It only occurs to them that the prey they so rely on for food might not do the same when the first slugcats start getting sick.",
-            "The prey has been easy to catch lately, though even the freshest of fresh-kill has seemed a little... off. The medicine scug den has more work than usual, and bellyaches are now very common."
+            "The prey has been easy to catch lately, though even the freshest of fresh-kill has seemed a little... off. The cleric's den has more work than usual, and bellyaches are now very common."
         ],
         "progress_events": {
             "moon1": [
@@ -377,7 +377,7 @@
             ]
         },
         "conclusion_events": [
-            "The sky is no longer at war with c_n. The yowling of wind and rain has lessened to a purr of a kitten, before disappearing entirely, leaving only the aftermath in its wake. Birdsong is heard in the trees of the forest once again."
+            "The sky is no longer at war with c_n. The yowling of wind and rain has lessened to a purr of a slugpup, before disappearing entirely, leaving only the aftermath in its wake. Batflysong is heard in the trees of the forest once again."
         ],
         "secondary_disasters": [
             {
@@ -385,7 +385,7 @@
                 "triggers_during": "during",
                 "chance": 0,
                 "trigger_events": [
-                    "The sky has brought with it swelling rivers that fight their embankments. Water flows freely without a path, and every slugcat has to keep their claws on the ground to keep themselves from floating away."
+                    "The sky has brought with it swelling rivers that fight their embankments. Water flows freely without a path, and every slugcat has to keep their spears in the ground to keep themselves from floating away."
                 ]
             },
             {
@@ -393,7 +393,7 @@
                 "triggers_during": "during",
                 "chance": 0,
                 "trigger_events": [
-                    "With all the rain, it should be impossible for a fire to start, but the sky doesn't care about possible. Lightning cracks across the sky, and like a clawstrike from above, slashes the top of an old tree, splitting it in half and lighting it on fire so hot not even the rains can put it out. It quickly begins to spread."
+                    "With all the rain, it should be impossible for a fire to start, but the sky doesn't care about possible. Lightning cracks across the sky, and like a spear from above, pierces the top of an old tree, splitting it in half and lighting it on fire so hot not even the rains can put it out. It quickly begins to spread."
                 ]
             },
             {
@@ -432,12 +432,12 @@
             "moon2": [
                 "c_n has started wandering past their borders to find prey. While it might not be as much as they hoped for, any catch is considered a blessing from the Ascended, even if some prey might smell like a rival Clan. No questions are asked if it means not going hungry.",
                 "Every scrap, every catch, every piece brought back to the Clan, it all carries such weight. With prey so scarce, every mouthful is critical.",
-                "Never before has the whispered prayers to the Ascended over every catch seemed so heartful. All the slugcats of Clan can do with hunger dogging their pawsteps is their best. The rest is in the paws of the stars."
+                "Never before has the whispered prayers to the Ascended over every catch seemed so heartful. All the slugcats of Clan can do with hunger dogging their pawsteps is their best. The rest is in the paws of the Void."
             ]
         },
         "conclusion_events": [
             "Prey has returned to the forest, the famine finally over.",
-            "Though the prey has started to run well again, some of the warriors still seem to be taking every missed pounce as a claw-wound. It's a hard mindset to recover from.",
+            "Though the prey has started to run well again, some of the warriors still seem to be taking every missed pounce as a spear-wound. It's a hard mindset to recover from.",
             "The forest is once again humming with life, and slowly the Clan starts too as well, making up for the hard times with jokes and sharing tongues and basking together in the bright sun."
         ],
         "secondary_disasters": [],
@@ -515,7 +515,7 @@
             "As the sunlight is once again shaded out by the safety of bramble and bush, the camp is beginning to feel like home once more. Not the same, no, but perhaps it doesn't need to be.",
             "Padding out from their den, lead_name yawns, swamping their nose with the scent of forest and Clan, once more intermingled into the specific mix of a healthy camp.",
             "The oldest of c_n are still complaining about the changes, but dep_name doesn't think they're actually serious anymore. The camp, though new, is once again beginning to feel like home.",
-            "It will take time, lead_name knows. It'll be many moons before they can pad through this new camp blindfolded and scent-struck like they used to be able to do in its previous incarnation, and nothing can bring back the home of their youth. But this can be home, and now when they look at it, all they can feel is the love of the Clan that rebuilt it.",
+            "It will take time, lead_name knows. It'll be many cycles before they can pad through this new camp blindfolded and scent-struck like they used to be able to do in its previous incarnation, and nothing can bring back the home of their youth. But this can be home, and now when they look at it, all they can feel is the love of the Clan that rebuilt it.",
             "med_name fusses with the herb stores. They like the new system, but it doesn't have the familiarity of the old. Still, that's the way of it, and isn't all of c_n feeling like this, to an extent? Their new camp is a labor of love and effort, but it's fine to miss what came before it."
         ],
         "secondary_disasters": [],
