@@ -1360,7 +1360,7 @@ class Events:
                 if game.clan.deputy.personality.trait == "bloodthirsty":
                     text = (
                         f"{game.clan.deputy.name} has become the new leader. "
-                        f"They stare down at their Clanmates with unsheathed claws, "
+                        f"They stare down at their Clanmates with an unsheathed spear, "
                         f"promising a new era for the Clans."
                     )
                 else:
@@ -2426,7 +2426,7 @@ class Events:
                     )
                 elif illness == "fleas":
                     event = (
-                        f"Fleas have been hopping from pelt to pelt and now "
+                        f"Leeches have been hopping from pelt to pelt and now "
                         f'{", ".join(infected_names[:-1])}, '
                         f"and {infected_names[-1]} are all infested."
                     )
