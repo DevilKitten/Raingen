@@ -1,3 +1,12 @@
+<strong>CURRENT DEV VERSION ADDITIONS</strong>
+#Comment: For devs I kindly request for my own sanity PLEASE add credits as we go, testers you can help out with this too!
+Added:
+- Rivulete eyes (credits needed)
+
+Fixed:
+- Patrols have been more rainworldified
+
+
 <strong>.1.4.0</strong>
 Added:
 - THE CHANGELOG IS NOW REAL
