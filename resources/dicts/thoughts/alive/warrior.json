@@ -85,7 +85,7 @@
     "id": "warrior_gen_dead_df_kits",
     "thoughts": [
       "Wonders how r_c deals with being in the Rotwound",
-      "Wishes that r_c could walk among the stars",
+      "Wishes that r_c could walk amongst the Ascended",
       "Is surprised of the Ascended's cruelty towards r_c"
     ],
     "random_status_constraint": [
@@ -271,7 +271,8 @@
       "Has been glaring at a certain slugcat in camp with an odd look in {PRONOUN/m_c/poss} eye",
       "Draws blood when training with another warrior and coldly says it was an accident",
       "Wonders how easy it'd be to attack the leader from where {PRONOUN/m_c/subject} {VERB/m_c/lay/lies}",
-      "Daydreams about slaughtering every scug {PRONOUN/m_c/subject} {VERB/m_c/despise/despises}"
+      "Daydreams about slaughtering every scug {PRONOUN/m_c/subject} {VERB/m_c/despise/despises}",
+      "Has been gathering a concering amount of explosives from the scavengers"
     ],
     "main_trait_constraint": [
       "bloodthirsty"
