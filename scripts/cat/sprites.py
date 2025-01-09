@@ -131,7 +131,7 @@ class Sprites:
 
         for x in [
             'lineart', 'lineartdf', 'lineartdead',
-            'eyes', 'eyes2', 'skin', 'gilltongue', 'beagilltongue', 'horns', 'fancyskin',
+            'eyes', 'eyes2', 'skin', 'gilltongue', 'beagilltongue', 'horns', 'fancyskin', 
             'scars', 'missingscars',
             'medcatherbs',
             'collars', 'bellcollars', 'bowcollars', 'nyloncollars', 'rwlizards', 'drones', 'muddypaws', 
@@ -148,8 +148,9 @@ class Sprites:
             'seercolours', 'rottencolours', 'firecolours', 'countershadedcolours', 'cherrycolours',
             'oldgrowthcolours', 'sparklecatcolours', 'wolfcolours', 'sunsetcolours', 'hypnotistcolours',
             'ringedcolours', 'skinnycolours', 'sparsecolours', 'impishcolours', 'sportycolours', 
-            'fizzycolours', 'skeletoncolours', 'shredcolours', 'glowingcolours', 'moldcolours',
+            'fizzycolours', 'skeletoncolours', 'shredcolours', 'glowingcolours', 'moldcolours', 'swingcolours',
             'raineyes', 'raineyes2', 'multieyes', 'multiraineyes', 'larseyes', 'multilarseyes', 'larseyes2', 'rivuleteyes', 'rivuleteyes2',
+            'buttoneyes', 'buttoneyes2'
             'shadersnewwhite', 'lightingnew',
             'whitepatches', 'tortiepatchesmasks',
             'fademask', 'fadestarclan', 'fadedarkforest',
@@ -257,11 +258,27 @@ class Sprites:
         for a, i in enumerate(
                 ['RIVYELLOW', 'RIVAMBER', 'RIVHAZEL', 'RIVPALEGREEN', 'RIVGREEN', 'RIVBLUE', 
                 'RIVDARKBLUE', 'RIVGREY', 'RIVCYAN', 'RIVEMERALD', 'RIVHEATHERBLUE', 'RIVSUNLITICE']):
-            self.make_group('rivuleteyes', (a, 0), f'eyes{i}')
-            self.make_group('rivuleteyes2', (a, 0), f'eyes2{i}')
+            self.make_group('buttoneyes', (a, 0), f'eyes{i}')
+            self.make_group('buttoneyes2', (a, 0), f'eyes2{i}')
         for a, i in enumerate(
                 ['RIVCOPPER', 'RIVSAGE', 'RIVCOBALT', 'RIVPALEBLUE', 'RIVBRONZE', 'RIVSILVER',
                 'RIVPALEYELLOW', 'RIVGOLD', 'RIVGREENYELLOW']):
+            self.make_group('buttoneyes', (a, 1), f'eyes{i}')
+            self.make_group('buttoneyes2', (a, 1), f'eyes2{i}')
+        for a, i in enumerate(
+                ['BUTTONINDIGO', 'BUTTONLILAC']):
+            self.make_group('buttoneyes', (a, 2), f'eyes2{i}')
+            self.make_group('buttoneyes2', (a, 2), f'eyes2{i}')
+
+        #button eyes (flamedash dev note - currently working at this!)
+        for a, i in enumerate(
+                ['BUTTONYELLOW', 'BUTTONAMBER', 'BUTTONHAZEL', 'BUTTONPALEGREEN', 'BUTTONGREEN', 'BUTTONBLUE', 
+                'BUTTONDARKBLUE', 'BUTTONGREY', 'BUTTONCYAN', 'BUTTONEMERALD', 'BUTTONHEATHERBLUE', 'BUTTONSUNLITICE']):
+            self.make_group('rivuleteyes', (a, 0), f'eyes{i}')
+            self.make_group('rivuleteyes2', (a, 0), f'eyes2{i}')
+        for a, i in enumerate(
+                ['BUTTONCOPPER', 'BUTTONSAGE', 'BUTTONCOBALT', 'BUTTONPALEBLUE', 'BUTTONBRONZE', 'BUTTONSILVER',
+                'BUTTONPALEYELLOW', 'BUTTONGOLD', 'BUTTONGREENYELLOW', 'BUTTONIRED', 'BUTTONPURPLE', 'BUTTONMAUVE']):
             self.make_group('rivuleteyes', (a, 1), f'eyes{i}')
             self.make_group('rivuleteyes2', (a, 1), f'eyes2{i}')
 
@@ -714,8 +731,15 @@ class Sprites:
             self.make_group('moldcolours', (a, 1), f'mold{i}')
         for a, i in enumerate(['LIGHTBROWN', 'LILAC', 'BROWN', 'GOLDEN-BROWN', 'DARKBROWN', 'CHOCOLATE']):
             self.make_group('moldcolours', (a, 2), f'mold{i}')
+            # swing
+        for a, i in enumerate(['WHITE', 'PALEGREY', 'SILVER', 'GREY', 'DARKGREY', 'GHOST', 'BLACK']):
+            self.make_group('swingcolours', (a, 0), f'swing{i}')
+        for a, i in enumerate(['CREAM', 'PALEGINGER', 'GOLDEN', 'GINGER', 'DARKGINGER', 'SIENNA']):
+            self.make_group('swingcolours', (a, 1), f'swing{i}')
+        for a, i in enumerate(['LIGHTBROWN', 'LILAC', 'BROWN', 'GOLDEN-BROWN', 'DARKBROWN', 'CHOCOLATE']):
+            self.make_group('swingcolours', (a, 2), f'swing{i}')
 
-
+        
 
         # new new torties
         for a, i in enumerate(['ONE', 'TWO', 'THREE', 'FOUR', 'REDTAIL', 'DELILAH', 'HALF', 'STREAK', 'MASK', 'SMOKE']):
@@ -935,7 +959,10 @@ class Sprites:
         pridedrapery_data = [
             ["ORIGINALGAYDRAPERY", "TRANSDRAPERY", "GENDERQUEERDRAPERY", "AGENDERDRAPERY", "NONBINARYDRAPERY", "POLYAMDRAPERY", "GENDERFLUIDDRAPERY"],
             ["GENDERFLUXDRAPERY", "GAYDRAPERY", "OMNISEXUALDRAPERY", "OBJECTUMDRAPERY", "RAINBOWDRAPERY", "PHILIDRAPERY", "BISEXUALDRAPERY"],
-            ["PANSEXUALDRAPERY", "POLYSEXUALDRAPERY", "ASEXUALDRAPERY", "INTERSEXDRAPERY"]
+            ["PANSEXUALDRAPERY", "POLYSEXUALDRAPERY", "ASEXUALDRAPERY", "LESBIANDRAPERY", "INTERSEXDRAPERY", "AROACEDRAPERY", "DEMIGIRLDRAPERY"],
+            ["DEMIBOYDRAPERY", "DEMIGENDERDRAPERY", "DEMIFLUIDDRAPERY", "DEMIFLUXDRAPERY", "ABRODRAPERY", "ARODRAPERY", "DEMISEXDRAPERY"],
+            ["DEMIRODRAPERY", "ACHILLEANDRAPERY", "SAPPHICDRAPERY", "DIAMORICDRAPERY", "UNLABELEDDRAPERY", "TRANSFEMDRAPERY", "TRANSMASCDRAPERY"],
+            ["BIGENDERDRAPERY", "MULTISEXDRAPERY", "ACESPECDRAPERY", "AROSPECDRAPERY"]
         ]
         eyepatch_data = [
             ["EYEPATCHWHITE", "EYEPATCHGREEN", "EYEPATCHAQUA", "EYEPATCHTURQUOISE", "EYEPATCHCYAN", "EYEPATCHBLUE", "EYEPATCHINDIGO"],
