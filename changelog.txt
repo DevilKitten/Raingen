@@ -1,7 +1,13 @@
 <strong>CURRENT DEV VERSION ADDITIONS</strong>
 #Comment: For devs I kindly request for my own sanity PLEASE add credits as we go, testers you can help out with this too!
 Added:
+- Fancy skins!
+  - Cyan lizard pattern
+  - Needle whiskers
+  - Moth antennae
 - Rivulete eyes (credits needed)
+- Swing pelt by Foxett
+- More pride draperies by Squidsaymoo
 
 Fixed:
 - Patrols have been more rainworldified
@@ -46,7 +52,6 @@ Added:
   - Hollyhock scar by Cosmonaught
   - Labratface, Labratvivisection, Labratchest, Labratlimbs and Pearlextraction scars by RestlessRenegade
   - Besieged scar by Mimalot
-
 - 2 new injuries, chest wound, mangled pelt
 - Rainworlded prophecy text
 - New events for accessories
