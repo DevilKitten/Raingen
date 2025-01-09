@@ -185,7 +185,7 @@
     "shivering": {
         "frostbite": [
             "r_c massages m_c's paw pads, looking for signs that blood flow is returning to them. This has definitely crossed the line into frostbite.",
-          "m_c says that {PRONOUN/m_c/poss} extremities feel like they're being pricked by claws. Numbness soon follows, both a sign of frostbite.",
+          "m_c says that {PRONOUN/m_c/poss} extremities feel like they're being pricked by spears. Numbness soon follows, both a sign of frostbite.",
           "The skin on m_c's extremities is a worrying black and blue. One of {PRONOUN/m_c/poss} Clanmates spends some time licking at the cold bits of skin, but they seem to be frostbitten."
 
         ]
@@ -206,9 +206,9 @@
     },
     "quilled by a porcupine": {
         "an infected wound": [
-          "r_c was careful when removing the quills from m_c's face, but unfortunately infection still found its way in.",
-            "The wounds left behind on m_c by the porcupine quills have become infected.",
-            "m_c is distraught to find that infection has set in on {PRONOUN/m_c/poss} quill wounds."
+          "r_c was careful when double checking all the wonds from the pole plant that m_c got, but unfortunately infection still found its way in.",
+            "The wounds left behind on m_c by the pole plant have become infected.",
+            "m_c is distraught to find that infection has set in on {PRONOUN/m_c/poss} pole plant wounds."
         ]
     },
     "poisoned": {
