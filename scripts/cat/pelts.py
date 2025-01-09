@@ -572,7 +572,7 @@ class Pelt():
         riveyenum = game.config["cat_generation"]["base_riveyes"]
         buttoneyenum = game.config["cat_generation"]["base_buttoneyes"]
 
-        if not random.randint(0, riveyenum):
+        if not random.randint(0, riveyenum) and self.eye_colour not in Pelt.buttoneye_colours:
             self.eye_colour = choice(Pelt.riveye_colours)
 
         if not random.randint(0, buttoneyenum) and self.eye_colour not in Pelt.riveye_colours:
@@ -625,7 +625,7 @@ class Pelt():
             elif self.eye_colour in Pelt.red_button_eyes:
                 eye_choice = choice([Pelt.yellow_button_eyes, Pelt.green_button_eyes, Pelt.blue_button_eyes])
         
-        elif not random.randint(0, multieyenum) and self.eye_colour not in Pelt.riveye_colours or Pelt.buttoneye_colours:
+        elif not random.randint(0, multieyenum) and self.eye_colour not in Pelt.riveye_colours and Pelt.buttoneye_colours:
             self.eye_colour2 = 'MULTI'+self.eye_colour
 
     def pattern_color_inheritance(self, parents: tuple = (), gender="female"):
