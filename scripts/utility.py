@@ -467,13 +467,13 @@ def create_new_cat_block(
         outside = True
         status = cat_type
         new_name = False
-        thought = "Is wondering about those new cats"
+        thought = "Is wondering about those new slugcats"
 
     # IS THE CAT DEAD?
     alive = True
     if "dead" in attribute_list:
         alive = False
-        thought = "Explores a new, starry world"
+        thought = "Explores a new, gilded void"
 
     # check if we can use an existing cat here
     chosen_cat = None
@@ -1596,9 +1596,9 @@ def get_leader_life_notice() -> str:
         text = f"The leader has {int(lives)} lives left."
     elif lives <= 0:
         if game.clan.instructor.df is False:
-            text = 'The leader has no lives left and has travelled to StarClan.'
+            text = 'The leader has no lives left and has travelled to join the Ascended.'
         else:
-            text = 'The leader has no lives left and has travelled to the Dark Forest.'
+            text = 'The leader has no lives left and has travelled to the Rot Wound.'
 
     return text
 
@@ -2556,6 +2556,15 @@ def generate_sprite(
             
         # draw riv boba eyes
         if cat.pelt.eye_colour in Pelt.riveye_colours:
+            eyes = sprites.sprites["eyes" + cat.pelt.eye_colour + cat_sprite].copy()
+            if cat.pelt.eye_colour2 != None:
+                eyes.blit(
+                    sprites.sprites["eyes2" + cat.pelt.eye_colour2 + cat_sprite], (0, 0)
+                )
+            new_sprite.blit(eyes, (0, 0))
+            
+        # draw button eyes
+        if cat.pelt.eye_colour in Pelt.buttoneye_colours:
             eyes = sprites.sprites["eyes" + cat.pelt.eye_colour + cat_sprite].copy()
             if cat.pelt.eye_colour2 != None:
                 eyes.blit(
