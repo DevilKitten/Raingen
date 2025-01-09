@@ -69,6 +69,7 @@ class Pelt():
         'Shred': 'shred',
         'Glowing': 'glowing',
         'Mold': 'mold',
+        'Swing': 'swing',
         'Tortie': None,
         'Calico': None,
     }
@@ -104,7 +105,7 @@ class Pelt():
                 'fluffy', 'amoeba', 'yeek', 'rusted', 'envoy', 'drizzle', 'solace', 'leafy', 'scaled', 'dragonfruit', 
                 'necklace', 'dreamer', 'duskdawn', 'seer', 'rotten', 'fire', 'countershaded', 'sunset', 'oldgrowth', 
                 'sparklecat', 'wolf', 'cherry', 'hypnotist', 'ringed', 'skinny', 'sparse', 'impish', 'sporty', 
-                'skeleton', 'shred', 'glowing', 'mold']
+                'skeleton', 'shred', 'glowing', 'mold', 'swing']
     
     pelt_length = ["short", "medium", "long"]
     eye_colours = ['YELLOW', 'AMBER', 'HAZEL', 'PALEGREEN', 'GREEN', 'BLUE', 'DARKBLUE', 'GREY', 'CYAN', 'EMERALD', 'PALEBLUE', 
@@ -130,6 +131,15 @@ class Pelt():
     yellow_riv_eyes = ['RIVYELLOW', 'RIVAMBER', 'RIVPALEYELLOW', 'RIVGOLD', 'RIVCOPPER', 'RIVGREENYELLOW', 'RIVBRONZE', 'RIVSILVER']
     blue_riv_eyes = ['RIVBLUE', 'RIVDARKBLUE', 'RIVCYAN', 'RIVPALEBLUE', 'RIVHEATHERBLUE', 'RIVCOBALT', 'RIVSUNLITICE']
     green_riv_eyes = ['RIVPALEGREEN', 'RIVGREEN', 'RIVEMERALD', 'RIVSAGE']
+
+    buttoneye_colours = ['BUTTONYELLOW', 'BUTTONAMBER', 'BUTTONHAZEL', 'BUTTONPALEGREEN', 'BUTTONGREEN', 'BUTTONBLUE', 
+                'BUTTONDARKBLUE', 'BUTTONGREY', 'BUTTONCYAN', 'BUTTONEMERALD', 'BUTTONHEATHERBLUE', 'BUTTONSUNLITICE', 
+                'BUTTONCOPPER', 'BUTTONSAGE', 'BUTTONCOBALT', 'BUTTONPALEBLUE', 'BUTTONBRONZE', 'BUTTONSILVER', 'BUTTONPALEYELLOW',
+                'BUTTONGOLD', 'BUTTONGREENYELLOW', 'BUTTONIRED', 'BUTTONPURPLE', 'BUTTONMAUVE', 'BUTTONINDIGO', 'BUTTONLILAC']
+    yellow_button_eyes = ['BUTTONYELLOW', 'BUTTONAMBER', 'BUTTONPALEYELLOW', 'BUTTONGOLD', 'BUTTONCOPPER', 'BUTTONGREENYELLOW', 'BUTTONBRONZE', 'BUTTONSILVER']
+    blue_button_eyes = ['BUTTONBLUE', 'BUTTONDARKBLUE', 'BUTTONCYAN', 'BUTTONPALEBLUE', 'BUTTONHEATHERBLUE', 'BUTTONCOBALT', 'BUTTONSUNLITICE', 'BUTTONINDIGO']
+    green_button_eyes = ['BUTTONPALEGREEN', 'BUTTONGREEN', 'BUTTONEMERALD', 'BUTTONSAGE']
+    red_button_eyes = ['BUTTONIRED', 'BUTTONPURPLE', 'BUTTONMAUVE', 'BUTTONLILAC']
     
     yellow_pupil_eyes = ['ALBA', 'BANANA', 'CREAMY', 'KARMA', 'MHUNT', 'PEPPER', 'SPLIT', 'WINKS', 'ZENI', 'BEAST']
     blue_pupil_eyes = ['CARNI', 'CHAIN', 'FOAM', 'MEISTALT', 'MELON', 'MINV', 'MOON', 'MRIV', 'PEBB', 'RUST', 'SIG', 
@@ -262,7 +272,10 @@ class Pelt():
     pridedrapery = [
         "ORIGINALGAYDRAPERY", "TRANSDRAPERY", "GENDERQUEERDRAPERY", "AGENDERDRAPERY", "NONBINARYDRAPERY", "POLYAMDRAPERY", "GENDERFLUIDDRAPERY",
         "GENDERFLUXDRAPERY", "GAYDRAPERY", "OMNISEXUALDRAPERY", "OBJECTUMDRAPERY", "RAINBOWDRAPERY", "PHILIDRAPERY", "BISEXUALDRAPERY",
-        "PANSEXUALDRAPERY", "POLYSEXUALDRAPERY", "ASEXUALDRAPERY", "INTERSEXDRAPERY"
+        "PANSEXUALDRAPERY", "POLYSEXUALDRAPERY", "ASEXUALDRAPERY", "LESBIANDRAPERY", "INTERSEXDRAPERY", "AROACEDRAPERY", "DEMIGIRLDRAPERY",
+        "DEMIBOYDRAPERY", "DEMIGENDERDRAPERY", "DEMIFLUIDDRAPERY", "DEMIFLUXDRAPERY", "ABRODRAPERY", "ARODRAPERY", "DEMISEXDRAPERY",
+        "DEMIRODRAPERY", "ACHILLEANDRAPERY", "SAPPHICDRAPERY", "DIAMORICDRAPERY", "UNLABELEDDRAPERY", "TRANSFEMDRAPERY", "TRANSMASCDRAPERY",
+        "BIGENDERDRAPERY", "MULTISEXDRAPERY", "ACESPECDRAPERY", "AROSPECDRAPERY"
     ]
     eyepatches = [
         "EYEPATCHWHITE", "EYEPATCHGREEN", "EYEPATCHAQUA", "EYEPATCHTURQUOISE", "EYEPATCHCYAN", "EYEPATCHBLUE", "EYEPATCHINDIGO",
@@ -283,7 +296,7 @@ class Pelt():
         "TORNCLOAKNIGHT", "TORNCLOAKSHADOW", "TORNCLOAKSILVER", "FAUXMANE"
     ]
 
-    tabbies = ["Tabby", "Ticked", "Classic", "Sokoke", "Agouti", "Masked", "Vulture", "Envoy", "Drizzle", "Necklace", "Leviathan", "Rotten", "Fire", "Solace"]
+    tabbies = ["Tabby", "Ticked", "Classic", "Sokoke", "Agouti", "Masked", "Vulture", "Envoy", "Drizzle", "Necklace", "Leviathan", "Rotten", "Fire", "Solace", "Swing"]
     spotted = ["Speckled", "Rosette", "Gravel", "Banana", "Conductor", "Bengal", "Dreamer", "Oldgrowth", "Cherry", "Sparse", "Impish", "Ringed", "Mold"]
     plain = ["SingleColour", "TwoColour", "Smoke", "Singlestripe", "Collared", "Lizard", "Slimemold", "Fluffy", "Yeek", "Rusted", "Leafy", "Scaled", "Countershaded", "Sunset", "Skinny", "Sporty", "Skeleton", "Shred"]
     exotic = ["Mackerel", "Marbled", "Cyanlizard", "Centipede", "Lantern", "Amoeba", "Seaslug", "Dragonfruit", "Duskdawn", "Seer", "Wolf", "Sparklecat", "Hypnotist", "Fizzy", "Glowing"]
@@ -557,9 +570,13 @@ class Pelt():
             
         multieyenum = game.config["cat_generation"]["base_multieyes"]
         riveyenum = game.config["cat_generation"]["base_riveyes"]
+        buttoneyenum = game.config["cat_generation"]["base_buttoneyes"]
 
         if not random.randint(0, riveyenum):
             self.eye_colour = choice(Pelt.riveye_colours)
+
+        if not random.randint(0, buttoneyenum) and self.eye_colour not in Pelt.riveye_colours:
+            self.eye_colour = choice(Pelt.buttoneye_colours)
 
         if not random.randint(0, num):
             if self.eye_colour in Pelt.yellow_eyes:
@@ -595,8 +612,20 @@ class Pelt():
             elif self.eye_colour in Pelt.green_riv_eyes:
                 eye_choice = choice([Pelt.yellow_riv_eyes, Pelt.blue_riv_eyes])
                 self.eye_colour2 = choice(eye_choice)
+
+            elif self.eye_colour in Pelt.yellow_button_eyes:
+                eye_choice = choice([Pelt.blue_button_eyes, Pelt.green_button_eyes, Pelt.red_button_eyes])
+                self.eye_colour2 = choice(eye_choice)
+            elif self.eye_colour in Pelt.blue_button_eyes:
+                eye_choice = choice([Pelt.yellow_button_eyes, Pelt.green_button_eyes, Pelt.red_button_eyes])
+                self.eye_colour2 = choice(eye_choice)
+            elif self.eye_colour in Pelt.green_button_eyes:
+                eye_choice = choice([Pelt.yellow_button_eyes, Pelt.blue_button_eyes, Pelt.red_button_eyes])
+                self.eye_colour2 = choice(eye_choice)
+            elif self.eye_colour in Pelt.red_button_eyes:
+                eye_choice = choice([Pelt.yellow_button_eyes, Pelt.green_button_eyes, Pelt.blue_button_eyes])
         
-        elif not random.randint(0, multieyenum) and self.eye_colour not in Pelt.riveye_colours:
+        elif not random.randint(0, multieyenum) and self.eye_colour not in Pelt.riveye_colours or Pelt.buttoneye_colours:
             self.eye_colour2 = 'MULTI'+self.eye_colour
 
     def pattern_color_inheritance(self, parents: tuple = (), gender="female"):
