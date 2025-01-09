@@ -265,22 +265,22 @@ class Sprites:
                 'RIVPALEYELLOW', 'RIVGOLD', 'RIVGREENYELLOW']):
             self.make_group('buttoneyes', (a, 1), f'eyes{i}')
             self.make_group('buttoneyes2', (a, 1), f'eyes2{i}')
-        for a, i in enumerate(
-                ['BUTTONINDIGO', 'BUTTONLILAC']):
-            self.make_group('buttoneyes', (a, 2), f'eyes2{i}')
-            self.make_group('buttoneyes2', (a, 2), f'eyes2{i}')
-
+      
         #button eyes (flamedash dev note - currently working at this!)
         for a, i in enumerate(
                 ['BUTTONYELLOW', 'BUTTONAMBER', 'BUTTONHAZEL', 'BUTTONPALEGREEN', 'BUTTONGREEN', 'BUTTONBLUE', 
                 'BUTTONDARKBLUE', 'BUTTONGREY', 'BUTTONCYAN', 'BUTTONEMERALD', 'BUTTONHEATHERBLUE', 'BUTTONSUNLITICE']):
-            self.make_group('rivuleteyes', (a, 0), f'eyes{i}')
-            self.make_group('rivuleteyes2', (a, 0), f'eyes2{i}')
+            self.make_group('buttoneyes', (a, 0), f'eyes{i}')
+            self.make_group('buttoneyes2', (a, 0), f'eyes2{i}')
         for a, i in enumerate(
                 ['BUTTONCOPPER', 'BUTTONSAGE', 'BUTTONCOBALT', 'BUTTONPALEBLUE', 'BUTTONBRONZE', 'BUTTONSILVER',
                 'BUTTONPALEYELLOW', 'BUTTONGOLD', 'BUTTONGREENYELLOW', 'BUTTONIRED', 'BUTTONPURPLE', 'BUTTONMAUVE']):
-            self.make_group('rivuleteyes', (a, 1), f'eyes{i}')
-            self.make_group('rivuleteyes2', (a, 1), f'eyes2{i}')
+            self.make_group('buttoneyes', (a, 1), f'eyes{i}')
+            self.make_group('buttoneyes2', (a, 1), f'eyes2{i}')
+        for a, i in enumerate(
+                ['BUTTONINDIGO', 'BUTTONLILAC']):
+            self.make_group('buttoneyes', (a, 2), f'eyes2{i}')
+            self.make_group('buttoneyes2', (a, 2), f'eyes2{i}')
 
         # white patches
         for a, i in enumerate(['FULLWHITE', 'ANY', 'TUXEDO', 'LITTLE', 'COLOURPOINT', 'VAN', 'ANYTWO',
