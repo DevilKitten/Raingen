@@ -150,7 +150,7 @@ class Sprites:
             'ringedcolours', 'skinnycolours', 'sparsecolours', 'impishcolours', 'sportycolours', 
             'fizzycolours', 'skeletoncolours', 'shredcolours', 'glowingcolours', 'moldcolours', 'swingcolours',
             'raineyes', 'raineyes2', 'multieyes', 'multiraineyes', 'larseyes', 'multilarseyes', 'larseyes2', 'rivuleteyes', 'rivuleteyes2',
-            'buttoneyes', 'buttoneyes2'
+            'buttoneyes', 'buttoneyes2',
             'shadersnewwhite', 'lightingnew',
             'whitepatches', 'tortiepatchesmasks',
             'fademask', 'fadestarclan', 'fadedarkforest',
