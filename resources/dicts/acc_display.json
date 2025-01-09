@@ -1624,6 +1624,11 @@
     "plural": "asexual draperies",
     "singular": "asexual drapery"
   },
+   "LESBIANDRAPERY": {
+    "default": "lesbian drapery",
+    "plural": "lesbian draperies",
+    "singular": "lesbian drapery"
+  },
    "INTERSEXDRAPERY": {
     "default": "intersex drapery",
     "plural": "intersex draperies",
