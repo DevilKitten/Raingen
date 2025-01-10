@@ -296,14 +296,14 @@
             "Is pushing hard for more battle training",
             "Was recently chastised by {PRONOUN/m_c/poss} mentor for reckless behavior out on patrol",
             "Practiced battle moves with {PRONOUN/m_c/poss} claws out",
-            "Is keeping {PRONOUN/m_c/poss} claws extra sharp",
+            "Is keeping {PRONOUN/m_c/poss} spear extra sharp",
             "Is hissing at r_c",
             "Is always looking for a fight",
             "Is hoping to be sent to battle",
             "Is picking a fight with r_c",
             "Is bored during a hunting patrol",
             "Is in trouble after scratching r_c during an argument",
-            "Often flexes {PRONOUN/m_c/poss} claws, trying to intimidating others",
+            "Often shines {PRONOUN/m_c/poss} spear, trying to intimidating others",
             "Proclaimed the best way to be a c_n warrior is on the battlefield",
             "Can't wait for the other Clans to tremble at {PRONOUN/m_c/poss} presence",
             "Can't wait to gain scars"
@@ -423,12 +423,12 @@
             "Drew blood during {PRONOUN/m_c/poss} battle training",
             "Sinks {PRONOUN/m_c/poss} teeth into prey, pretending its another slugcat's pelt",
             "Is caught playing with {PRONOUN/m_c/poss} prey instead of hunting",
-            "Is cleaning blood from {PRONOUN/m_c/poss} claws",
+            "Is cleaning blood from {PRONOUN/m_c/poss} spear",
             "Is hissing defiantly at r_c",
             "Wants to scratch r_c's whiskers off",
             "Is glaring at r_c",
             "Is covered in prey-blood after hunting",
-            "Is clawing up moss for fun",
+            "Is ripping up moss for fun",
             "Is asking what deathberries look like... for safety reasons of course",
             "Hopes to get a scar from battle"
 
@@ -580,7 +580,7 @@
             "Was wrestling with the biggest prey {PRONOUN/m_c/subject} had ever seen",
             "Can't wait to get {PRONOUN/m_c/poss} warrior name so {PRONOUN/m_c/subject} can be independent and explore",
             "Is itching to leave camp",
-            "Was confined to plucking off elders' bees for wandering too far",
+            "Was confined to plucking off elders' leeches for wandering too far",
             "Wishes {PRONOUN/m_c/subject} had wings to fly away"
         ],
         "main_trait_constraint": [
@@ -590,7 +590,7 @@
     { 
         "id": "childish_apprentice_elder",
         "thoughts": [
-            "Pouts about being asked to check the elders for bees",
+            "Pouts about being asked to check the elders for leeches",
             "Is hiding instead of taking care of the elders",
             "Is listening to r_c tell stories instead of cleaning out the den"
         ],
