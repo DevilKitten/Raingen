@@ -53,7 +53,7 @@
             "Is feeling underappreciated...",
             "Is staring off into space",
             "Is picking the burrs from {PRONOUN/m_c/poss} pelt",
-            "Is sharpening {PRONOUN/m_c/poss} claws",
+            "Is sharpening {PRONOUN/m_c/poss} spear",
             "Woke up on the wrong side of the nest",
             "Can't wait to take a nap later",
             "Is batting at {PRONOUN/m_c/poss} tail",
@@ -777,7 +777,7 @@
             "Uses knowledge from {PRONOUN/r_c/poss} time with an Iterator to improve a healing method",
             "Wonders what {PRONOUN/r_c/poss} old vet would do for greencough",
             "Is annoyed by Clan gossip surrounding {PRONOUN/m_c/poss} past and {PRONOUN/m_c/poss} connection to the Void",
-            "Knows a great garden near {PRONOUN/m_c/poss} Iterator for gathering catmint",
+            "Knows a great garden near {PRONOUN/m_c/poss} Iterator for gathering scugmint",
             "Wishes {PRONOUN/m_c/subject} could get {PRONOUN/m_c/poss} paws on the wrappings the vet uses"
         ],
         "main_backstory_constraint": ["kittypet1", "kittypet2", "kittypet3", "kittypet4", "refugee3", "tragedy_survivor3", "guided1"],
@@ -946,7 +946,7 @@
     {
         "id": "apprentice_alive_med_cat",
         "thoughts": [
-            "Is at the cleric den after a small injury"
+            "Is at the cleric's den after a small injury"
         ],
         "main_status_constraint": [
             "apprentice",
@@ -959,7 +959,7 @@
     {
         "id": "apprentice_alive_med_cat_app",
         "thoughts": [
-            "Wants to visit r_c at the cleric den",
+            "Wants to visit r_c at the cleric's den",
             "Is speaking with r_c about what being a cleric apprentice is like"
         ],
         "main_status_constraint": [
@@ -1001,7 +1001,7 @@
         "id": "apprentice_dead_elder",
         "thoughts": [
             "Is wishing r_c was still here to tell {PRONOUN/m_c/object} stories",
-            "Is wondering who helps r_c with {PRONOUN/r_c/poss} ticks in the Void"
+            "Is wondering who helps r_c with {PRONOUN/r_c/poss} leeches in the Void"
         ],
         "main_status_constraint": [
             "apprentice",
@@ -1080,7 +1080,7 @@
         "thoughts": [
             "Wonders if one of the stars in the sky is r_c",
             "Remembers fondly when r_c would beg to be taught a new fighting move",
-            "Goes to teach r_c a new move {PRONOUN/m_c/subject} learned, but remembers r_c is among the stars now",
+            "Goes to teach r_c a new move {PRONOUN/m_c/subject} learned, but remembers r_c is among the Ascended now",
             "Misses r_c nagging {PRONOUN/m_c/object} about apprentice duties",
             "Is tearing up after finding r_c's old moss-ball",
             "Hopes that somehow, someway, the Ascended slugpups are learning the hunting crouch",
@@ -1881,7 +1881,7 @@
         "id": "deaf_gen_to_alive_gen",
         "thoughts": [
             "Wishes {PRONOUN/m_c/subject} could hear the sounds of camp",
-            "Teaches a new Clanmate how to do tail signals",
+            "Teaches a new Clanmate how to do paw signals",
             "Nearly hits the den ceiling when r_c suddenly enters {PRONOUN/m_c/poss} line of sight",
             "Can identify {PRONOUN/m_c/poss} Clanmates just by the feel of their pawsteps",
             "Recently discovered that {PRONOUN/m_c/subject} {VERB/m_c/have/has} a habit of stomping",
@@ -1926,7 +1926,7 @@
     {
         "id": "deaf_adolescent_to_alive_kit",
         "thoughts": [
-            "Teaches tail signals to the slugpups"
+            "Teaches paw signals to the slugpups"
         ],
         "perm_conditions": {
             "m_c": [
@@ -1943,7 +1943,7 @@
     {
         "id": "deaf_adolescent_to_alive_med",
         "thoughts": [
-            "Is learning tail signals with r_c"
+            "Is learning paw signals with r_c"
         ],
         "perm_conditions": {
             "m_c": [
@@ -1961,7 +1961,7 @@
     {
         "id": "deaf_adolescent_to_alive_deaf_adult",
         "thoughts": [
-            "Is learning tail signals with r_c"
+            "Is learning paw signals with r_c"
         ],
         "perm_conditions": {
             "m_c": [
