@@ -15,7 +15,7 @@
             "Is thinking about {PRONOUN/m_c/poss} life",
             "Is missing a loved one",
             "Is hoping to meet with a cleric soon",
-            "Is admiring the stars in {PRONOUN/m_c/poss} fur",
+            "Is admiring the golden glow in {PRONOUN/m_c/poss} pelt",
             "Is watching over a Clan ceremony",
             "Is hoping to give a life to a new leader",
             "Is hoping {PRONOUN/m_c/subject} will be remembered",
@@ -116,7 +116,7 @@
             "Has seen r_c's future demise",
             "Is looking to visit r_c in a dream soon",
             "Accidentally found {PRONOUN/m_c/self} in r_c's dreams the other night",
-            "Knows what r_c's secret is and wants to tell some cat",
+            "Knows what r_c's secret is and wants to tell some slugcat",
             "Is judging r_c"
         ],
         "random_living_status": [
