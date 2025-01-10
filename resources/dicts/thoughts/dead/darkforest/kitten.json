@@ -7,7 +7,7 @@
             "Wants someone to play with",
             "Wonders why all the cats around {PRONOUN/m_c/object} are so angry",
             "Feels hopeless, not understanding what {PRONOUN/m_c/subject} did wrong",
-            "Closes {PRONOUN/m_c/poss} eyes, hoping to see the stars once they're opened",
+            "Closes {PRONOUN/m_c/poss} eyes, hoping to see the void once they're opened",
             "Is terrified of the shadows surrounding {PRONOUN/m_c/object}",
             "Feels as if {PRONOUN/m_c/subject} {VERB/m_c/have/has} been abandoned"
         ]
@@ -30,7 +30,7 @@
         "id": "dead_kit_to_dead_parent",
         "thoughts": [
             "Is upset with r_c for leaving {PRONOUN/m_c/object} to the rot",
-            "Wonders why stars shine in r_c's fur and not {PRONOUN/m_c/inposs}"
+            "Wonders why gold shines in r_c's pelt and not {PRONOUN/m_c/inposs}"
         ],
         "relationship_constraint": [
             "child/parent"
