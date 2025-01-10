@@ -56,12 +56,13 @@
     "Impish": [" The Hellborn", " The Impish", " The Imp"],
     "Sporty": [" The Sporty", " The Athletic", " The Player"],
     "Fizzy": [" The Fizzy", " The Bubbly", " The Bubbling", " The Soda", " The Pop", " The Sparkling"]
+    "Swing": [" The Swung"]
     
   },
   "tortie_pelt_suffixes": {
     "single": [" The Simple", " The Basic", " The Classic", " The Clear", " The Comprehensible", " The Elementary", " The Intelligible", " The Modest", " The Noncomplex", " The Ordinary", " The Plain", " The Pure", " The Unambiguous", " The Uncluttered", " The Uncomplicated", " The Unembellished", " The Unmixed"],
     "marbled": [" The Blotched", " The Colored", " The Colorful", " The Dappled", " The Marbled", " The Pied", " The Splotched", " The Spotted", " The Stained"],
-    "smoke": [" The Foggy", " The Hazy", " The Murky", " The Smelly", " The Smoky", " The Smoggy", " The Sooty"],
+    "smoke": [" The Foggy", " The Hazy", " The Murky", " The Smelly", " The Smoky", " The Smoggy", " The Sooty", " The Cloudy", " The Unclear", " The Opaque"],
     "ticked": [" The Empty", " The Hollow", " The Sunken", " The Unfilled", " The Vacant", " The Void"],
     "masked": [" The Assassin", " The Bandit", " The Cloaked", " The Concealed", " The Criminal", " The Disguised", " The Hidden", " The Masked", " The Obscured", " The Shrouded", " The Thief", " The Veiled"]
   },
