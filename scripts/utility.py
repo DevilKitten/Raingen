@@ -2527,7 +2527,7 @@ def generate_sprite(
             new_sprite.blit(eyes, (0, 0))
             
         # draw riv boba eyes
-        if cat.pelt.eye_colour in Pelt.riveye_colours:
+        if cat.pelt.eye_colour in Pelt.riveye_colours not in Pelt.buttoneye_colours:
             eyes = sprites.sprites["eyes" + cat.pelt.eye_colour + cat_sprite].copy()
             if cat.pelt.eye_colour2 != None:
                 eyes.blit(
