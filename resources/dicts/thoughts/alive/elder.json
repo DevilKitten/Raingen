@@ -79,7 +79,7 @@
       "id": "elder_to_alive_apprentice",
         "thoughts": [
             "Is requesting an apprentice's help with {PRONOUN/m_c/poss} bees",
-            "Is asking apprentices to help check {PRONOUN/m_c/object} for bees"
+            "Is asking apprentices to help check {PRONOUN/m_c/object} for leeches"
         ],
         "main_age_constraint": [
             "senior"
@@ -708,7 +708,7 @@
         "thoughts": [
             "Gently explains {PRONOUN/m_c/poss} scars to r_c",
             "Overdramatizes how {PRONOUN/m_c/subject} lost {PRONOUN/m_c/poss} tail to r_c",
-            "Is patiently answering curious kits' questions on how {PRONOUN/m_c/subject} lost {PRONOUN/m_c/poss} tail"
+            "Is patiently answering curious pups' questions on how {PRONOUN/m_c/subject} lost {PRONOUN/m_c/poss} tail"
         ],
         "perm_conditions": {
             "m_c": [
