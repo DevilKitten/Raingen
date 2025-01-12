@@ -186,11 +186,13 @@
 		"base_heterochromia": 25,
 		"base_multieyes": 50,
 		"base_riveyes": 10,
-		"base_buttoneyes": 10,
 		"direct_inheritance": 15,
 		"wildcard_tortie": 9,
 		"vit_chance": 8,
 		"random_point_chance": 5
+		"comment": [
+			"For other devs - Button eyes should have same chance as Riv eyes once theyre added in"
+		]
 	},
 	"cat_name_controls": {
 		"always_name_after_appearance": false,
