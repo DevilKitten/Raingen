@@ -8,10 +8,9 @@ Added:
 - Rivulete eyes (credits needed)
 - Swing pelt by Foxett
 - More pride draperies by Squidsaymoo
-
-Fixed:
+- Rusted Pelt updated
+Fixes:
 - Patrols have been more rainworldified
-
 
 <strong>.1.4.0</strong>
 Added:
