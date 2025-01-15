@@ -2518,7 +2518,7 @@ def generate_sprite(
             )
 
         # draw non-boba eyes
-        if cat.pelt.eye_colour not in Pelt.riveye_colours: #(TBA)and Pelt.buttoneye_colours:
+        if cat.pelt.eye_colour not in Pelt.riveye_colours and cat.pelt.eye_colour not in Pelt.buttoneye_colours:
             eyes = sprites.sprites["eyes" + cat.pelt.eye_colour + cat_sprite].copy()
             if cat.pelt.eye_colour2 != None:
                 eyes.blit(
@@ -2526,23 +2526,14 @@ def generate_sprite(
                 )
             new_sprite.blit(eyes, (0, 0))
             
-        # draw riv boba eyes
-        if cat.pelt.eye_colour in Pelt.riveye_colours: #(TBA)not in Pelt.buttoneye_colours:
+       # draw riv and button eyes
+        if cat.pelt.eye_colour in Pelt.riveye_colours or cat.pelt.eye_colour in Pelt.buttoneye_colours:
             eyes = sprites.sprites["eyes" + cat.pelt.eye_colour + cat_sprite].copy()
             if cat.pelt.eye_colour2 != None:
                 eyes.blit(
                     sprites.sprites["eyes2" + cat.pelt.eye_colour2 + cat_sprite], (0, 0)
                 )
             new_sprite.blit(eyes, (0, 0))
-
-        # draw button boba eyes - TBA, current issues, no riv eyes, occassional eye colour errors getting tagged w MULTI
-        # if cat.pelt.eye_colour in Pelt.buttoneye_colours not in Pelt.riveye_colours:
-            # eyes = sprites.sprites["eyes" + cat.pelt.eye_colour + cat_sprite].copy()
-            # if cat.pelt.eye_colour2 != None:
-               #  eyes.blit(
-                    # sprites.sprites["eyes2" + cat.pelt.eye_colour2 + cat_sprite], (0, 0)
-                # )
-            # new_sprite.blit(eyes, (0, 0))
             
         # draw scars1
         if not scars_hidden:
