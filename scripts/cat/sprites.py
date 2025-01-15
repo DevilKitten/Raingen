@@ -258,15 +258,15 @@ class Sprites:
         for a, i in enumerate(
                 ['RIVYELLOW', 'RIVAMBER', 'RIVHAZEL', 'RIVPALEGREEN', 'RIVGREEN', 'RIVBLUE', 
                 'RIVDARKBLUE', 'RIVGREY', 'RIVCYAN', 'RIVEMERALD', 'RIVHEATHERBLUE', 'RIVSUNLITICE']):
-            self.make_group('buttoneyes', (a, 0), f'eyes{i}')
-            self.make_group('buttoneyes2', (a, 0), f'eyes2{i}')
+            self.make_group('rivuleteyes', (a, 0), f'eyes{i}')
+            self.make_group('rivuleteyes2', (a, 0), f'eyes2{i}')
         for a, i in enumerate(
                 ['RIVCOPPER', 'RIVSAGE', 'RIVCOBALT', 'RIVPALEBLUE', 'RIVBRONZE', 'RIVSILVER',
                 'RIVPALEYELLOW', 'RIVGOLD', 'RIVGREENYELLOW']):
-            self.make_group('buttoneyes', (a, 1), f'eyes{i}')
-            self.make_group('buttoneyes2', (a, 1), f'eyes2{i}')
+            self.make_group('rivuleteyes', (a, 1), f'eyes{i}')
+            self.make_group('rivuleteyes2', (a, 1), f'eyes2{i}')
       
-        #button eyes (flamedash dev note - currently working at this!)
+        #button eyes
         for a, i in enumerate(
                 ['BUTTONYELLOW', 'BUTTONAMBER', 'BUTTONHAZEL', 'BUTTONPALEGREEN', 'BUTTONGREEN', 'BUTTONBLUE', 
                 'BUTTONDARKBLUE', 'BUTTONGREY', 'BUTTONCYAN', 'BUTTONEMERALD', 'BUTTONHEATHERBLUE', 'BUTTONSUNLITICE']):
